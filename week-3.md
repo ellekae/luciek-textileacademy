@@ -105,7 +105,7 @@ the information contained in the draped form was marked on the textile, traced t
 
 a wand enables the pattern to be digitised by communicating information about points on a pattern via coded numbers that are translated directly into vectors by the pattern making software. 
 
-* 1 = start \(start digitising of a panel, also indicates the start of a line segment
+* 1 = start digitising a panel, also indicates the start of a line segment
 * 2 = ends the digitisation of a panel
 * 3 = indicates points on a curved line
 * 5 = denotes notch point
@@ -127,11 +127,11 @@ an alternative means of achieving the same objective without a digitising board 
 
 ![flat lays brought into illustrator](.gitbook/assets/flat-lay-patten-digitisation.jpg)
 
-these images can be composed to form a composite and redrawn in vector drawing software. 
+these images can be composed to form a composite and redrawn in vector graphics editing software. 
 
 ![the same pattern redrawn](.gitbook/assets/pattern-in-illustrator-copy.jpg)
 
-i rely on illustrator for pattern drafting using a plug-in called vector scribe which speeds up the process significantly. the tutorial below explains the process with examples, though could easily be applied to open source software such as inkscape or similar.  
+i rely on illustrator for pattern drafting using a plug-in called vector scribe which speeds up the process somewhat. the tutorial below explains the process with examples, though could easily be applied to open source software such as inkscape or similar.  
 
 [https://www.tienchiu.com/how-tos/sewing/using-adobe-illustrator-for-flat-pattern-drafting/](https://www.tienchiu.com/how-tos/sewing/using-adobe-illustrator-for-flat-pattern-drafting/)
 

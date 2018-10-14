@@ -1,23 +1,12 @@
 # about
 
-## Getting Super Powers
+## my practice
 
-Becoming a super hero is a fairly straight forward process:
+i am a designer and sustainability researcher based in ho chi minh city, vietnam.
 
-```
-$ give me super-powers
-```
+my practice investigates means of inserting crafted control into digital, automated and industrial textile and garment production technologies and systems, and in subverting traditional practices with new processes and materials.
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
+through surface design interventions and material provocations, my practice confronts chaotic material and making conditions in the decorative space of creative embellishment. rejecting anachronistic ideas around material purity and craft authenticity, my practice seeks to innovate around sustainability by looking to the idiosyncratic complexities of contemporary life.
 
 
 
