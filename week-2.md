@@ -28,19 +28,15 @@ description: >-
 
 > .. the cycle starts with sending out an explorer, in his ship fully loaded with equipments, bearing a mission of drawing a complete map of the remote land. The explorer arrives in a remote land, meets with native people, draws a map on notebooks and sketchbooks, leaves the remote land, and finally returns to the metropolitan center with a map in his hand. The next explorer is sent out, this time not only with ships and equipments but also with maps drawn from the previous expedition. He comes back with another, arguably better, map. A new map is added to the existing piles of maps. Science, of which cartography is one branch, is none other than these repeated cycles of accumulation"
 
-this project proposed to translate what Latour terms inscriptions into representations. layers of inscriptions. good instruments and accurate measurements. the explorer, probing, stepping into unknown lands. 
+this project proposed to translate what Latour terms inscriptions into representations. layers of inscriptions. good instruments and accurate measurements. the explorer, probing, stepping into unknown lands.  
 
- 
+> ..gentlemen in imperial metropolises believed that they could “‘divide’ and ‘hold’ land by means of representations of the place rather than by participation or engagement with it, by reliance on mimetic artifacts rather than local and dynamic methexis”. This is exactly what Latour meant when he explained how a random place, through repeated cycles of accumulation, grew to be the center by “acting at a distance” \(L: 222\). And this action at a distance is both corporeal and semiotic
 
-> ..gentlemen in imperial metropolises believed that they could “‘divide’ and ‘hold’ land by means of representations of the place rather than by participation or engagement with it, by reliance on mimetic artifacts rather than local and dynamic methexis” This is exactly what Latour meant when he explained how a random place, through repeated cycles of accumulation, grew to be the center by “acting at a distance” \(L: 222\). And this action at a distance is both corporeal and semiotic
+ is science to reproduce and imitate nature or to dissect and analyze it?
 
- Is science to reproduce and imitate nature or to dissect and analyze it?
+by drawing a map on paper, you bring the remote land back to the center while you are not really taking the actual land with you, creating "immutable mobiles" 
 
-> The computer simulation attracts not merely future information but also money, institutions, monkeys, and people, and in doing so, it becomes the “center of calculation” which produces high order abstractions and creates extended networks of technoscience. The higher degree of abstractions you produce, the closer to the center you approach. Unlike Galison’s experimenter, Latour’s actors never get lost in confusion about who they are and what they do. They simply get more powerful.
-
-"immutable mobiles" -  by drawing a map on paper, you bring the remote land back to the center while you are not really taking the actual land with you. \(produced by inscription and transported back to the center, and then combined with other such objects\)
-
-### immutable mobile
+### an im/mutable mobile
 
 i began with an idea of a mobile - digitally embroidered lungs, diaphanous, permeable and floating. i wanted to capture the precision and detail of the digital though question the certainty of technically advanced mapping to represent an unknown territory. 
 
@@ -63,13 +59,15 @@ lungmap is a multi-stakeholder project looking into the early development of the
 
 ![cancer imaging archive image search](.gitbook/assets/cancer-imaging-archive.png)
 
+living in hcmc with its chronic air pollution makes the idea of cancer a constant source of anxiety for many, and a traumatic reality for some. trawling through images of people who had been given a number as their lungs were being attacked felt black and heavy. i found this difficult. there is an ocean of lung scans on this repository. 
+
 to download a dicom image, you need a [TCIA downloader ](https://wiki.cancerimagingarchive.net/display/NBIA/Download+Manager+6.5)
 
 various software can be used to open and work with dicom images, with varying success.
 
 photoshop has recently enabled dicom viewing and updated 3d capacities. once you have loaded multiple files you can access the dicom images to create a 3d rendering, animate frames or edit and export as commercial image file types.  
 
-![](.gitbook/assets/screen-shot-2018-10-05-at-1.40.22-pm.png)
+![loading dicom files](.gitbook/assets/screen-shot-2018-10-05-at-1.40.22-pm.png)
 
 ![creating a 3d volume from dicom images](.gitbook/assets/screen-shot-2018-10-05-at-1.45.21-pm.png)
 
@@ -94,10 +92,80 @@ matlab provides an[ example ](https://www.mathworks.com/help/images/exploring-sl
 
 ![output sagittal slice ](.gitbook/assets/mri-brain-sagittal-slice.jpg)
 
-the output files are precise though extremely low resolution.   
+the output files are precise though extremely low resolution. this method would not be suitable for my immutable mobile.   
 
 
-another application which can be used to open and work with dicom and nrrd files is 3d slicer. 
+another application which can be used to open and work with dicom and nrrd files is [3d slicer](http://www.slicer.org/). 3d slicer is a platform for the analysis and visualisation of medical data, and also open source software. 
+
+ 
+
+![load dicom volume](.gitbook/assets/load-dicom-volume.png)
+
+![lungs in axial, sagittal and coronal views](.gitbook/assets/lung-tissue.png)
+
+![volume rendering presets ](.gitbook/assets/3d-view-options.png)
+
+![generating segmentations in coronal and sagittal planes](.gitbook/assets/segmentation.png)
+
+![labelmap - labelling types to render](.gitbook/assets/filtering-3d-rendering.png)
+
+![label map - displaying segments](.gitbook/assets/bone-rendering.png)
+
+i considered several means of obtaining segments and exporting as a set of files which i could open to generate embroidery from.
+
+* running matlab scripts in 3d slicer \(thus enabling the software to run script to output coronal slices to a local directory\)
+* using the emsegmenter function
+* using the volume resampling function according to a spatial transform
+* exporting screenshots generated within the app using segment editor
+* change threshold values
+* exporting dicom to mrml \(scene\)
+* spline transform
+* export to vtk file, load to automate segmentation at predefined intervals
+
+i also looked into whether pixel interpolation might be possible with resampling, since the resolution of coronal slices is low. based on information on the 3dslicer forums, it appears high resolution image output is not something the medical community requires. 
+
+i have not yet been able to resolve this issue. based on the limited understanding gained from exploration of 3dslicer software and its network, it would seem that exporting a coronal slices, or resampling coronal slices according to a spatial transform, then automating pixel interpolation may be possible though may still not yield the kind of images i would require to work from to create an embroidered model. i would need more time and support to look into this further. 
+
+![bone view](.gitbook/assets/screenshot_1.png)
+
+### output to 3d
+
+3d slicer can also be used to generate stereolithography interface format \(.stl\) files. 
+
+![.stl file generated from a CT coronary arteries preset  ](.gitbook/assets/stil-in-3dslicer-02.png)
+
+  
+once an .stl file has been created in 3dslicer, it can be exported and clean up in blender.
+
+![transform to origin](.gitbook/assets/transform-geometry-to-origin.png)
+
+
+
+
+
+![edit mode - deleting vertices](.gitbook/assets/blender-edit-02.png)
+
+
+
+![not there yet](.gitbook/assets/not-there-yet.png)
+
+
+
+3d models will not help me create the lung mobile representation as i envisaged since 3d renderings are infact hollow mesh, however they would be useful in generating outlines. 
+
+
+
+### back to tactility
+
+![proposing a textile structure](.gitbook/assets/img_8459.jpg)
+
+since i had come to understand that it may not be possible to export coronal slices of the lung data i had, i began to reconsider the model so that it would represent axial slices. 
+
+i decided to separate areas as in the labelmap function in 3d slicer so that, for example, bone would embroidered in cotton, lung tissue in silk. since cotton and silk are different fibre types with different properties, this can be exploited when dyeing the model certain dye types will be taken up by certain fibres, while others will remain unchanged. i chose to work on poly organza remnants since this textile will not take natural dyes, is robust enough to withstand machine embroidery yet it has a diaphanous quality. 
+
+silk is not available for machine embroidery. polyester is the standard and there are few exceptions. to get silk to machine embroid for the project i had to ask a weaver to specially wind some tussah silk onto industrial spools for me. the weight of the thread is about the same as cotton \(40-50tex\), so testing will need to be done. i have tested machine embroidery of organic cotton previously thus am confident it is possible. 
+
+
 
 
 
@@ -107,9 +175,9 @@ another application which can be used to open and work with dicom and nrrd files
 
 [https://public.cancerimagingarchive.net/ncia/login.jsf](https://public.cancerimagingarchive.net/ncia/login.jsf)
 
+[http://www.slicer.org/](http://www.slicer.org/)
 
-
-
+{% embed url="https://www.slicer.org/w/images/e/e0/Slicer4.5minute\_SoniaPujol.pdf" %}
 
 #### CITATIONS
 
