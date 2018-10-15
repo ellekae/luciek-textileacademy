@@ -143,16 +143,13 @@ a seamless join was added to the garment panel based on an iteration of earlier 
 
 ![adding a &apos;zipper&apos;](.gitbook/assets/screen-shot-2018-10-11-at-1.23.38-pm.png)
 
-in addition to creating the modular elements, which were treated as both functional and decorative elements, purely decorative elements were added by tracing the 'epithelial lace' from a medical slide of lung tissue. the slide image was obtained from digital research respository. leica imaging software was downloaded to view and export the 4GB+ size .svs files as tiffs. a portion of the image was chosen for its resemblance to lace and was manipulated to fit the draped neckline of the garment.
+in addition to creating the modular elements, treated as both functional and decorative, purely decorative elements were added by tracing the 'epithelial lace' from a medical slide of lung tissue. the slide image was obtained from a digital research respository. leica imaging software was downloaded to view and export the 4GB+ size .svs files as tiffs. a portion of the image was chosen for its resemblance to lace and was manipulated to fit the draped neckline of the garment.
 
 ![uploading medical slide image using leica software](.gitbook/assets/screen-shot-2018-10-10-at-1.19.07-pm.png)
 
 ![viewing an .svs file - from this window it is possible to export segments](.gitbook/assets/screen-shot-2018-10-10-at-2.07.37-pm.png)
 
 ![calculating the resize of the exported tiff based on garment dimensions](.gitbook/assets/screen-shot-2018-10-11-at-11.00.13-am.png)
-
-  
-
 
 ![drawing epithelial lace](.gitbook/assets/screen-shot-2018-10-11-at-6.22.21-pm.png)
 
@@ -167,8 +164,8 @@ in addition to creating the modular elements, which were treated as both functio
 some aspects of the initial garment were problematic, these were adjusted in a second iteration. 
 
 * additional eyelets were added to enable lacing across shoulders with less pull on the fabric between the eyelets
-* the button element of the modular zipper was increased in size by 30%, the corresponding eyelets remained the same size, making the zipper more stable. 
-* the eyelet spacing for the darts was increased by 200%
+* the button element of the modular zipper was increased in size by 30%, the corresponding eyelets remained the same size, and the stem of the zipper detail was reduced by 50% making the zipper more stable. 
+* the eyelet spacing for the darts was increased by 200% 
 * a digital print was added prior to laser cutting
 * laser cut lace was removed
 * laser cut tapes were added
