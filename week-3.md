@@ -8,12 +8,6 @@ description: >-
 
 
 
-* Understand how the current fashion industry works
-* Explore alternative systems for the fashion industry such as circular fashion, agile fashion, open value chains
-* Learn 2D vectorial design and explore different software.
-* Learn how to use the laser cutter
-* Learn how it is possible to create modular elements, structures and connections that allow the user to change the shape of a garment, resize it or replace certain elements
-
 ## fashion: a homogeneity producing system
 
 global fashion is a key contributor to culture with 'no running room'
@@ -131,7 +125,7 @@ these images can be composed to form a composite and redrawn in vector graphics 
 
 ![the same pattern redrawn](.gitbook/assets/pattern-in-illustrator-copy.jpg)
 
-i rely on illustrator for pattern drafting using a plug-in called vector scribe which speeds up the process somewhat. the tutorial below explains the process with examples, though could easily be applied to open source software such as inkscape or similar.  
+i rely on illustrator for pattern drafting using a plug-in called vector scribe which allows for measurements to be added. the tutorial below explains the process with examples, though could easily be applied to open source software such as inkscape or similar.  
 
 [https://www.tienchiu.com/how-tos/sewing/using-adobe-illustrator-for-flat-pattern-drafting/](https://www.tienchiu.com/how-tos/sewing/using-adobe-illustrator-for-flat-pattern-drafting/)
 
@@ -149,11 +143,20 @@ a seamless join was added to the garment panel based on an iteration of earlier 
 
 ![adding a &apos;zipper&apos;](.gitbook/assets/screen-shot-2018-10-11-at-1.23.38-pm.png)
 
+in addition to creating the modular elements, which were treated as both functional and decorative elements, purely decorative elements were added by tracing the 'epithelial lace' from a medical slide of lung tissue. the slide image was obtained from digital research respository. leica imaging software was downloaded to view and export the 4GB+ size .svs files as tiffs. a portion of the image was chosen for its resemblance to lace and was manipulated to fit the draped neckline of the garment.
+
+![uploading medical slide image using leica software](.gitbook/assets/screen-shot-2018-10-10-at-1.19.07-pm.png)
+
+![viewing an .svs file - from this window it is possible to export segments](.gitbook/assets/screen-shot-2018-10-10-at-2.07.37-pm.png)
+
+![calculating the resize of the exported tiff based on garment dimensions](.gitbook/assets/screen-shot-2018-10-11-at-11.00.13-am.png)
+
+  
 
 
-![pattern laid over a manipulated image of lung tissue](.gitbook/assets/screen-shot-2018-10-11-at-2.17.23-pm.png)
+![drawing epithelial lace](.gitbook/assets/screen-shot-2018-10-11-at-6.22.21-pm.png)
 
-in addition to creating the modular elements, which were treated as both functional and decorative elements, purely decorative elements were added by tracing the 'epithelial lace' from a medical slide of lung tissue. the slide image was obtained from digital research respository. leica imaging software was downloaded to view and export the 4GB+ size .svs files as tiffs. a portion of the image was chosen for its resemblance to lace and was manipulated to fit the draped neckline of the garment. 
+![lung image used as a garment panel](.gitbook/assets/screen-shot-2018-10-11-at-2.17.23-pm.png)
 
 ![lacing the panel to the stand](.gitbook/assets/img_8504.jpg)
 
@@ -161,31 +164,28 @@ in addition to creating the modular elements, which were treated as both functio
 
 ![the garment on the stand](.gitbook/assets/img_8522.jpg)
 
+some aspects of the initial garment were problematic, these were adjusted in a second iteration. 
+
+* additional eyelets were added to enable lacing across shoulders with less pull on the fabric between the eyelets
+* the button element of the modular zipper was increased in size by 30%, the corresponding eyelets remained the same size, making the zipper more stable. 
+* the eyelet spacing for the darts was increased by 200%
+* a digital print was added prior to laser cutting
+* laser cut lace was removed
+* laser cut tapes were added
 
 
 
+![](.gitbook/assets/img_8590.jpg)
 
 
 
+![](.gitbook/assets/img_8592.jpg)
 
 
 
+![](.gitbook/assets/img_8593.jpg)
 
 
-
-
-
-
-
-
-
-
-
-[https://www.`youtube`.com/watch?v=zbdw9ujyAdY](https://www.youtube.com/watch?v=zbdw9ujyAdY)
-
-
-
-#### 
 
 #### 
 
