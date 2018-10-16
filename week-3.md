@@ -172,19 +172,19 @@ some aspects of the initial garment were problematic, these were adjusted in a s
 
 
 
-![](.gitbook/assets/img_8590.jpg)
+
+
+![pinned to the stand](.gitbook/assets/img_8592.jpg)
 
 
 
-![](.gitbook/assets/img_8592.jpg)
+![pinned, CF](.gitbook/assets/img_8593.jpg)
 
+![CB showing self fabric zipper](.gitbook/assets/img_8596.jpg)
 
+![back of the dress, laced](.gitbook/assets/img_8599.jpg)
 
-![](.gitbook/assets/img_8593.jpg)
-
-
-
-#### 
+![front of the dress, laced](.gitbook/assets/img_8602.jpg)
 
 #### LINKS
 
