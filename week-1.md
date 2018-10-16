@@ -119,9 +119,38 @@ as work on my projects has progressed concurrent with my attempts to create a pl
 
 ![i am cw this site in gitbook](.gitbook/assets/screen-shot-2018-10-16-at-12.28.57-pm.png)
 
-gitbook is mentioned in pages 
+gitbook is mentioned on pages 37, 33, 24, 35 and 36 of the fab academy handbook. as stated in the handbook:
 
+> gitbook allows \[insert pronoun\] to generate:
+>
+> * a web ready version of your book
+> * a pdf version
+> * a mobi/epub version for e-book readers
+>
+> all from the same source files
 
+gitbook publishes directly to a github repository. the github repository then needs to be cloned, mirrored and imported into gitlab.  
+
+![clone the repository in github](.gitbook/assets/clone-repo-github.png)
+
+![import the repository from github](.gitbook/assets/import-gitlab.png)
+
+![select repository and destination to import](.gitbook/assets/mirror-gitlab.png)
+
+publishing a gitbook that continuously updates is dependent on the gibook toolchain, and requires gitlab-ci-yml. 
+
+![gitlab-ci.yml authored by f.basile](.gitbook/assets/screen-shot-2018-10-16-at-12.49.32-pm.png)
+
+i went through the process of setting up gitlab-ci myself. 
+
+* installed and tested docker
+* started a virtual server
+
+![installing nginx webserver from docker](.gitbook/assets/new-webserver-docker.png)
+
+![installing webserver](.gitbook/assets/nginx-bash.png)
+
+![webserver installed and working](.gitbook/assets/nginx-server-successfully-installed.png)
 
 
 
