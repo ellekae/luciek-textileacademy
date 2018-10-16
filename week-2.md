@@ -111,11 +111,11 @@ another application which can be used to open and work with dicom and nrrd files
 
 ![label map - displaying segments](.gitbook/assets/bone-rendering.png)
 
-i considered several means of obtaining segments and exporting as a set of files which i could open to generate embroidery from.
+i considered and looked into several means of obtaining segments and exporting as a set of files which i could open to generate embroidery from.
 
 * running matlab scripts in 3d slicer \(thus enabling the software to run script to output coronal slices to a local directory\)
 * using the emsegmenter function
-* using the volume resampling function according to a spatial transform
+* using the volume resampling [function](https://www.slicer.org/wiki/Registration:Resampling#What_we_mean_by_Resampling) according to a spatial transform
 * exporting screenshots generated within the app using segment editor
 * change threshold values
 * exporting dicom to mrml \(scene\)
@@ -126,7 +126,7 @@ i also looked into whether pixel interpolation might be possible with resampling
 
 i have not yet been able to resolve this issue. based on the limited understanding gained from exploration of 3dslicer software and its network, it would seem that exporting a coronal slices, or resampling coronal slices according to a spatial transform, then automating pixel interpolation may be possible though may still not yield the kind of images i would require to work from to create an embroidered model. i would need more time and support to look into this further. 
 
-![bone view](.gitbook/assets/screenshot_1.png)
+![](.gitbook/assets/screenshot_1.png)
 
 ### output to 3d
 
@@ -135,7 +135,7 @@ i have not yet been able to resolve this issue. based on the limited understandi
 ![.stl file generated from a CT coronary arteries preset  ](.gitbook/assets/stil-in-3dslicer-02.png)
 
   
-once an .stl file has been created in 3dslicer, it can be exported and clean up in blender.
+once an .stl file has been created in 3dslicer, it can be exported and cleaned up in blender.
 
 ![transform to origin](.gitbook/assets/transform-geometry-to-origin.png)
 
@@ -153,17 +153,15 @@ once an .stl file has been created in 3dslicer, it can be exported and clean up 
 
 3d models will not help me create the lung mobile representation as i envisaged since 3d renderings are infact hollow mesh, however they would be useful in generating outlines. 
 
-
-
-### back to tactility
+### mutable mobile
 
 ![proposing a textile structure](.gitbook/assets/img_8459.jpg)
 
 since i had come to understand that it may not be possible to export coronal slices of the lung data i had, i began to reconsider the model so that it would represent axial slices. 
 
-i decided to separate areas as in the labelmap function in 3d slicer so that, for example, bone would embroidered in cotton, lung tissue in silk. since cotton and silk are different fibre types with different properties, this can be exploited when dyeing the model certain dye types will be taken up by certain fibres, while others will remain unchanged. i chose to work on poly organza remnants since this textile will not take natural dyes, is robust enough to withstand machine embroidery yet it has a diaphanous quality. 
+i decided to separate areas as in the labelmap function in 3d slicer so that, for example, bone would embroidered in cotton, lung tissue in silk. since cotton and silk are different fibre types with different properties, this can be exploited when dyeing the model as certain dye types will be taken up by certain fibres, while others will remain unchanged. i chose to work on poly organza remnants since this textile will not take natural dyes, is robust enough to withstand machine embroidery yet it has a diaphanous quality. 
 
-silk is not available for machine embroidery. polyester is the standard and there are few exceptions. to get silk to machine embroid for the project i had to ask a weaver to specially wind some tussah silk onto industrial spools for me. the weight of the thread is about the same as cotton \(40-50tex\), so testing will need to be done. i have tested machine embroidery of organic cotton previously thus am confident it is possible. 
+silk is not commercially available or widely used for machine embroidery in hcmc. polyester is the standard and there are few exceptions. to get silk for machine embroidery i had to ask a weaver to specially wind some tussah silk onto industrial spools for me. the weight of the thread is about the same as cotton \(40-50tex\), so testing will need to be done. i have tested machine embroidery of organic cotton previously thus am confident it is possible. 
 
 
 
