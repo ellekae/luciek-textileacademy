@@ -184,6 +184,8 @@ some aspects of the initial garment were problematic, these were adjusted in a s
 
 ![front of the dress, laced](.gitbook/assets/img_8602.jpg)
 
+{% embed url="https://oscircularfashion.herokuapp.com/project/-LOwxM6NNBdifIr-i2rL" caption="epithelial dress on os-circular-fashion" %}
+
 #### LINKS
 
 #### [https://biologywise.com/tight-junctions-location-structure-function](https://biologywise.com/tight-junctions-location-structure-function)

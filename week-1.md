@@ -8,7 +8,9 @@ description: values & protocols
 
 git came out of linux, and is centred around open access code
 
-> In 2005, the relationship between the community that developed the Linux kernel and the commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status was revoked. This prompted the Linux development community \(and in particular Linus Torvalds, the creator of Linux\) to develop their own tool based on some of the lessons they learned while using BitKeeper. Some of the goals of the new system were as follows:
+> In 2005, the relationship between the community that developed the Linux kernel and the commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status was revoked. This prompted the Linux development community \(and in particular Linus Torvalds, the creator of Linux\) to develop their own tool based on some of the lessons they learned while using BitKeeper. 
+>
+> source: [https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 
 github and gitlab are similar, they are both git repositories. the former was bought by microsoft recently, causing many to cross over. gitlab is fully free and open source.
 
@@ -55,7 +57,7 @@ tags must be opened &lt; &gt; and closed &lt;/ &gt;
   
 to borrow a tired cliché we can think of a website like we do a house - html creates the structure, css is the interior design. html only describes the content of the page - it is good practice to keep css separate from html. css is where you specify colours, fonts, padding, margins and the position of html elements in relation to the page and each other. 
 
-we specify the tag we wish to style, then enclose the styling commands in { curly brackets }. it is important to check that propery: & value; have colons and semi colons added to avoid broken links.  
+we specify the tag we wish to style, then enclose the styling commands in { curly brackets }. it is important to check that property: & value; have colons and semi colons added to avoid broken links.  
 
 ![styling an \#id](.gitbook/assets/screen-shot-2018-10-04-at-12.01.43-pm.png)
 
@@ -78,7 +80,7 @@ through inspector, we can view and check individual elements within a site to un
 
 ### html & css - dreamweaver
 
-the same process of writing an html file and styling the html with a separate, linked css file is the same in dreamweaver. dreamweaver uses colour coding to communicate syntax errors, which is useful for people such as myself who are new to coding. dreamweaver has a live window, changes to code are immediately visible. viewing the site from a browser can be lauched with a single click. dreamweaver is linked to creative cloud resources, such as visually balanced fonts. the same content was brought across from text wrangler as i continued to learn more coding.  
+the same process of writing an html file and styling the html with a separate, linked css file is the same in dreamweaver. dreamweaver uses colour coding to communicate syntax errors, which is useful for people such as myself who are new to coding. dreamweaver has a live window, changes to code are immediately visible. viewing the site from a browser can be launched with a single click. dreamweaver is linked to creative cloud resources, such as visually balanced fonts. the same content was brought across from text wrangler as i continued to learn more coding.  
 
 ![editing css in dreamweaver](.gitbook/assets/screen-shot-2018-10-16-at-12.20.15-pm.png)
 
@@ -87,13 +89,15 @@ i will need more than a week to create a site i am happy with publishing. even j
 
 ### gitbook
 
-as work on my projects has progressed concurrent with my attempts to create a platform within which to document and share my work, i searched urgently for a solution that would allow me to document intuitively - working simultaneously with images, captions, text and quotes. i though i had found a solution in gitbook. 
+as work on my projects has progressed concurrent with my attempts to create a space within which to document and share my work, i searched urgently for a solution that would allow me to write intuitively - working simultaneously with images, captions, text and quotes. i though i had found a solution in gitbook. 
 
 > `gitbook` is a command line tool \(and Node.js library\) for building beautiful books using GitHub/Git and Markdown \(or AsciiDoc\). This documentation has been generated using \`gitbook.
 >
 > `gitbook` can output your content as a website \([customizable](https://toolchain.gitbook.com/themes/) and [extensibles](https://toolchain.gitbook.com/plugins/)\) or as an ebook \(PDF, ePub or Mobi\).
+>
+> source: [https://toolchain.gitbook.com/](https://toolchain.gitbook.com/)
 
-![i am cw this site in gitbook](.gitbook/assets/screen-shot-2018-10-16-at-12.28.57-pm.png)
+![i am writing this site in gitbook](.gitbook/assets/screen-shot-2018-10-16-at-12.28.57-pm.png)
 
 gitbook is mentioned on pages 37, 33, 24, 35 and 36 of the fab academy handbook. as stated in the handbook:
 
@@ -119,7 +123,7 @@ publishing a gitbook that continuously updates is dependent on the gitbook toolc
 
 ![gitlab-ci.yml authored by f.basile](.gitbook/assets/screen-shot-2018-10-16-at-12.49.32-pm.png)
 
-i went through the process of setting up gitlab-ci myself. 
+i began the process of setting up gitlab-ci myself. 
 
 * installed and tested docker
 * started a virtual server
@@ -139,7 +143,7 @@ i went through the process of setting up gitlab-ci myself.
 
 ![building a gitbook from terminal os x](.gitbook/assets/screen-shot-2018-10-14-at-9.50.57-pm.png)
 
-![pull a runner \(australian joke :p\)](.gitbook/assets/screen-shot-2018-10-14-at-10.45.49-pm.png)
+![create a gitbook](.gitbook/assets/screen-shot-2018-10-14-at-10.45.49-pm.png)
 
 ![ran into issues...](.gitbook/assets/screen-shot-2018-10-14-at-10.54.03-pm.png)
 
