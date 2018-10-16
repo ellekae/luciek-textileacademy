@@ -6,8 +6,6 @@ description: >-
 
 # open source circular fashion
 
-
-
 ## fashion: a homogeneity producing system
 
 global fashion is a key contributor to culture with 'no running room'
