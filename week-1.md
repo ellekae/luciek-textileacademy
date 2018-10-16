@@ -4,37 +4,13 @@ description: values & protocols
 
 # project management
 
-  
-
-
-**Learning outcomes**
-
-* Understand the common values and principles for which the program stands
-* Learn the process and tools used to document course work
-* Acquire the necessary skills to publish projects, documentation and share the results of each assignment
-
-**Assignment**
-
-* Build a personal site describing you, your portfolio and motivation of attending the Fabricademy
-* Create all the links for all the classes and connect them to the wiki
-* Include a small tutorial on how you designed your website
-* Plan and sketch a potential final project and add it to your website.
-* Upload it to the class archive
-
-**How will it be evaluated**
-
-* Build a documentation website describing you and your motivation for the textile-academy, your portfolio and how you designed your website
-* Upload it to the wiki.textile-academy.org
-* Create all the links of all the Classes on your wiki and link them to your external website
-* Draft your idea for a final project
-
-### 
-
 ## git
 
-git history
+git came out of linux, and is centred around open access code
 
-github / gitlab
+> In 2005, the relationship between the community that developed the Linux kernel and the commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status was revoked. This prompted the Linux development community \(and in particular Linus Torvalds, the creator of Linux\) to develop their own tool based on some of the lessons they learned while using BitKeeper. Some of the goals of the new system were as follows:
+
+github and gitlab are similar, they are both git repositories. the former was bought by microsoft recently, causing many to cross over. gitlab is fully free and open source.
 
 ## gitlab values
 
@@ -45,7 +21,7 @@ github / gitlab
 * iteration
 * transparency
 
-kindness - showing care for people - is mentioned first out of all the gitlab values. remembering kindness would help to counter jerk tendencies in a culture often dominated by brogrammers, which in turn would enable conditions for other values to emerge within a community. 
+kindness - showing care for people - is mentioned first out of all the gitlab values. remembering kindness would help to counter [jerk](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) tendencies in a culture often dominated by [brogrammers](https://en.wikipedia.org/wiki/Brogrammer), which in turn would enable conditions for other values to emerge within a community. 
 
 ## setting up a website
 
@@ -137,7 +113,9 @@ gitbook publishes directly to a github repository. the github repository then ne
 
 ![select repository and destination to import](.gitbook/assets/mirror-gitlab.png)
 
-publishing a gitbook that continuously updates is dependent on the gibook toolchain, and requires gitlab-ci-yml. 
+![my gitbook on gitlab](.gitbook/assets/screen-shot-2018-10-16-at-1.37.01-pm.png)
+
+publishing a gitbook that continuously updates is dependent on the gitbook toolchain, and requires gitlab-ci-yml, which is a more complicated process than the above-mentioned. 
 
 ![gitlab-ci.yml authored by f.basile](.gitbook/assets/screen-shot-2018-10-16-at-12.49.32-pm.png)
 
@@ -152,5 +130,71 @@ i went through the process of setting up gitlab-ci myself.
 
 ![webserver installed and working](.gitbook/assets/nginx-server-successfully-installed.png)
 
+###  building a gitbook
 
+* build the book from terminal
+* add a .gitignore file into the local directory
+* push the folder to gitlab using github desktop
+* add gitlab-ci.yml to root on gitlab
+
+![building a gitbook from terminal os x](.gitbook/assets/screen-shot-2018-10-14-at-9.50.57-pm.png)
+
+![pull a runner \(australian joke :p\)](.gitbook/assets/screen-shot-2018-10-14-at-10.45.49-pm.png)
+
+![ran into issues...](.gitbook/assets/screen-shot-2018-10-14-at-10.54.03-pm.png)
+
+  
+publishing/sharing my gitbook will need some additional work..
+
+## proposed thematic link: assignments and final project
+
+ throughout the duration of the course I will focus on various aspects of breathing and the breath.
+
+an early idea for a final project proposes a wearable device which supports asthma management in children - a "Breathing Blanket"
+
+![](.gitbook/assets/breathing-blanket-sketch.jpg)
+
+### context
+
+according to the World Health Organisation \(2008\), Asthma affects over 235 million people worldwide, with the director general warning that Asthma is on the rise everywhere. Asthma is the most chronic disease amongst children.
+
+there are many treatments for asthma the disease based on solid medical research, however the felt experience of a child in hospital has perhaps received less attention. Often children being treated for asthma will be asked to patiently endure protracted periods of time in hospital in a tangle of tubes, cords and wires. The issue of how to monitor vital signs unobtrusively is currently being addressed by many in the field of wearable technology. In addition to the benefits of employing wearable technologies in the treatment of asthma in medical contexts is through an increased capacity for self-management. As Daines \(2016\) states, supported self-management is a key component of asthma care. Asthma management in practice can be a hybrid of various approaches and strategies, pieced together around a core care for a patient and their ability to breathe freely.
+
+the project seeks to understand in what ways the design of wearable tech can support in making asthma management and self-care more straight-forward for caregivers and more enjoyable for children.
+
+### design
+
+the blanket is comprised of quilted upcycled silk remnants. armholes are cut and frey-checked on the textile surface using steil-stitch digital embroidery. this makes the blanket a piece which can be handled or worn in various ways, though is primarily envisaged as a vest that drapes like a cape. the back panel of the garment is embroidered with an RFID tag which monitors and transmits data related to the breathing of the wearer unobtrusively. the blanket will harvest energy from the excursion of the lungs. In addition the blanket incorporates interactive components featuring simple circuits which encourage tactile, sensory play. these simple circuits are located to the left and right hand sides of the blanket such that when the blanket is worn as a vest, the circuits sit where the hands naturally fall/lie.
+
+at this stage it is preferable to leave detailed specifics to emerge from further experimentation and prototyping activities. the design envisages an artefact that connects with the body such as to ascertain specific data related to breathing, however simultaneously will allow for a subjective experience of breathing to be explored and authored.
+
+![](.gitbook/assets/fa_fp-av_sketch01.jpg)
+
+
+
+#### TEXTS CITED
+
+Bianchi, M. ‘A Fabric-Based Approach for Wearable Haptics’ in Scilingo EP & Valenza G\(Eds\) 2017. Wearable Electronics and Embedded Computing Systems for Biomedical Applications. MDPI Journal: Switzerland.
+
+Dieffenderfer J, Goodell H, Mills S, McKnight M, Yao S, Lin F, Beppler E, Bent B, Lee B, Misra V, Zhu Y, Oralkan O, Strohmaier J, Muth J, Peden D, & Bozkurt A. 2016. ‘Low-Power Wearable Systems for Continuous Monitoring of Environment and Health for Chronic Respiratory Disease’ in IEEE Journal of Biomedical and Health Informatics, Vol 20. No. 5.
+
+Kettley, S. 2006. Designing with Smart Textiles. Bloomsbury: London
+
+Koski, E, Bjorninen, T, Koski K, Ali Babar A. 2012. “Fabrication of embroidered UHF RFID tags” Conference Paper presentated at International Symposium \(Digest\) \(IEEE Antennas and Propagation Society\) · July 2012
+
+Haruki, Yutaka., Homma, Ikuo., Umezawa, Akio., & Masaoka, Yuri. \(2001\). Respiration and Emotion. Tokyo: Springer Japan : Imprint: Springer.
+
+Hui X & Kan EC. ‘Monitoring vital signs over multiplexed radio by near-field coherent sensing’, Nature Electronics Vol. 1 JANUARY 2018, p74–78 [http://www.nature.com/natureelectronics](http://www.nature.com/natureelectronics)
+
+Kwon S, Kim H, Choi S, Jeong EG, Kim D, Lee S, Lee HS, Seo YC, and Choi KC. 2017. Weavable and Highly Efficient Organic Light-Emitting Fibers for Wearable Electronics: A Scalable, Low-Temperature Process. Nano Lett 2018, 18, 347−356. Available at \[pubs.acs.org/NanoLett\]
+
+Moradi E, Koski K, Ukkonen L, Rahmat-Samii Y, Björninen T & Sydänheimo L. 2013. Embroidered RFID Tags in Body-Centric Communication. International Workshop on Antenna Technology.
+
+Suh, M. 2015. ‘Wearable sensors for athletes’ in Electronic Textiles. Elsevier: Amsterdam.
+
+Wang Z, Volakis JL, Kiourti A. 2015. ‘Embroidered antennas for communication systems’ in Dias, T. 2015. Electronic Textiles. Elsevier: Amsterdam
+
+Waqar S, Wang L, John S. 2015. ’Piezoelectric energy harvesting from intelligent textiles’ in Dias, T. 2015. Electronic Textiles. Elsevier: Amsterdam
+
+Yu F, Lyon KG, Kan EC. 2010. Harmonic Generation from Integrated Nonlinear Transmission Lines for RFID Applications. School of Electrical and Computer Engineering. Cornell University: NY
 
