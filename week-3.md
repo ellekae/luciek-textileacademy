@@ -137,7 +137,7 @@ while it may be possible to design waste out of production, or at least minimise
 
 ### functional/decorative - adding details
 
-a seamless join was added to the garment panel based on an iteration of earlier tests. modular joins were added at CB as well as eyelets to close the bust shaping dart, and eyelets above and the bust and to the sides of the bust shaping to enable the panel to be laced to the body with the same piece of textile.
+a seamless join was added to the garment panel based on an iteration of earlier tests. joins were added at CB as well as eyelets to close the bust shaping dart, and eyelets above and the bust and to the sides of the bust shaping to enable the panel to be laced to the body with the same piece of textile.
 
 ![adding a &apos;zipper&apos;](.gitbook/assets/screen-shot-2018-10-11-at-1.23.38-pm.png)
 
