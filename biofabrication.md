@@ -39,7 +39,7 @@ chemicals employed in the preparation, dyeing and finishing of textiles are ofte
 >
 > source: [https://oecotextiles.wordpress.com/2013/01/10/chemicals-used-in-textile-processing/](https://oecotextiles.wordpress.com/2013/01/10/chemicals-used-in-textile-processing/)
 
-most of these chemicals are part of cradle to cradle's list of banned chemical, included for their irreversible, negative health impacts. their [list](https://s3.amazonaws.com/c2c-website/resources/certification/standard/C2CCertified_Banned_Lists_V3_121113.pdf) includes many chemicals commonly present in commercially manufactured textiles. 
+most of these chemicals are part of cradle to cradle's \([C2C](https://www.c2ccertified.org/)\) list of banned chemical, included for their irreversible, negative health impacts. their [list](https://s3.amazonaws.com/c2c-website/resources/certification/standard/C2CCertified_Banned_Lists_V3_121113.pdf) includes many chemicals commonly present in commercially manufactured textiles. 
 
 practitioners engaging with research into alternative textile coloration fall on a spectrum spanning the conservative adoption of folk tradition to radical experimentation in laboratories filled with unique biomaterials, and various shades in between. experimentation may present more questions than answers to the industry's problems, however it does throw up intriguing alternatives to consider.
 
@@ -107,7 +107,7 @@ ceriops tagal is a mangrove species native to tropical south east asia. it is on
 
 ### ceriops in southern vietnam
 
-![is this the one? ](.gitbook/assets/img_5591.jpg)
+![are you ceriops? ](.gitbook/assets/img_5591.jpg)
 
 ![mangrove forest in c&#x1EA7;n gi&#x1EDD; national park](.gitbook/assets/img_5604.jpg)
 
