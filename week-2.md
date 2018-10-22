@@ -220,17 +220,21 @@ once the files had been previewed and checked for errors in 3d view, they were e
 
 ## stitching out
 
+{% embed url="https://vimeo.com/296378425" caption="downloading files onto a tajima" %}
 
+{% embed url="https://vimeo.com/296379967" caption="setting the needle, position, orientation, stopping the machine" %}
 
+![attaching the panel to soluble stabiliser](.gitbook/assets/img_8650-copy.jpg)
 
-
-
-
-#### 
-
-#### 
+![stitching out](.gitbook/assets/img_8653-copy.jpg)
 
 #### 
+
+![the underside of a panel, embroidery complete](.gitbook/assets/img_8658.jpg)
+
+![cutting loose threads](.gitbook/assets/img_8663.jpg)
+
+![arranging &amp; numbering panels prior to dissolving the stabiliser](.gitbook/assets/img_8669.jpg)
 
 #### LINKS
 
