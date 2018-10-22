@@ -64,11 +64,16 @@ the plant mordant project supplies powdered symplocos to textile dyers, i will b
 
 1. clean the silk ****
 
-* Determine the dry weight of the fiber. This is WOF.
-* Soak the silk in a weak, warm soap solution \(such as Marseille soap, olive oil soap, Orvus paste, etc.\) at 60ºC/140ºF for 1 hour.
+* Determine the dry weight of the fiber \(WOF\).
+* Soak the silk in a weak, warm soap solution \(such as Marseille soap, olive oil soap, Orvus paste, etc.\) at 60ºC/140ºF for 1 hour. Alternatively, for silk \(such as tussah or raw silk which still contains sericin\)
+
+  dissolve 2% \(WOF\) of soda ash \(sodium carbonate, Na2CO3\) in water.
+
+  Bring water to 60 °C or medium heat, immerse fabric completely, stir frequently over 2 hours.
+
 * Rinse well in warm water.
 
-![scouring the embroidered silk threads](.gitbook/assets/img_8688.jpg)
+![scouring the embroidered silk threads with sodium carbonate](.gitbook/assets/img_8688.jpg)
 
 2. mordanting with symplocos
 
@@ -83,7 +88,7 @@ the plant mordant project supplies powdered symplocos to textile dyers, i will b
 
 ![symplocos sinks when it has been simmered for 30 minutes](.gitbook/assets/img_8705.jpg)
 
-![soaking and gently heating silk embroidery in symplocos liquid](.gitbook/assets/img_8707.jpg)
+![gently heating silk embroidery in symplocos liquid \(pre-mordanting\)](.gitbook/assets/img_8707.jpg)
 
 ### **Dyeing**
 
@@ -102,7 +107,7 @@ ceriops tagal is a mangrove species native to tropical south east asia. it is on
 
 ### ceriops in southern vietnam
 
-![inspecting mangrove trees against notes](.gitbook/assets/img_5591.jpg)
+![is this the one? ](.gitbook/assets/img_5591.jpg)
 
 ![mangrove forest in c&#x1EA7;n gi&#x1EDD; national park](.gitbook/assets/img_5604.jpg)
 
@@ -140,7 +145,9 @@ the process of adding protein to cellulose fibre is called oiling. one way of ad
 
 ![having simmered for 1hr, cooling](.gitbook/assets/img_8721.jpg)
 
+![rinsing the embroidery](.gitbook/assets/img_8736.jpg)
 
+![cotton threads, cooling](.gitbook/assets/img_8739.jpg)
 
 {% hint style="info" %}
 all recipes c/o the natural dyeing team at [threads of life](http://threadsoflife.com/) 
