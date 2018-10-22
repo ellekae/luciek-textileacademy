@@ -106,9 +106,51 @@ i considered and looked into several means of obtaining segments and exporting a
 
 i also looked into whether pixel interpolation might be possible with resampling, since the resolution of coronal slices is low. based on information on the 3dslicer forums, it appears high resolution image output is not something the medical community requires. 
 
-i have not yet been able to resolve this issue. based on the limited understanding gained from exploration of 3dslicer software and its network, it would seem that exporting a coronal slices, or resampling coronal slices according to a spatial transform, then automating pixel interpolation may be possible though may still not yield the kind of images i would require to work from to create an embroidered model. i would need more time and support to look into this further. 
+i have not yet been able to resolve this issue. based on the limited understanding gained from exploration of 3dslicer software and its network, it would seem that exporting coronal slices, or resampling coronal slices according to a spatial transform, then automating pixel interpolation may be possible though may still not yield the kind of images i would require to work from to create an embroidered model. i would need more time and support to look into this further. 
 
 ![](.gitbook/assets/screenshot_1.png)
+
+### 
+
+### spatial transform
+
+
+
+> The [**Resample ResampleScalar/Vector/DWI Volume**](https://www.slicer.org/wiki/Documentation/4.1/Modules/ResampleScalarVectorDWIVolume) module is the method of choice to realign scalar, vector or diffusion weighted data along a given transform. It supports both linear and nonlinear transforms as well as deformation fields 
+>
+> source: [https://www.slicer.org/wiki/Documentation/4.1/Modules/Resampling](https://www.slicer.org/wiki/Documentation/4.1/Modules/Resampling)
+
+further information about this strategy, which would involve reducing the number of images in the z plane, is found on the 3d slicer forum at [this page](https://discourse.slicer.org/t/resampling-a-3d-ct-image/618/12). part of this discussion includes a suggestion to use the crop volume module instead as:
+
+> ..it allows cropping and adds many convenien\[t\]\(sic\) features around resampling. For example, you can preview the output image size in `Volume information` section.
+
+another method could be to resample the dicom images. 
+
+> ```text
+> // ResampleDICOM resamples a DICOM series with user-specified
+> // spacing. The program outputs a new DICOM series with a series
+> // number set to 1001. All non-private DICOM tags are moved from the input
+> // series to the output series. The Image Position Patient is adjusted
+> // for each slice to reflect the z-spacing. The number of slices in
+> // the output series may be larger or smaller due to changes in the
+> // z-spacing. To retain the spacing for a given dimension, specify 0.
+> //
+> // The program progresses as follows:
+> // 1) Read the input series
+> // 2) Resample the series according to the user specified x-y-z
+> //    spacing.
+> // 3) Create a MetaDataDictionary for each slice.
+> // 4) Shift data to undo the effect of a rescale intercept by the
+> //    DICOM reader (only for ITK < 4.6)
+> // 5) Write the new DICOM series
+>
+> ```
+
+available at [https://itk.org/Wiki/ITK/Examples/DICOM/ResampleDICOM\#Download\_and\_Build\_ResampleDICOM](https://itk.org/Wiki/ITK/Examples/DICOM/ResampleDICOM#Download_and_Build_ResampleDICOM)
+
+these and other resampling methods are discussed in the 3d slicer documentation on [this page](https://www.slicer.org/wiki/Documentation/4.1/Modules/Resampling). 
+
+### 
 
 ### output to 3d
 
@@ -139,17 +181,54 @@ once an .stl file has been created in 3dslicer, it can be exported and cleaned u
 
 ![proposing a textile structure](.gitbook/assets/img_8459.jpg)
 
-since i had come to understand that it may not be possible to export coronal slices of the lung data i had, i began to reconsider the model so that it would represent axial slices. 
+since i had come to understand that it may not be possible to export coronal slices of the lung data i had, i began to reconsider the model so that it would instead work with axial slices. 
 
 i decided to separate areas as in the labelmap function in 3d slicer so that, for example, bone would embroidered in cotton, lung tissue in silk. since cotton and silk are different fibre types with different properties, this can be exploited when dyeing the model as certain dye types will be taken up by certain fibres, while others will remain unchanged. i chose to work on poly organza remnants since this textile will not take natural dyes, is robust enough to withstand machine embroidery yet it has a diaphanous quality. 
 
 silk is not commercially available or widely used for machine embroidery in hcmc. polyester is the standard and there are few exceptions. to get silk for machine embroidery i had to ask a weaver to specially wind some tussah silk onto industrial spools for me. the weight of the thread is about the same as cotton \(40-50tex\), so testing will need to be done. i have tested machine embroidery of organic cotton previously thus am confident it is possible. 
 
+### creating embroidery from medical images
+
+having previously exported .png files from 3d slicer according to manually input spatial transforms on the axial plane, elements from these files were redrawn to create vector images. 
+
+![redrawing elements from an axial slice](.gitbook/assets/screen-shot-2018-10-12-at-10.04.32-am.png)
+
+![this process cannot be automated](.gitbook/assets/why-you-cant-automate-drawing.jpg)
+
+automatically redrawing the images results in loss of detail, and creates large, complex areas of solid shapes. the redrawing process basically set up vector files for embroidery digitisation. 0.5 stroke lines can be converted to a run stitch - a digital approximation that conforms relatively closely to the reality of what can be stitched on an industrial embroidery machine  \(in this case, a tajima\) using the materials chosen. the kind of redrawing strategy shown in the image above above would require at least 10 times the amount of stitches, would increase the weight of each sheet of the proposed model and would most likely involve much more thread breakage. since the proposed model includes silk embroidery, it in necessary to consider these factors. 
+
+all redrawing and digitisation was done in illustrator, using a pulse micro plug in. run stitches with a maximum stitch length of 4px were applied. a border was added to the perimeter of each file in run stitches of 8px to enable centering of embroidery on the textile panels while stitching out at a factory. 
+
+![applying a run stitch ](.gitbook/assets/screen-shot-2018-10-17-at-3.48.20-pm.png)
+
+  
+viewing the files in 3d prior to exporting was a way of previewing an approximation of how the files would stitch out - confirming that the embroidery was correctly centered within the bounding box and checking for errors.  
+
+![](.gitbook/assets/lung3-w-bounding-box.png)
+
+#### 
+
+![](.gitbook/assets/lung5.png)
+
+#### 
+
+![](.gitbook/assets/lung6.png)
+
+once the files had been previewed and checked for errors in 3d view, they were exported to .dst so they could be read by an industrial embroidery machine. 
+
+![exporting to a format the embroidery machine can read](.gitbook/assets/screen-shot-2018-10-18-at-1.32.11-pm.png)
+
+## stitching out
 
 
 
+#### 
 
+#### 
 
+#### 
+
+#### 
 
 #### LINKS
 
