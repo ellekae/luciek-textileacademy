@@ -4,12 +4,6 @@ description: introduction to soft applications of digital and analog sensors
 
 # e-textiles
 
-* Build at least one digital and one analog soft sensor, using different materials and techniques.
-* Document the sensor project and include a step by step making of as well as the readings you get using the AnalogRead of arduino
-* Intergate your two soft sensors into two swatches, textile using hard soft connection solutions
-* Document your swatches on your webpage
-* Upload a small video of your swatches functioning
-
 ### making things soft
 
 increasingly, non-linear craft based textile design methodologies are being employed by designers to augment the typically positivist processes of wearable computing design. user-centric approaches that combine embodied materials thinking with outcome focussed electrical engineering have resulted in artefacts and processes that both literally and figuratively softer than their wearable tech predecessors.
@@ -19,22 +13,6 @@ making sensors soft invovles exploring a new genre of conductive/resistive mater
 kobakant's [site](http://www.kobakant.at/DIY/) "how to get what you want" is an excellent resource proposing practical applications of wearable tech in textiles, exploring and proposing a nuanced craft of discreetly embedding special functions in quotidien objects. similarly, sarah kettley's "designing with smart textiles" considers strategies for preserving authenticity within wearable tech artefacts grounded in craft theory and reflective, practice based research.  finally, leah buechley's research, presented on [the site ](http://highlowtech.org/)hi low tech, is a platform for projects that usurp usual coding and tech applications by embedding existing technologies in new materials, thereby imagining novel, alternative uses. 
 
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### circuit design
 
