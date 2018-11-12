@@ -22,9 +22,10 @@ allowing algorithms to inform design processes is a means many have adopted as a
 
 ![shaping the panel](.gitbook/assets/img_9132.jpg)
 
-![shaped textile panel](.gitbook/assets/img_9147.jpg)
-
 ![scanning the panel](.gitbook/assets/compcout-3dscan.gif)
+
+model was scanned using the thor 3d scanner with reconstruction sensitivity set to 5, texture brightness set to 6.   
+[http://thor3dscanner.com/thor3d](http://thor3dscanner.com/thor3d)
 
 ![opening the model in rhino](.gitbook/assets/screen-shot-2018-11-09-at-17.32.25.png)
 
@@ -32,15 +33,13 @@ allowing algorithms to inform design processes is a means many have adopted as a
 
 ##  parametric weave
 
-![](.gitbook/assets/screen-shot-2018-11-09-at-22.38.13.png)
+![create a grid](.gitbook/assets/screen-shot-2018-11-09-at-22.40.11.png)
 
-![](.gitbook/assets/screen-shot-2018-11-09-at-22.40.11.png)
+![insert param viewer and cull function to view and control how the weave behaves](.gitbook/assets/screen-shot-2018-11-09-at-22.48.47.png)
 
-![](.gitbook/assets/screen-shot-2018-11-09-at-22.48.47.png)
+![use boolean toggles \(T F function\) to cull outer columns](.gitbook/assets/screen-shot-2018-11-09-at-22.52.44.png)
 
-![](.gitbook/assets/screen-shot-2018-11-09-at-22.52.44.png)
-
-![](.gitbook/assets/screen-shot-2018-11-10-at-00.25.29.png)
+![connecting an amp component to control the height of the z-axis](.gitbook/assets/screen-shot-2018-11-10-at-00.25.29.png)
 
 ![](.gitbook/assets/screen-shot-2018-11-10-at-00.29.18.png)
 
@@ -56,25 +55,27 @@ allowing algorithms to inform design processes is a means many have adopted as a
 
 ![](.gitbook/assets/screen-shot-2018-11-10-at-22.34.36.png)
 
-![](.gitbook/assets/screen-shot-2018-11-11-at-06.41.48.png)
+![the final parametric weave definition ](.gitbook/assets/screen-shot-2018-11-11-at-06.41.48.png)
 
-![](.gitbook/assets/screen-shot-2018-11-11-at-06.29.33.png)
+![parametric weave](.gitbook/assets/screen-shot-2018-11-11-at-06.29.33.png)
 
 ![](.gitbook/assets/screen-shot-2018-11-11-at-12.29.02.png)
 
-![](.gitbook/assets/screen-shot-2018-11-12-at-12.50.09.png)
+![tracing the 3d scan in rhino](.gitbook/assets/screen-shot-2018-11-12-at-12.50.09.png)
 
-![](.gitbook/assets/screen-shot-2018-11-12-at-12.53.12.png)
+![redraw the 3d shape. create a surface. ](.gitbook/assets/screen-shot-2018-11-12-at-12.53.12.png)
 
-![](.gitbook/assets/screen-shot-2018-11-12-at-13.17.31.png)
+![offset the surface to establish an origin point for the raised weave](.gitbook/assets/screen-shot-2018-11-12-at-13.17.31.png)
 
-![](.gitbook/assets/screen-shot-2018-11-12-at-13.21.22.png)
+![establish T F conditions across the surface, weave then interpolate a curve from these points](.gitbook/assets/screen-shot-2018-11-12-at-13.21.22.png)
 
-![](.gitbook/assets/screen-shot-2018-11-12-at-13.25.11.png)
+![an additional dispatch command clips the definition, not dissimilar to cull](.gitbook/assets/screen-shot-2018-11-12-at-13.25.11.png)
 
-![](.gitbook/assets/screen-shot-2018-11-12-at-13.26.02.png)
+![flip matrix to set up the weave in the other direction](.gitbook/assets/screen-shot-2018-11-12-at-13.26.02.png)
 
-![](.gitbook/assets/screen-shot-2018-11-12-at-13.29.09.png)
+![mirror commands for the flipped portion of coding](.gitbook/assets/screen-shot-2018-11-12-at-13.29.09.png)
+
+#### 
 
 #### LINKS
 
