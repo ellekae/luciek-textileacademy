@@ -62,6 +62,20 @@ allowing algorithms to inform design processes is a means many have adopted as a
 
 ![](.gitbook/assets/screen-shot-2018-11-11-at-12.29.02.png)
 
+![](.gitbook/assets/screen-shot-2018-11-12-at-12.50.09.png)
+
+![](.gitbook/assets/screen-shot-2018-11-12-at-12.53.12.png)
+
+![](.gitbook/assets/screen-shot-2018-11-12-at-13.17.31.png)
+
+![](.gitbook/assets/screen-shot-2018-11-12-at-13.21.22.png)
+
+![](.gitbook/assets/screen-shot-2018-11-12-at-13.25.11.png)
+
+![](.gitbook/assets/screen-shot-2018-11-12-at-13.26.02.png)
+
+![](.gitbook/assets/screen-shot-2018-11-12-at-13.29.09.png)
+
 #### LINKS
 
 {% embed url="https://vimeo.com/282106863" %}
