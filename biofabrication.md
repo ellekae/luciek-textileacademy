@@ -4,6 +4,8 @@ description: considering sustainable material futures
 
 # biofabrication
 
+![](.gitbook/assets/img_9317.jpg)
+
 ### natural vs synthetic
 
 the natural/synthetic debate has shifted significantly from being a binary, either/or debate to a comprehensive blurring of boundaries. what we now find is that it is through synthesizing our materials that we come to understand their nature and our own, and that there is a certain liberation in accepting and even embracing what may repel us. we are not so much preoccupied in wrapping and encasing as there is no suitable container or adequate containment. in a permanently polluted world, perhaps the only thing left to do is experiment. 

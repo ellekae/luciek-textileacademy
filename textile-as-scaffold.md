@@ -28,7 +28,11 @@ by applying materials thinking in unprecendented applications, it becomes possib
 
 ### bio-resin
 
-#### ingeo
+![ingeo pellets](.gitbook/assets/ingeo-biopolymer-pellets_jpg.jpg)
+
+source: [https://www.innovationintextiles.com/uploads/2475/ingeo-biopolymer-pellets\_jpg.jpg](https://www.innovationintextiles.com/uploads/2475/ingeo-biopolymer-pellets_jpg.jpg)
+
+### ingeo
 
 Ingeo is a poly lactic acid \(PLA\) or plant-based synthetic polymer. 
 
@@ -38,15 +42,15 @@ source: [https://www.natureworksllc.com/What-is-Ingeo/How-Ingeo-is-Made](https:/
 
 ### composite
 
-garment construction and machine embroidery can be messy, resource intensive processes. one of the forms of waste formed as a by-product is excess thread. i collect excess threads during embroidery and garment construction, not knowing which specific purpose the threads would serve in a future context. i have previously used these excess threads in digital embroidery by capturing them between layers of textile and using digital embroidery to enclose the threads, as with quilting. the same process of capturing something in another material, where value is undecided, purpose as-yet undefined, will be employed here to create a new composite. 
+garment construction and machine embroidery can be messy, resource intensive processes. one of the forms of waste formed as a by-product is excess thread. i collect excess threads during embroidery and garment construction, not knowing which specific purpose the threads would serve in a future context. i have previously used these excess threads in digital embroidery by capturing them between layers of textile and using digital embroidery to enclose the threads, as with quilting. the same process of capturing something in another material where value is undecided, purpose as-yet undefined will be used here to create a new composite. 
 
 ![silk, viscose and metallised rayon threads](.gitbook/assets/img_9002.jpg)
 
 for this project i will be combining thread waste with bio-resin. 
 
-to do this, i will need to create a mould
+## creating a form
 
-### creating a textile mould
+
 
 ###  
 

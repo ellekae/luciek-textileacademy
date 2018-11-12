@@ -1,10 +1,12 @@
 ---
-description: >-
-  representing the body in 3 dimensions using digital imaging and fabrication
-  technologies
+description: representing the body with digital imaging and fabrication technologies
 ---
 
 # digital bodies
+
+![](.gitbook/assets/digbodies-mobile.gif)
+
+![](.gitbook/assets/img_9311.jpg)
 
 ## Cycles of Accumulation
 
@@ -235,6 +237,12 @@ once the files had been previewed and checked for errors in 3d view, they were e
 ![cutting loose threads](.gitbook/assets/img_8663.jpg)
 
 ![arranging &amp; numbering panels prior to dissolving the stabiliser](.gitbook/assets/img_8669.jpg)
+
+#### 
+
+#### 
+
+#### 
 
 #### LINKS
 

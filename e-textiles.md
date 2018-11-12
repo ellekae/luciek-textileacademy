@@ -4,6 +4,10 @@ description: introduction to soft applications of digital and analog sensors
 
 # e-textiles
 
+
+
+![](.gitbook/assets/img_9105.jpg)
+
 ### making things soft
 
 increasingly, non-linear craft based textile design methodologies are being employed by designers to augment the typically positivist processes of wearable computing design. user-centric approaches that combine embodied materials thinking with outcome focussed electrical engineering have resulted in artefacts and processes that are both literally and figuratively softer than their wearable tech predecessors.
@@ -244,28 +248,33 @@ buttonStateR = digitalRead(buttonPinR);
 
 ![circuit with digital switches and LEDs for L &amp; R and an analog photosensor](.gitbook/assets/img_8889.jpg)
 
+![circuit design](.gitbook/assets/img_9306.jpg)
+
 having uploaded and tested the sketch on arduino, i began to make my circuit soft and transfer the sketch to lilypad. 
 
 ![designing an embroidered base for the light sensor](.gitbook/assets/designing-base-for-photosensor.png)
 
-  
+![laser cutting felt and conductive textile for soft switches](.gitbook/assets/img_8876.jpg)
 
-
-![laser cutting felt for soft switches](.gitbook/assets/img_8876.jpg)
-
-![](.gitbook/assets/img_8893%20%281%29.jpg)
+![soft circuit elements](.gitbook/assets/img_8893%20%281%29.jpg)
 
 ![soft switch](.gitbook/assets/img_8897.jpg)
 
-![planned soft circuit](.gitbook/assets/img_8895.jpg)
+![planned soft circuit on jacket](.gitbook/assets/img_8895.jpg)
 
 ![embedded light sensor](.gitbook/assets/img_8988.jpg)
 
-![](.gitbook/assets/img_8990.jpg)
+![placement embroidery for lilypad at CB, custom soft switches at cuffs](.gitbook/assets/img_8990.jpg)
 
 ![conductive thread covered with freyed silk tape ](.gitbook/assets/img_8993.jpg)
 
-![copper wire covered with silk tape](.gitbook/assets/img_8991.jpg)
+![testing LEDs, left hand side](.gitbook/assets/img_9107a.jpg)
+
+![](.gitbook/assets/img_9105.jpg)
+
+{% embed url="https://vimeo.com/300020822" %}
+
+
 
   
 
