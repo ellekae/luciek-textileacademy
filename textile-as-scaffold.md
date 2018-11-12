@@ -50,7 +50,21 @@ for this project i will be combining thread waste with bio-resin.
 
 ## creating a form
 
+![](.gitbook/assets/img_9046.jpg)
 
+![](.gitbook/assets/img_9115.jpg)
+
+![](.gitbook/assets/img_9119.jpg)
+
+![](.gitbook/assets/img_9117.jpg)
+
+![textile ready to scan](.gitbook/assets/img_9122.jpg)
+
+![3d scanning](.gitbook/assets/textile-scaffold-3dscan.gif)
+
+![cleaning the scan up](.gitbook/assets/img_9255.jpg)
+
+![](.gitbook/assets/img_9223.jpg)
 
 ###  
 
