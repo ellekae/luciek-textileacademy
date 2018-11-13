@@ -109,6 +109,8 @@ the file is ready in 31 hours...
 
 #### LINKS
 
+{% embed url="http://smart-jewellery.com/archives/category/lab-filament-compendium/filament-compendium" %}
+
 {% embed url="https://vimeo.com/282106863" %}
 
 {% embed url="http://mathartblog.com/?p=464" %}
@@ -118,4 +120,6 @@ the file is ready in 31 hours...
 {% embed url="https://n-e-r-v-o-u-s.com/projects/albums/floraform-sculptures/" %}
 
 {% embed url="https://vimeo.com/3111916" %}
+
+{% embed url="https://vimeo.com/24138876" %}
 
