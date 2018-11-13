@@ -72,7 +72,7 @@ for this project i will be combining thread waste with bio-resin.
 
 ## piezoelectric crystals
 
-
+i found a few piezo crystal recipes, most of which appear to be derived from [this](https://rimstar.org/materials/piezo/how_to_make_rochelle_salt_piezoelectric_crystal.htm) tutorial on rimstar. a video tutorial can be found [here](https://www.youtube.com/watch?v=K3G2QM5a-9U) , an additional tutorial can be found [here](http://www.mo-seph.com/projects/piezocrystals). 
 
 
 
