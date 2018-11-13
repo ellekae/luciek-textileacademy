@@ -59,9 +59,7 @@ model was scanned using the thor 3d scanner with reconstruction sensitivity set 
 
 ![parametric weave](.gitbook/assets/screen-shot-2018-11-11-at-06.29.33.png)
 
-###  adapting the model
-
-
+###  applying weave definitions over an approximation of the model surface
 
 ![](.gitbook/assets/screen-shot-2018-11-11-at-12.29.02.png)
 
@@ -78,6 +76,18 @@ model was scanned using the thor 3d scanner with reconstruction sensitivity set 
 ![flip matrix to set up the weave in the other direction](.gitbook/assets/screen-shot-2018-11-12-at-13.26.02.png)
 
 ![mirror commands for the flipped section](.gitbook/assets/screen-shot-2018-11-12-at-13.29.09.png)
+
+###  recreating the model as a surface
+
+![redrawing from a 3d scan](.gitbook/assets/screen-shot-2018-11-13-at-08.41.00.png)
+
+![applying the second weave definition to the new surface](.gitbook/assets/screen-shot-2018-11-13-at-08.43.24.png)
+
+![set up warp curves](.gitbook/assets/screen-shot-2018-11-13-at-10.26.47.png)
+
+![duplicate the section for the &apos;weft&apos; curves ](.gitbook/assets/screen-shot-2018-11-13-at-10.28.57.png)
+
+![adjust density](.gitbook/assets/screen-shot-2018-11-13-at-10.33.04.png)
 
 #### 
 
