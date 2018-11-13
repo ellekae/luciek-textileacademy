@@ -79,7 +79,13 @@ connect branch output to a rotate 3D component to rotate outer branches. take ce
 
 ![establish T F conditions across the surface, weave then interpolate a curve from these points](.gitbook/assets/screen-shot-2018-11-12-at-13.21.22.png)
 
+  
+divide the surface with a rectangular grid of control points - rows and columns. dispatch turns these points into boolean controlled points - T or F. these points are brought into a weave, then used to create a curve.
+
 ![an additional dispatch command clips the definition](.gitbook/assets/screen-shot-2018-11-12-at-13.25.11.png)
+
+  
+dispatch works in a similar way to cull for this definition
 
 ![flip matrix to set up the weave in the other direction](.gitbook/assets/screen-shot-2018-11-12-at-13.26.02.png)
 
