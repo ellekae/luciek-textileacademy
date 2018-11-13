@@ -97,7 +97,15 @@ connect branch output to a rotate 3D component to rotate outer branches. take ce
 
 ![adjust density](.gitbook/assets/screen-shot-2018-11-13-at-10.33.04.png)
 
-#### 
+bake. export selection to .stl. 
+
+![preparing the file to 3d print](.gitbook/assets/img_9346.jpg)
+
+the file is ready in 31 hours... 
+
+
+
+
 
 #### LINKS
 
