@@ -59,6 +59,10 @@ model was scanned using the thor 3d scanner with reconstruction sensitivity set 
 
 ![parametric weave](.gitbook/assets/screen-shot-2018-11-11-at-06.29.33.png)
 
+###  adapting the model
+
+
+
 ![](.gitbook/assets/screen-shot-2018-11-11-at-12.29.02.png)
 
 ![tracing the 3d scan in rhino](.gitbook/assets/screen-shot-2018-11-12-at-12.50.09.png)
@@ -69,11 +73,11 @@ model was scanned using the thor 3d scanner with reconstruction sensitivity set 
 
 ![establish T F conditions across the surface, weave then interpolate a curve from these points](.gitbook/assets/screen-shot-2018-11-12-at-13.21.22.png)
 
-![an additional dispatch command clips the definition, not dissimilar to cull](.gitbook/assets/screen-shot-2018-11-12-at-13.25.11.png)
+![an additional dispatch command clips the definition](.gitbook/assets/screen-shot-2018-11-12-at-13.25.11.png)
 
 ![flip matrix to set up the weave in the other direction](.gitbook/assets/screen-shot-2018-11-12-at-13.26.02.png)
 
-![mirror commands for the flipped portion of coding](.gitbook/assets/screen-shot-2018-11-12-at-13.29.09.png)
+![mirror commands for the flipped section](.gitbook/assets/screen-shot-2018-11-12-at-13.29.09.png)
 
 #### 
 
