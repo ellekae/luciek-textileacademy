@@ -105,7 +105,7 @@ the file is ready in 31 hours...
 
 {% embed url="https://vimeo.com/300500589" %}
 
-
+![salvaged tussah silk threads to weave through 3d printed PLA](.gitbook/assets/img_9364.jpg)
 
 #### LINKS
 
