@@ -33,6 +33,8 @@ model was scanned using the thor 3d scanner with reconstruction sensitivity set 
 
 ##  parametric weave
 
+i began by following the parametric weave [tutorial](https://vimeo.com/24138876) of b.james
+
 ![create a grid](.gitbook/assets/screen-shot-2018-11-09-at-22.40.11.png)
 
 ![insert param viewer and cull function to view and control how the weave behaves](.gitbook/assets/screen-shot-2018-11-09-at-22.48.47.png)
@@ -67,6 +69,10 @@ connect branch output to a rotate 3D component to rotate outer branches. take ce
 
 ![parametric weave](.gitbook/assets/screen-shot-2018-11-11-at-06.29.33.png)
 
+{% hint style="info" %}
+this definition did not work when applied to a 3d form. i created a 3d surface based on 2 curves and linked these curves into this parametric weave definition by substituting out the grid. unsure how to rectify this error, i began a new definition. 
+{% endhint %}
+
 ###  applying weave definitions over an approximation of the model surface
 
 ![](.gitbook/assets/screen-shot-2018-11-11-at-12.29.02.png)
@@ -77,19 +83,20 @@ connect branch output to a rotate 3D component to rotate outer branches. take ce
 
 ![offset the surface to establish an origin point for the raised weave](.gitbook/assets/screen-shot-2018-11-12-at-13.17.31.png)
 
-![establish T F conditions across the surface, weave then interpolate a curve from these points](.gitbook/assets/screen-shot-2018-11-12-at-13.21.22.png)
+![establish T F conditions across the surface](.gitbook/assets/screen-shot-2018-11-12-at-13.21.22.png)
 
-  
-divide the surface with a rectangular grid of control points - rows and columns. dispatch turns these points into boolean controlled points - T or F. these points are brought into a weave, then used to create a curve.
+divide the surface with a rectangular grid of control points. for a 3d surface, rather than having x, y, z coordinates, points can be expressed in u & v coordinates. u & v sliders control the number of points expressed across the surface. dispatch turns these points into boolean controlled points - T or F. these points are brought into a weave, then a curve can be interpolated from these points.
 
 ![an additional dispatch command clips the definition](.gitbook/assets/screen-shot-2018-11-12-at-13.25.11.png)
 
+dispatch works in a similar way to how cull works in the previous definition
+
+![flip matrix to establish points/curves in the other direction](.gitbook/assets/screen-shot-2018-11-12-at-13.26.02.png)
+
+![mirror commands for the flipped section to add rows to existing columns \(add warp to weft\)](.gitbook/assets/screen-shot-2018-11-12-at-13.29.09.png)
+
   
-dispatch works in a similar way to cull for this definition
-
-![flip matrix to set up the weave in the other direction](.gitbook/assets/screen-shot-2018-11-12-at-13.26.02.png)
-
-![mirror commands for the flipped section](.gitbook/assets/screen-shot-2018-11-12-at-13.29.09.png)
+the second definition was not a real weave at this point, but it flowed over the 3d surface in a way that the previous definition did not. i am still learning from b.james' definition, though it seems there is a simpler way to create a parametric weave. 
 
 ###  recreating the model as a surface
 
@@ -97,9 +104,11 @@ dispatch works in a similar way to cull for this definition
 
 ![applying the second weave definition to the new surface](.gitbook/assets/screen-shot-2018-11-13-at-08.43.24.png)
 
-![set up warp curves](.gitbook/assets/screen-shot-2018-11-13-at-10.26.47.png)
+![set up points in the other direction](.gitbook/assets/screen-shot-2018-11-13-at-10.26.47.png)
 
-![duplicate the section for the &apos;weft&apos; curves ](.gitbook/assets/screen-shot-2018-11-13-at-10.28.57.png)
+![duplicate the section for the &apos;weft&apos; points/curves](.gitbook/assets/screen-shot-2018-11-13-at-10.28.57.png)
+
+switch inputs \(1, 0\) to set orientation of coordinates
 
 ![adjust density](.gitbook/assets/screen-shot-2018-11-13-at-10.33.04.png)
 
