@@ -103,7 +103,7 @@ bake. export selection to .stl.
 
 the file is ready in 31 hours... 
 
-
+{% embed url="https://vimeo.com/300500589" %}
 
 
 
