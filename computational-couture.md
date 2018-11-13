@@ -37,23 +37,31 @@ model was scanned using the thor 3d scanner with reconstruction sensitivity set 
 
 ![insert param viewer and cull function to view and control how the weave behaves](.gitbook/assets/screen-shot-2018-11-09-at-22.48.47.png)
 
-![use boolean toggles \(T F function\) to cull outer columns](.gitbook/assets/screen-shot-2018-11-09-at-22.52.44.png)
+![use boolean toggles \(T F function\) connected to cull component to control outer columns](.gitbook/assets/screen-shot-2018-11-09-at-22.52.44.png)
 
 ![connecting an amp component to control the height of the z-axis](.gitbook/assets/screen-shot-2018-11-10-at-00.25.29.png)
 
-![](.gitbook/assets/screen-shot-2018-11-10-at-00.29.18.png)
+![](.gitbook/assets/screen-shot-2018-11-10-at-00.29.18%20%281%29.png)
 
-![](.gitbook/assets/screen-shot-2018-11-10-at-06.11.05.png)
+connect centre point to a plane \(plane normal\) component, then connect this plane to an amp component so the weave height can be set and adjusted. 
+
+![](.gitbook/assets/screen-shot-2018-11-10-at-06.11.05%20%281%29.png)
 
 ![](.gitbook/assets/screen-shot-2018-11-10-at-06.20.32.png)
 
+raise the outer branches, set an origin point for raised plane, set a center point for the array by multiplying the x & y by 0.5, set the output as x & y coordinates to create a point object
+
 ![](.gitbook/assets/screen-shot-2018-11-10-at-06.24.01.png)
+
+reorient the branches by adding a flip matrix component so that point indices which were arranged by column will instead be arranged by rows. connect the flip component to the branch output. for the outer branches, connect flip to move.
 
 ![](.gitbook/assets/screen-shot-2018-11-10-at-15.43.24.png)
 
-![](.gitbook/assets/screen-shot-2018-11-10-at-15.44.35.png)
+connect branch output to a rotate 3D component to rotate outer branches. take centre point from the grid \(following from the multiply &gt; construct pt &gt; plane components\) as the point of rotation
 
-![](.gitbook/assets/screen-shot-2018-11-10-at-22.34.36.png)
+![checking the boolean pattern in the definition](.gitbook/assets/screen-shot-2018-11-10-at-15.44.35.png)
+
+![connect to pipe component, set pipe dimensions](.gitbook/assets/screen-shot-2018-11-10-at-22.34.36.png)
 
 ![the final parametric weave definition ](.gitbook/assets/screen-shot-2018-11-11-at-06.41.48.png)
 
