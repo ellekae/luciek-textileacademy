@@ -1,6 +1,6 @@
 ---
 description: >-
-  exploring computational design methods as a means of reinterpreting of a
+  exploring computational design methods as a means of reinterpreting a
   traditional fashion accessory
 ---
 
