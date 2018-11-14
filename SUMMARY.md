@@ -10,5 +10,5 @@
 * [computational couture](computational-couture.md)
 * [open source hardware](open-source-hardware.md)
 * [wearables](wearables.md)
-* [breathing blanket - final project](breathing-blanket-final-project.md)
+* [final project](breathing-blanket-final-project.md)
 

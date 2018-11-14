@@ -1,10 +1,4 @@
----
-description: >-
-  prototyping a quilted, wearable blanket designed to support asthma management
-  in children.
----
-
-# breathing blanket - final project
+# final project
 
 ## introduction
 
