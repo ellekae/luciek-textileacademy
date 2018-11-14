@@ -26,12 +26,7 @@ i began with an idea of a mobile - digitally embroidered lungs, diaphanous, perm
 
 ![](.gitbook/assets/img_8386.jpg)
 
-
-
 ![](.gitbook/assets/img_8387.jpg)
-
-  
-
 
 ## acquiring a model 
 
@@ -116,8 +111,6 @@ i have not yet been able to resolve this issue. based on the limited understandi
 
 ### spatial transform
 
-
-
 > The [**Resample ResampleScalar/Vector/DWI Volume**](https://www.slicer.org/wiki/Documentation/4.1/Modules/ResampleScalarVectorDWIVolume) module is the method of choice to realign scalar, vector or diffusion weighted data along a given transform. It supports both linear and nonlinear transforms as well as deformation fields 
 >
 > source: [https://www.slicer.org/wiki/Documentation/4.1/Modules/Resampling](https://www.slicer.org/wiki/Documentation/4.1/Modules/Resampling)
@@ -152,8 +145,6 @@ available at [https://itk.org/Wiki/ITK/Examples/DICOM/ResampleDICOM\#Download\_a
 
 these and other resampling methods are discussed in the 3d slicer documentation on [this page](https://www.slicer.org/wiki/Documentation/4.1/Modules/Resampling). 
 
-### 
-
 ### output to 3d
 
 3d slicer can also be used to generate stereolithography interface format \(.stl\) files. 
@@ -161,23 +152,15 @@ these and other resampling methods are discussed in the 3d slicer documentation 
 ![.stl file generated from a CT coronary arteries preset  ](.gitbook/assets/stil-in-3dslicer-02.png)
 
   
-once an .stl file has been created in 3dslicer, it can be exported and cleaned up in blender.
+once an .stl file has been created in 3dslicer, it can be exported and cleaned up. i used blender.
 
 ![transform to origin](.gitbook/assets/transform-geometry-to-origin.png)
 
-
-
-
-
 ![edit mode - deleting vertices](.gitbook/assets/blender-edit-02.png)
-
-
 
 ![not there yet](.gitbook/assets/not-there-yet.png)
 
-
-
-3d models will not help me create the lung mobile representation as i envisaged since 3d renderings are infact hollow mesh, however they would be useful in generating outlines. 
+3d models will not help me create the lung mobile representation as i envisaged since 3d renderings are in fact constructed as a hollow mesh, however they would be useful in generating outlines. 
 
 ### mutable mobile
 
@@ -187,7 +170,7 @@ since i had come to understand that it may not be possible to export coronal sli
 
 i decided to separate areas as in the labelmap function in 3d slicer so that, for example, bone would embroidered in cotton, lung tissue in silk. since cotton and silk are different fibre types with different properties, this can be exploited when dyeing the model as certain dye types will be taken up by certain fibres, while others will remain unchanged. i chose to work on poly organza remnants since this textile will not take natural dyes, is robust enough to withstand machine embroidery yet it has a diaphanous quality. 
 
-silk is not commercially available or widely used for machine embroidery in hcmc. polyester is the standard and there are few exceptions. to get silk for machine embroidery i had to ask a weaver to specially wind some tussah silk onto industrial spools for me. the weight of the thread is about the same as cotton \(40-50tex\), so testing will need to be done. i have tested machine embroidery of organic cotton previously thus am confident it is possible. 
+silk is not commercially available or widely used for machine embroidery in hcmc. polyester is the standard and there are few exceptions. to get silk for machine embroidery i had to ask a weaver to wind some tussah silk onto industrial spools for me. the weight of the thread is about the same as cotton \(40-50tex\), so testing will need to be done. i have tested machine embroidery of organic cotton previously thus am confident it is possible. 
 
 ### creating embroidery from medical images
 
@@ -197,7 +180,7 @@ having previously exported .png files from 3d slicer according to manually input
 
 ![this process cannot be automated](.gitbook/assets/why-you-cant-automate-drawing.jpg)
 
-automatically redrawing the images results in loss of detail, and creates large, complex areas of solid shapes. the redrawing process basically set up vector files for embroidery digitisation. 0.5 stroke lines can be converted to a run stitch - a digital approximation that conforms relatively closely to the reality of what can be stitched on an industrial embroidery machine  \(in this case, a tajima\) using the materials chosen. the kind of redrawing strategy shown in the image above above would require at least 10 times the amount of stitches, would increase the weight of each sheet of the proposed model and would most likely involve much more thread breakage. since the proposed model includes silk embroidery, it in necessary to consider these factors. 
+automatically redrawing the images results in loss of detail, and creates large, complex areas of solid shapes. the redrawing process basically set up vector files for embroidery digitisation. 0.5 stroke lines can be converted to a run stitch - a digital approximation that conforms relatively closely to the reality of what can be stitched on an industrial embroidery machine using the materials chosen. the kind of redrawing strategy shown in the image above above would require at least 10 times the amount of stitches, would increase the weight of each sheet of the proposed model and would most likely involve much more thread breakage. since the proposed model includes silk embroidery, it in necessary to consider these factors. 
 
 all redrawing and digitisation was done in illustrator, using a pulse micro plug in. run stitches with a maximum stitch length of 4px were applied. a border was added to the perimeter of each file in run stitches of 8px to enable centering of embroidery on the textile panels while stitching out at a factory. 
 
