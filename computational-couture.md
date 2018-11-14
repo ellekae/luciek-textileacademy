@@ -12,7 +12,7 @@ rapid and sweeping changes to how we see ourselves in our world are destabilisin
 
 ### computation driven design
 
-allowing algorithms to inform design processes is a means many have adopted as a way to bring the organic in direct relationship to technologies of simulation. this methodology allows for an emergent aesthetic derived from abstracted, measurable behaviours thus making space for a certain ambivalence around design decisions. by embracing the techniques of simulacra designers have been able to create and apply visual and material languages previously only found in medical slides, traffic data or leaf veination to speak about a highly-technologically mediated experiences deeply embedded in biological systems.
+allowing algorithms to inform design processes is a means many have adopted as a way to bring the organic in direct relationship to technologies of simulation. this methodology allows for an emergent aesthetic derived from abstracted, measurable behaviours thus making space for a certain ambivalence around design decisions. by embracing the techniques of simulacra designers have been able to create and apply visual and material languages previously only found in medical slides, traffic data or leaf veination to speak about highly-technologically mediated experiences deeply embedded in biological systems.
 
 ## making a model
 
