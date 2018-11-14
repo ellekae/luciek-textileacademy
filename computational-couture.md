@@ -106,11 +106,7 @@ the second definition was not a real weave at this point, but it flowed over the
 
 ![applying the second weave definition to the new surface](.gitbook/assets/screen-shot-2018-11-13-at-08.43.24.png)
 
-![set up points in the other direction](.gitbook/assets/screen-shot-2018-11-13-at-10.26.47.png)
-
-![duplicate the section for the &apos;weft&apos; points/curves](.gitbook/assets/screen-shot-2018-11-13-at-10.28.57.png)
-
-switch inputs \(1, 0\) to set orientation of coordinates
+![duplicate the warp to establish weft curves](.gitbook/assets/screen-shot-2018-11-13-at-10.28.57.png)
 
 ![adjust density](.gitbook/assets/screen-shot-2018-11-13-at-10.33.04.png)
 
@@ -123,6 +119,13 @@ the file is ready in 31 hours...
 {% embed url="https://vimeo.com/300500589" %}
 
 ![salvaged tussah silk threads to weave through 3d printed PLA](.gitbook/assets/img_9364.jpg)
+
+  
+
+
+{% hint style="info" %}
+there are other ways to create weave definitions in grasshopper, i have briefly explored 2 means. i am discovering more and hope to apply these in future projects.  
+{% endhint %}
 
 #### LINKS
 
