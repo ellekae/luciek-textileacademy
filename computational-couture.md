@@ -69,6 +69,8 @@ connect branch output to a rotate 3D component to rotate outer branches. take ce
 
 ![parametric weave](.gitbook/assets/screen-shot-2018-11-11-at-06.29.33.png)
 
+{% embed url="https://vimeo.com/300655327" %}
+
 {% hint style="info" %}
 this definition did not work when applied to a 3d form. i created a 3d surface based on 2 curves and linked these curves into this parametric weave definition by substituting out the grid. unsure how to rectify this error, i began a new definition. 
 {% endhint %}
