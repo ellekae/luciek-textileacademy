@@ -8,7 +8,7 @@ description: prototyping a wearable artefact incorporating the attiny
 
 ### AUDIO
 
-The Audio file to store on the SD card must be in the .wav format with 44100 Hz, 16-bit stereo quality. Audio files can be converted using iTunes:
+The Audio file to store on the SD card must be in the .wav format with 44100 Hz, 16-bit stereo quality. In theory, audio files can be converted using iTunes:
 
 ```text
 Click _> Edit > Preferences > Import Settings_
@@ -16,7 +16,7 @@ Change the dropdown to _WAV Encoder_ and Setting: _Custom > 16.000kHz to 32kHz, 
 Right click any file in iTunes, and select _"Create WAV Version"_
 ```
 
-
+.. however most are AAC protected files which cannot be converted. An alternative is [this](https://audio.online-convert.com/convert-to-wav) online wav converter. 
 
 ### SPEAKER
 
