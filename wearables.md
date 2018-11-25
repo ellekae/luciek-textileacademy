@@ -41,6 +41,8 @@ soft, embedded volume slider based on leah buechley's [time sensing bracelet](ht
 
 {% embed url="https://www.instructables.com/id/Easy-ATTiny-Serial-Communication-with-Tiny-AVR-Pro/" %}
 
+{% embed url="http://cnmat.berkeley.edu/recipe/how\_and\_why\_add\_pull\_and\_pull\_down\_resistors\_microcontroller\_i\_o\_" %}
+
 {% embed url="https://github.com/ghmartin77/KidsMP3Player/blob/master/KidsMP3Player/DFMiniMp3.h" %}
 
 {% embed url="http://www.kobakant.at/DIY/?p=2936" %}
