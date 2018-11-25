@@ -45,6 +45,8 @@ soft, embedded volume slider based on leah buechley's [time sensing bracelet](ht
 
 {% embed url="https://github.com/ghmartin77/KidsMP3Player/blob/master/KidsMP3Player/DFMiniMp3.h" %}
 
+{% embed url="https://www.hackster.io/porrey/easy-serial-on-the-attiny-2676e6" %}
+
 {% embed url="http://www.kobakant.at/DIY/?p=2936" %}
 
 {% embed url="https://www.youtube.com/watch?v=8tNrPVi4OGg" %}
