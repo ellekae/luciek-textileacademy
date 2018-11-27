@@ -8,6 +8,13 @@ description: prototyping a wearable artefact incorporating the attiny
 
 ### AUDIO
 
+initially i wanted to connect stereo bluetooth speakers to the turning jacket i made for e-textiles. 
+
+![bluetooth pcb](.gitbook/assets/img_9765-copy.jpg)
+
+  
+to add bluetooth to the circuit i would need to create a new, custom pcb. there are several options available locally. this is something i would like to consider in future. 
+
 ![burn bootloader](.gitbook/assets/img_9758.jpg)
 
 ![uploading sketch to attiny](.gitbook/assets/img_9759.jpg)
