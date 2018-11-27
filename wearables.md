@@ -630,6 +630,8 @@ soft, embedded volume slider based on leah buechley's [time sensing bracelet](ht
 
 ![making local materials work](.gitbook/assets/img_9777.jpg)
 
+{% embed url="https://vimeo.com/303066026" %}
+
 #### LINKS
 
 {% embed url="http://kicad-pcb.org/" %}
