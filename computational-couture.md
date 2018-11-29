@@ -143,5 +143,7 @@ there are other ways to create weave definitions in grasshopper, i have briefly 
 
 {% embed url="https://vimeo.com/24138876" %}
 
+{% embed url="https://parametric3d.com/en/parametric-pattern-weave/" %}
+
 {% embed url="https://youtu.be/SW-zjySs5ko" %}
 
