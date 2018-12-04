@@ -12,6 +12,29 @@ crafted control will entail sensing the location of upcycled textile remnants on
 
 in addition, the project seeks to subvert the tendency to pursue 'techno-wow' effects through e-textiles, or by increasing surveillance on our already ultra-scrutinised, poisoned and augmented bodies. the project instead takes up the old imperative of the craft of textile design - acting as an intermediary between textile house, fashion designer and consumer, translating an element of the zeitgeist in a form that aspires to bridge the divide between function and critical reflection. 
 
+### product service system 
+
+
+
+![digitally embroidered upcycled silk remnants](.gitbook/assets/afsample61_copyrighted.jpg)
+
+![laser cut digitally embroidered upycycled poly cotton](.gitbook/assets/afsample39_copyrighted.jpg)
+
+  
+
+
+![](.gitbook/assets/customer.jpg)
+
+![](.gitbook/assets/stakeholders.jpg)
+
+![](.gitbook/assets/pss-ta.jpg)
+
+![](.gitbook/assets/pss_final_ta_lscape-p2_page_1.jpg)
+
+![](.gitbook/assets/pss_final_ta_lscape-p2_page_2.jpg)
+
+![](.gitbook/assets/pss_final_ta%20%281%29.pdf)
+
 ### 2D component - surface design
 
 {% embed url="https://morphocode.com/3d-branching-structures-with-rabbit/" %}
@@ -28,7 +51,7 @@ l-systems can be modellled in grasshopper using [rabbit](https://morphocode.com/
 
 ![images generated via http://www.kevs3d.co.uk/dev/lsystems/](.gitbook/assets/screenshot-2018-12-03-at-23.10.23.png)
 
-## hack an embroidery machine
+## industrial bespoke
 
 {% embed url="https://www.plrelectronics.com/tajima-tme-hc/" %}
 
@@ -47,6 +70,14 @@ l-systems can be modellled in grasshopper using [rabbit](https://morphocode.com/
 
 
 ![](.gitbook/assets/img_9980.jpeg)
+
+
+
+
+
+
+
+
 
 #### LINKS
 
