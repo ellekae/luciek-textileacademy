@@ -27,6 +27,8 @@ in addition, the design process will blur the boundary between 2 and 3 dimension
 the artefacts proposed through this process will fall on varying points on a spectrum between pure, traditional textile design, and more contemporary deconstructed/modular garment panels as much aesthetic statement as functional wardrobe piece.   
 
 
+![product service system inputs and outputs](.gitbook/assets/img_0053a.jpg)
+
 ![profile of proposed consumer](.gitbook/assets/customer.jpg)
 
 ![stakeholders](.gitbook/assets/stakeholders.jpg)
@@ -88,7 +90,9 @@ process
 * apply computational design to the 2d area
 * upload the file, set parameters according to design \(ie. if blue then run, else do not run etc\)
 * run the file
-* clean up, remove loose threads, embellish with 3d embellishment elements
+* remove loose threads, dye/overprint, embellish with 3d embellishment elements
+* wash carefully
+* package \(for direct to customer\)
 
 
 
@@ -100,8 +104,6 @@ process
 
 {% embed url="http://www.jakobschlaepfer.com/en/" %}
 
-{% embed url="https://www.youtube.com/watch?v=E1B4UoSQMFw" caption="java 😨" %}
-
 #### SUPPLIES
 
 * drivers x 3
@@ -112,12 +114,19 @@ process
 * aluminium axes \(x, y, z\), cnc milled
 * ball bearing wheels
 * lpt cables
+* textile and garment to upcycle \(end of roll, damaged, secondhand etc\)
+* silk and recycled polyester for embroidery
+* soluble stabiliser
+* chalk
+* bioresin
+
+
 
 
 
 #### CITATIONS
 
-
+to be updated
 
 
 
