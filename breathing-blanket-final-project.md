@@ -94,7 +94,7 @@ process
 * wash carefully
 * package \(for direct to customer\)
 
-
+![crafted control without a sensor](.gitbook/assets/afsample39_copyrighted.jpg)
 
 #### LINKS
 
