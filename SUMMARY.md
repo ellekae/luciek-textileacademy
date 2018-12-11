@@ -11,4 +11,5 @@
 * [open source hardware](open-source-hardware.md)
 * [wearables](wearables.md)
 * [implications and applications](breathing-blanket-final-project.md)
+* [soft robotics](soft-robotics.md)
 
