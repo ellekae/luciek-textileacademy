@@ -108,13 +108,24 @@ inspired by [clara davis](https://clara-davis.com/) virtuosic command of bio pla
 
 ![vietnamese gracilis &amp; seaweed agar, used for making &apos;rau cau&apos; - jellies](.gitbook/assets/img_0134.jpg)
 
-![fail](.gitbook/assets/img_0143.jpg)
+![stretch bio foil](.gitbook/assets/img_0143.jpg)
 
-![fail](.gitbook/assets/img_0144.jpg)
+* 3g agar
+* 20g gelatine
+* 15ml glycerine
+* 400ml water
 
-![fail](.gitbook/assets/img_0150.jpg)
+![agar bio foil ](.gitbook/assets/img_0144.jpg)
 
+* 50g agar
+* 15g glycerine
+* 250ml water
 
+![agar bio plastic](.gitbook/assets/img_0150.jpg)
+
+* 4g agar
+* 3g glycerine
+* 400ml later
 
 ![casting agar based bio plastic](.gitbook/assets/img_0166.jpg)
 
@@ -127,9 +138,13 @@ inspired by [clara davis](https://clara-davis.com/) virtuosic command of bio pla
 ![after 3 days](.gitbook/assets/img_0293.jpg)
 
   
+bio siilcone
 
+* 48g gelatine
+* 24g glycerine
+* 240ml water
 
-![bio silicone with high glycerin content](.gitbook/assets/img_0232.jpg)
+![bio silicone](.gitbook/assets/img_0232.jpg)
 
 ![casting bio silicone](.gitbook/assets/img_0200.jpg)
 
@@ -138,6 +153,13 @@ inspired by [clara davis](https://clara-davis.com/) virtuosic command of bio pla
 ![second attempt](.gitbook/assets/img_0210.jpg)
 
 ![painting an additional batch of bio silicone along the perimeter](.gitbook/assets/img_0233.jpg)
+
+  
+bio silicone with a higher glycerin content
+
+* 30g gelatine
+* 30g glycerine
+* 150ml water
 
 ![aligning top and base](.gitbook/assets/img_0255.jpg)
 
@@ -161,7 +183,7 @@ i dismantled a secondhand windbreaker. i would like to create an oversized jacke
 
 ![raster](.gitbook/assets/img_0313.jpg)
 
-![laser cut bonding](.gitbook/assets/img_0334.jpg)
+![laser cut polyolefin adhesive](.gitbook/assets/img_0334.jpg)
 
 ![creating a custom connection to work with an air blower in the lab](.gitbook/assets/img_0323.jpg)
 
