@@ -183,7 +183,7 @@ i dismantled a secondhand windbreaker. i would like to create an oversized jacke
 
 ![raster](.gitbook/assets/img_0313.jpg)
 
-![laser cut bonding](.gitbook/assets/img_0334.jpg)
+![laser cut polyolefin adhesive](.gitbook/assets/img_0334.jpg)
 
 ![creating a custom connection to work with an air blower in the lab](.gitbook/assets/img_0323.jpg)
 
