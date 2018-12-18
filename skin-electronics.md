@@ -89,6 +89,8 @@ once the board was designed, it was laser cut to a coated copper plated thermopl
 
 {% embed url="https://vimeo.com/307033550" caption="etching laser etched copper plated thermoplastic with ferric chloride" %}
 
+![etched pcb](.gitbook/assets/img_0533.jpg)
+
 ### programming the pcb
 
 to program the attiny85 i used [this sketch](https://dev.mikamai.com/2014/07/09/attiny85-based-capacitive-sensor-led-switch/) and this [capacitive sensor](https://playground.arduino.cc/Main/CapacitiveSensor?from=Main.CapSense) library. 
@@ -189,7 +191,9 @@ the method for coating hair with silver
 
 the ammonia fumes burnt my eyes. i don't dare continue. 
 
+### THANK YOU
 
+i would like to acknowledge the support of the team at EIU Lab. firstly, mr hung for welcoming me into his wonderful lab, allowing his team time to help me with my project, for introducing smd leds and sharing his last supply of silver epoxy, introducing me to TiO plating and many other interesting ideas and applications. i would like to thank thong for finding ways to make capacitive touch work on an attiny, even finding a way to use mosfet and bypass the attiny altogether. thong's own work on his 'sen da sensor' helped me to find the right capacitive sensor library for my project. a special thank you to nhat who helped me to arrange components and traces on my pcb, and for his super dextrous soldering skills with the resistor. thank you to hiep for help cutting the thermoplastic board with the jigsaw cutter which was actually terrifying to me and to loc for facilitating all the processes and helping things move smoothly. i couldn't have done this without help, i learnt so much, and am so grateful to the EIU fab lab team.
 
 ### LINKS
 
