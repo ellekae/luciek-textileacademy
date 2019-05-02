@@ -13,4 +13,5 @@
 * [implications and applications](breathing-blanket-final-project.md)
 * [soft robotics](soft-robotics.md)
 * [skin electronics](skin-electronics.md)
+* [final project](final-project.md)
 
