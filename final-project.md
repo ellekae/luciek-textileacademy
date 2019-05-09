@@ -4,6 +4,8 @@ description: EPIPHYTE
 
 # final project
 
+## 
+
 ## epiphyte as design model
 
 this project looks to lichen as a model for alternative design practices. the project takes shape through the creation of a set of embellished modular textile panels. prototyping of the panels allows for the emergence of the following material and technical characteristics:
@@ -65,7 +67,11 @@ dyeing with lichen is an ancient art.
 
 the phoenician purples, or what is now widely referred to as tyrian purple, was a highly sought after colour [\(\#66023c\)](https://www.colorhexa.com/66023c) initially obtained from the mucus of the predatory sea snail murex. According to Jacoby \(2004\) twelve thousand snails \(would\) ... yield no more than 1.4 g of pure dye, enough to colour only the trim of a single garment. since 'purple proclaimed rank' \(Casselman, 2001\) the price was inflated and the resource exploited until it was almost wiped out. the extreme value and over-exploitation of this resource led to the development of lichen as a dyestuff. 
 
-lichens have been used to dye textiles as far back as 2000BC. it is mentioned in the bible \(ezekiel 27:7\). 
+lichens have been used to dye textiles as far back as 2000BC. lichen dyes are mentioned in the bible \(ezekiel 27:7\).
+
+![Der Heilige Dominikus am Nordturm des Regensburger Doms ](.gitbook/assets/der_heilige_dominikus_am_nordturm_des_regensburger_doms.jpg)
+
+source: [lichen media](https://en.wikipedia.org/wiki/Lichen#/media/File:Der_Heilige_Dominikus_am_Nordturm_des_Regensburger_Doms.jpg)
 
 casselman \(2001\) explains that the murex dyehouses were notoriously noisome, though the olfactory assult was rivalled by early industrial lichen dye houses in which lichen fermented in contaminated urine. since the colour obtained from these processes was so beautiful, the stench was tolerated until william henry perkin stumbled upon mauveine in 1856. mauveine precipitated the industrial manufacture of synthetic dyes, replacing tyrian purple and bringing royal colour to the masses. 
 
@@ -140,13 +146,35 @@ iterative coding to approach the apparently random aspect of natural growth. the
 
 ![using the above to draw via chasing](.gitbook/assets/iterative-180419-05.JPG)
 
+#### flocking
+
+based on the modelling work of hector sanchez [flocking with predation](http://modelingcommons.org/browse/one_model/3956#model_tabs_browse_files)
+
+
+
 #### saffman taylor instability
 
 the saffman taylor instability was initially developed in the context of fluid displacement
 
+
+
 #### shortest walk branching
 
+modelling fruticose lichen with shortest walk branching for 3d surface embellishment, based on the work of [alan rodriguez carrillo](https://archinect.com/alanroo).
 
+![using randomly generated points to approximate natural growth](.gitbook/assets/annotation-2019-05-05-204318.png)
+
+![projecting shortest walk to a spherical surface](.gitbook/assets/annotation-2019-05-05-220035.png)
+
+![balancing lower branch radius with higher branch radius](.gitbook/assets/annotation-2019-05-05-232245.png)
+
+![approximating the ribbon like structure of rocella montagnei](.gitbook/assets/annotation-2019-05-06-142607.png)
+
+![simulating an embellishment for textile that could be cast and embroidered or printed directly to textile](.gitbook/assets/annotation-2019-05-06-205655.png)
+
+modelling crustose and foliose lichen with shortest walk branching for 2d surface embellishment, based on a definition shared by [daniel abalde](https://www.grasshopper3d.com/forum/topics/shortest-walk-tapered-branching-script), applied to curved surface. the definition allows branching structure to 'grow' across a simulated textile surface. this modelled growth in x y & z axes can then be translated back to 2 flat panels \(per garment panels\) by joining then unrolling the surfaces. this process will enable 2 dimensional surface design \(such as digital embroidery\) to be combined with the design of 3d embellishments \(such as cast or 3d-printed shapes or unique bead-like min-structures\). this approach would also enable garment patterns to be creatively navigated in the space of surface design. 
+
+![growing a branching structure across a simulated textile panel](.gitbook/assets/annotation-2019-05-05-211507.png)
 
 #### game of life and cellular automata
 
@@ -160,7 +188,7 @@ the saffman taylor instability was initially developed in the context of fluid d
 
 ### differential draping
 
-for this project i am drawing upon a practice of zero waste draping around the basic square or rectangle, following the work of elena ryleeva. this practice takes an uncut piece of woven textile, often using the strategy of adopting found dimensions 'as is' where the size of an offcut or the selvedge are incorporated as a creative provocation and design parameter. various cuts and folds are then enacted on this two dimensional plane to give it three dimensional shape. a garment takes shape through differential growth from any given substrate. 
+for this project i am drawing upon a practice of zero waste draping around the basic square or rectangle, following the work of [elena ryleeva](https://www.ewstfashionlab.com/). this practice takes an uncut piece of woven textile, often using the strategy of adopting found dimensions 'as is' where the size of an offcut or the selvedge are incorporated as a creative provocation and design parameter. various cuts and folds are then enacted on this two dimensional plane to give it three dimensional shape. a garment takes shape through differential subdivisions of any given substrate. 
 
 ![](.gitbook/assets/img_2101-1.jpeg)
 
@@ -185,6 +213,32 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 
 
+
+
+
+> if our religion is based on salvation, our chief emotions will be fear and trembling. if our religion is based on wonder, our chief emotion will be gratitude
+>
+> carl jung \(1975 - 1961\)
+
+
+
+
+
+#### MATERIALS
+
+{% embed url="https://www.sculpteo.com/en/materials/clip-resin-material/" %}
+
+{% embed url="https://www.stratasys.com/materials/search/tango" %}
+
+{% embed url="https://www.stratasys.com/materials/search/agilus30" %}
+
+#### LINKS
+
+{% embed url="https://www.youtube.com/watch?v=9HI8FerKr6Q" %}
+
+{% embed url="https://www.youtube.com/watch?v=jaiGE3qS1VE" %}
+
+{% embed url="https://vimeo.com/235861876" %}
 
 
 
