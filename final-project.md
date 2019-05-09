@@ -116,7 +116,7 @@ add 1 part fermentation liquid to 4 parts water, simmer with fibre at 74 to 82 d
 
 ### modelling lichen
 
-for this project i will model lichen growth with a view to creating two and three dimensional surface design embellishments on textile. the modelling for my project draws on sumner's research into lichen modelling, the iterative modelling of pernecky and zwierzycki and the generative art of yufan xie \(cubicRAB\). 
+for this project i will model lichen growth with a view to creating two and three dimensional surface design embellishments on textile. the modeling for my project draws on sumner's research into lichen modeling, the iterative modeling of pernecky and zwierzycki and the generative art of yufan xie \(cubicRAB\). 
 
 a foundational design objective for the project is to craft a certain organic randomness into lichen growth models. sumner is an inspiration in this regard when he reminds us be wary of a tendency to sterility in CGM:
 
@@ -124,7 +124,7 @@ a foundational design objective for the project is to craft a certain organic ra
 >
 > \( Sumner, 2001, p. 2\)
 
-i addressed the tendency to arid conformity and repetition by studying the work of pernecky and zwierzycki, as i will go into in the subsection 'modelling randomness' to follow. 
+i addressed the tendency to arid conformity and repetition by studying the work of pernecky and zwierzycki, as i will go into in the subsection 'modeling randomness' to follow. 
 
 sumner relied upon visual research and compiled a library of lichen images upon which to base his research. he verifies the authenticity and verisimilitude of his computer generated models by eye. sumner \(2001\) identifies 2 strategies for modelling the three main morphological categories of lichen - crustose, foliose and fruticose. he states that -
 
@@ -134,9 +134,9 @@ modelling of fruticose lichen, such as rocella montagnei, would thus be in the x
 
 for crustose and foliose lichen, sumner investigated and proposed alternative growth simulation models conforming to radial expansion along a 2-dimensional plane. 
 
-#### modelling randomness
+#### modeling randomness
 
-iterative coding to approach the apparently random aspect of natural growth. these definitions were created following the work of jan pernecky and mateusz zwierzycki. the ideas expressed through pernecky and zwierzycki's design methods are used as a foundation for future research and experimentation into modelling lichen growth, in the hope of dodging what sumner refers to as the 'conspicuously clean'.  
+iterative coding to approach the apparently random aspect of natural growth. these definitions were created following the work of jan pernecky and mateusz zwierzycki. the ideas expressed through pernecky and zwierzycki's design methods are used as a foundation for future research and experimentation into modeling lichen growth, in the hope of dodging what sumner refers to as the 'conspicuously clean'.  
 
 ![looping the translation of a point along a random vector on x-y axis](.gitbook/assets/iterative-140419-08.JPG)
 
@@ -152,15 +152,25 @@ based on the modelling work of hector sanchez [flocking with predation](http://m
 
 
 
-#### saffman taylor instability
+#### diffusion-limited aggregation \(DLA\)
 
-the saffman taylor instability was initially developed in the context of fluid displacement
+the saffman-taylor instability and laplacian growth can be used to model lichen. such cluster growth models simulate diffusion using random movement of particles, which can be modelled using diffusion- limited aggregation \(DLA\) equations.  
+
+Desbenoit, Galin and Akkouche outline an approach to simulating lichen growth based on DLA modelling whereby an initial particle or agent is placed within a field of numerous random-walking particles, which collide and cluster.  They state:
+
+> The propagation of lichen over the surface of the colonized objects is performed by constraining a particle system to \[sic\] triangle meshes. Starting from a seed particle, our method incrementally creates a cluster of particles by randomly moving new particles over the mesh and possibly aggregating them to the cluster when collisions occur. A particle is constrained to the triangle mesh and is geometrically defined by its center, radius, and an index to its supporting triangle. Given a starting particle... the algorithm incrementally creates a cluster of particles by aggregating particles moving randomly over the surface and that come into contact with the cluster. In general, new particles are created at a fixed distance. If the particles move too far away from the initial seed particle, they are removed from the simulation.
+>
+> Desbenoit, Galin and Akkouche, 2004, p. 7
+
+![DLA modelling. source: Desbenoit, Galin and Akkouche, 2004, p. 7](.gitbook/assets/screen-shot-2019-05-09-at-21.02.24.png)
+
+
 
 
 
 #### shortest walk branching
 
-modelling fruticose lichen with shortest walk branching for 3d surface embellishment, based on the work of [alan rodriguez carrillo](https://archinect.com/alanroo).
+modelling fruticose lichen with shortest walk branching for 3d surface embellishment, following the work of [alan rodriguez carrillo](https://archinect.com/alanroo).
 
 ![using randomly generated points to approximate natural growth](.gitbook/assets/annotation-2019-05-05-204318.png)
 
@@ -257,6 +267,8 @@ Allen, A. 2014. Getting Started with Lichen Dyes in Fungi, Volume 7:2-3, p. 66-6
 Cartwright, M. 2016. [Tyrian Purple](https://www.ancient.eu/Tyrian_Purple/). Ancient History Encyclopedia. Retrieved from https://www.ancient.eu/Tyrian\_Purple/
 
 Casselman, K. 2001. Lichen Dyes: The New Source Book. Dover Publications.
+
+Desbenoit B, Galin E and Akkouche S. 2004. Simulating and Modelling lichen growth. LIRIS Research Report in LIRIS FRE 2672, Université Claude Bernard Lyon 1, Lyon, France
 
 Jacoby, D. 2004. "Silk economics and cross-cultural artistic interaction: Byzantium, the Muslim world, and the Christian west". Dumbarton Oaks Papers. **58**: 210, 197–240
 
