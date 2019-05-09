@@ -4,7 +4,15 @@ description: EPIPHYTE
 
 # final project
 
-## 
+_This is how, even in an empty region of space, a particle emerges out of Nothing, “borrowing” its energy from the future and paying for it \(with its annihilation\) before the system notices this borrowing. The whole network can function like this, in a rhythm of borrowing and annihilation, one borrowing from the other, displacing the debt onto the other, postponing the payment of the debt. What this presupposes is a minimal gap between things in their immediate brute reality and the registration of this reality in some medium._
+
+Zizek, 2009
+
+
+
+> if our religion is based on salvation, our chief emotions will be fear and trembling. if our religion is based on wonder, our chief emotion will be gratitude
+>
+> carl jung \(1975 - 1961\)
 
 ## epiphyte as design model
 
@@ -154,7 +162,7 @@ based on the modelling work of hector sanchez [flocking with predation](http://m
 
 #### diffusion-limited aggregation \(DLA\)
 
-the saffman-taylor instability and laplacian growth can be used to model lichen. such cluster growth models simulate diffusion using random movement of particles, which can be modelled using diffusion- limited aggregation \(DLA\) equations.  
+the saffman-taylor instability and laplacian growth can be used to model lichen. such cluster growth models simulate diffusion using random movement of particles, which can be modelled using diffusion- limited aggregation \([DLA](https://en.wikipedia.org/wiki/Diffusion-limited_aggregation)\) equations.  
 
 Desbenoit, Galin and Akkouche outline an approach to simulating lichen growth based on DLA modelling whereby an initial particle or agent is placed within a field of numerous random-walking particles, which collide and cluster.  They state:
 
@@ -163,6 +171,14 @@ Desbenoit, Galin and Akkouche outline an approach to simulating lichen growth ba
 > Desbenoit, Galin and Akkouche, 2004, p. 7
 
 ![DLA modelling. source: Desbenoit, Galin and Akkouche, 2004, p. 7](.gitbook/assets/screen-shot-2019-05-09-at-21.02.24.png)
+
+Inspired by the work of Andy Lomas, Karsten Schmidt's  [simutilis](http://toxiclibs.org/2010/02/new-package-simutils/), found on his toxiclibs open source library, can be used to model DLA using java. His clear explanation of DLA makes an important point:
+
+> The basic premise of a DLA simulation is the slow formation of complex structures through the \(random\) movement of single particles.
+
+The complexity arises through amassing of large data clusters and in computing collisions. 
+
+{% embed url="https://imagej.nih.gov/ij/plugins/DLA.html" %}
 
 
 
@@ -226,9 +242,7 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 
 
-> if our religion is based on salvation, our chief emotions will be fear and trembling. if our religion is based on wonder, our chief emotion will be gratitude
 >
-> carl jung \(1975 - 1961\)
 
 
 
@@ -243,6 +257,10 @@ for this project i am drawing upon a practice of zero waste draping around the b
 {% embed url="https://www.stratasys.com/materials/search/agilus30" %}
 
 #### LINKS
+
+{% embed url="https://vimeo.com/82989945" %}
+
+
 
 {% embed url="https://www.youtube.com/watch?v=9HI8FerKr6Q" %}
 
@@ -277,6 +295,8 @@ Mishraa, T, Shuklaa, S et al \[eds\]. 2017. 'Isolation and identification of cyt
 Shukla, P, Upreti DK and Tiwari, P. 2014. 'Assessment of Dye Yielding Potential of Indian Lichens' in Indian Journal of Plant Sciences, Vol.3 \(1\) 2014, p.57-63
 
 Smith, AL. 2009. ‘Lichen Dyes’ in Transactions of the British Mycological Society, Volume 11 issue 1-2, p.45-50
+
+Zizek, 2009. Troubles with the Real: Lacan as a viewer of alien. Available online at [http://www.lacan.com/essays/?p=180](http://www.lacan.com/essays/?p=180) \[accessed 09.05.19\]
 
 
 
