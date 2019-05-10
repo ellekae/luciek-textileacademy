@@ -262,6 +262,8 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 {% embed url="https://vimeo.com/235861876" %}
 
+{% embed url="https://vimeo.com/282106863" %}
+
 
 
 
