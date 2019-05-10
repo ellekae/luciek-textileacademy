@@ -4,15 +4,7 @@ description: EPIPHYTE
 
 # final project
 
-_This is how, even in an empty region of space, a particle emerges out of Nothing, “borrowing” its energy from the future and paying for it \(with its annihilation\) before the system notices this borrowing. The whole network can function like this, in a rhythm of borrowing and annihilation, one borrowing from the other, displacing the debt onto the other, postponing the payment of the debt. What this presupposes is a minimal gap between things in their immediate brute reality and the registration of this reality in some medium._
-
-Zizek, 2009
-
-
-
-> if our religion is based on salvation, our chief emotions will be fear and trembling. if our religion is based on wonder, our chief emotion will be gratitude
 >
-> carl jung \(1975 - 1961\)
 
 ## epiphyte as design model
 
@@ -26,7 +18,11 @@ this project looks to lichen as a model for alternative design practices. the pr
 
 
 
-### lichen 
+> _This is how, even in an empty region of space, a particle emerges out of Nothing, “borrowing” its energy from the future and paying for it \(with its annihilation\) before the system notices this borrowing. The whole network can function like this, in a rhythm of borrowing and annihilation, one borrowing from the other, displacing the debt onto the other, postponing the payment of the debt. What this presupposes is a minimal gap between things in their immediate brute reality and the registration of this reality in some medium._
+>
+> Zizek, 2009
+
+## lichen 
 
 lichen is a self-supporting mycobiont \(fungal partner\) and photobiont \(photosynthetic partner\).
 
@@ -51,19 +47,19 @@ lichen is a self-supporting mycobiont \(fungal partner\) and photobiont \(photos
 
 ### lichen in vietnam
 
-vietnam has a tropical monsoon climate which is favorable for diverse tropical lichens. The lichen flora of vietnam was estimated at least 1,000 species. a checklist of lichen species in vietnam is available [here](http://lichenvietnam.myspecies.info/).  many of the lichen known to produce excellent textile dyes can be found in vietnam, including many others with promising medical and health benefits all of which are still being uncovered through research. lichen study in vietnam is a growing field with much undiscovered and unexplored. 
+vietnam has a tropical monsoon climate which is favorable for diverse tropical lichens. The lichen flora of vietnam is estimated to comprise at least 1,000 species. a checklist of lichen species in vietnam is available [here](http://lichenvietnam.myspecies.info/).  many of the lichen known to produce excellent textile dyes can be found in vietnam, including many others with promising medical and health benefits all of which are still being uncovered through research. lichen study in vietnam is a growing field with much undiscovered and unexplored. 
 
 ### rocella montagnei
 
-Roccella montagnei is a fruticose lichen belonging to the Roccellaceae family. Montagnei is a rich source of many secondary metabolites such as orcinol, montagnetol, carotene, sitosterol, roccellic acid, lecanoric acid \(Mishraa, Shuklaa et al, 2017\) however for textile dyeing purposes it is erythrin that makes montagnei special \(Shukla, P, Upreti DK and Tiwari, P, 2014\). 
-
-![rocella montagnei](.gitbook/assets/img_2259-2.jpeg)
+roccella montagnei is a fruticose lichen belonging to the roccellaceae family. montagnei is a rich source of many secondary metabolites such as orcinol, montagnetol, carotene, sitosterol, roccellic acid, lecanoric acid \(Mishraa, Shuklaa et al, 2017\) however for textile dyeing purposes it is erythrin that makes montagnei special \(Shukla, P, Upreti DK and Tiwari, P, 2014\). 
 
 rocella montagnei \(RM\) can be found in vietnam, however in my limited experience it is not abundant or easily located. I found RM near the southern coastal city of Phan Thiet, in an undeveloped, sandy coastal area that essentially resembled a tip. according to locals RM could previously be found growing extensively in other coastal areas, though with clearing and development is found less and less. locals claimed that since RM typically grows on a tree favoured for kindling, much of the locally available RM would most likely have been burned in household fires over the course of the past decade. no one was aware of its value as a dyestuff, cancer treatment or otherwise. much of the RM I collected was found on dead tree branches, apparently completely dehydrated. on washing, the colour of RM changed from pale grey to grass green when immersed in water. 
 
 ![following a path of discarded clothing to find RM](.gitbook/assets/img_2249-2.jpeg)
 
 ![are you rocella montagnei?](.gitbook/assets/img_2254-2.jpeg)
+
+![could it be?](.gitbook/assets/img_2259-2%20%281%29.jpeg)
 
 ![local knowledge and scientific journals helped me to find RM](.gitbook/assets/img_2296-2.jpeg)
 
@@ -122,7 +118,9 @@ according to correct ammonia fermentation protocol, RM should be fermented for a
 
 add 1 part fermentation liquid to 4 parts water, simmer with fibre at 74 to 82 degrees celcius for one hour. 30g of dry fibre will require up to one cup of fermentation liquid to dye a vibrant hue \(allen, 2014\). the pH of the dye bath can be shifted to achieve the desired hue. a more acidic bath will increase the warmth of the final dye colour, neutralising the dye bath will make the colours cooler. 
 
-### modelling lichen
+
+
+## modeling lichen
 
 for this project i will model lichen growth with a view to creating two and three dimensional surface design embellishments on textile. the modeling for my project draws on sumner's research into lichen modeling, the iterative modeling of pernecky and zwierzycki and the generative art of yufan xie \(cubicRAB\). 
 
@@ -238,13 +236,9 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 
 
-
-
-
-
+> if our religion is based on salvation, our chief emotions will be fear and trembling. if our religion is based on wonder, our chief emotion will be gratitude
 >
-
-
+> jung
 
 
 
