@@ -152,17 +152,15 @@ iterative coding to approach the apparently random aspect of natural growth. the
 
 ![using the above to draw via chasing](.gitbook/assets/iterative-180419-05.JPG)
 
+### flocking
+
+based on the modelling work of hector sanchez [flocking with predation](http://modelingcommons.org/browse/one_model/3956#model_tabs_browse_files) and jan pernecky's work with anemone and boid library. these experiments begin to explore how flocking can be used as a textile design tool by causing interactions with digital objects and surfaces. anemone enables the programming of functions such as particles adhering to one another or sliding off a surface where randomness is, as pernecky puts it - "doubly inbuilt". these models can be used to allude to what would generally be considered 'natural' systems or processes and practically establish an emergent approach to design.
+
 {% embed url="https://vimeo.com/336020610" %}
 
+{% embed url="https://vimeo.com/336021938" %}
 
-
-#### flocking
-
-based on the modelling work of hector sanchez [flocking with predation](http://modelingcommons.org/browse/one_model/3956#model_tabs_browse_files)
-
-
-
-#### diffusion-limited aggregation \(DLA\)
+### diffusion-limited aggregation \(DLA\)
 
 the saffman-taylor instability and laplacian growth can be used to model lichen. such cluster growth models simulate diffusion using random movement of particles, which can be modelled using diffusion- limited aggregation \([DLA](https://en.wikipedia.org/wiki/Diffusion-limited_aggregation)\) equations.  
 
