@@ -152,6 +152,10 @@ iterative coding to approach the apparently random aspect of natural growth. the
 
 ![using the above to draw via chasing](.gitbook/assets/iterative-180419-05.JPG)
 
+{% embed url="https://vimeo.com/336020610" %}
+
+
+
 #### flocking
 
 based on the modelling work of hector sanchez [flocking with predation](http://modelingcommons.org/browse/one_model/3956#model_tabs_browse_files)
@@ -178,7 +182,7 @@ The complexity arises through amassing of large data clusters and in computing c
 
 {% embed url="https://imagej.nih.gov/ij/plugins/DLA.html" %}
 
-
+{% embed url="https://vimeo.com/336019674" caption="DLA model on a surface" %}
 
 
 
