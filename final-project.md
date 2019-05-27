@@ -172,11 +172,29 @@ Desbenoit, Galin and Akkouche outline an approach to simulating lichen growth ba
 
 ![DLA modelling. source: Desbenoit, Galin and Akkouche, 2004, p. 7](.gitbook/assets/screen-shot-2019-05-09-at-21.02.24.png)
 
-Inspired by the work of Andy Lomas, Karsten Schmidt's  [simutilis](http://toxiclibs.org/2010/02/new-package-simutils/), found on his toxiclibs open source library, can be used to model DLA using java. His clear explanation of DLA makes an important point:
+Inspired by the work of Andy Lomas, Karsten Schmidt's  [simutilis](http://toxiclibs.org/2010/02/new-package-simutils/), found on his toxiclibs open source library, can be used to model DLA using java. 
 
-> The basic premise of a DLA simulation is the slow formation of complex structures through the \(random\) movement of single particles.
+[woojae sung](https://woojsung.com/)'s DLA system workshop notes explain DLA clearly in 8 finite steps. this basic system forms the basis of many varied approaches to modeling organic and emergent phenomena.  
 
-The complexity arises through amassing of large data clusters and in computing collisions. 
+![](.gitbook/assets/annotation-2019-05-26-214400.png)
+
+![](.gitbook/assets/annotation-2019-05-26-214445.png)
+
+![](.gitbook/assets/annotation-2019-05-26-214534.png)
+
+![](.gitbook/assets/annotation-2019-05-26-214551.png)
+
+![](.gitbook/assets/annotation-2019-05-26-214610.png)
+
+![](.gitbook/assets/annotation-2019-05-26-214625.png)
+
+![](.gitbook/assets/annotation-2019-05-26-214640.png)
+
+![](.gitbook/assets/annotation-2019-05-26-214701.png)
+
+![](.gitbook/assets/annotation-2019-05-26-214715.png)
+
+![](.gitbook/assets/annotation-2019-05-26-214732.png)
 
 {% embed url="https://imagej.nih.gov/ij/plugins/DLA.html" %}
 
