@@ -254,6 +254,48 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 ![applying a simple l-systems model to an extracted mesh](.gitbook/assets/lk-220419-14.JPG)
 
+### zwd in clo
+
+![](.gitbook/assets/screen-shot-2019-05-27-at-18.47.23.png)
+
+![](.gitbook/assets/screen-shot-2019-05-27-at-20.18.42.png)
+
+{% embed url="https://vimeo.com/338880526" %}
+
+
+
+![](.gitbook/assets/screen-shot-2019-05-28-at-09.02.11.png)
+
+![](.gitbook/assets/screen-shot-2019-05-28-at-09.25.05.png)
+
+{% embed url="https://vimeo.com/338879252" %}
+
+
+
+![](.gitbook/assets/screen-shot-2019-05-28-at-14.41.08.png)
+
+![](.gitbook/assets/screen-shot-2019-05-28-at-15.06.47.png)
+
+{% embed url="https://vimeo.com/338877607" %}
+
+![](.gitbook/assets/screen-shot-2019-05-29-at-08.38.34.png)
+
+![](.gitbook/assets/screen-shot-2019-05-29-at-09.45.27.png)
+
+![](.gitbook/assets/screen-shot-2019-05-29-at-12.49.15.png)
+
+![](.gitbook/assets/screen-shot-2019-05-29-at-13.46.04.png)
+
+![](.gitbook/assets/screen-shot-2019-05-29-at-14.43.00.png)
+
+{% embed url="https://vimeo.com/339057370" %}
+
+
+
+
+
+
+
 
 
 > if our religion is based on salvation, our chief emotions will be fear and trembling. if our religion is based on wonder, our chief emotion will be gratitude
