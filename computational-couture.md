@@ -110,6 +110,10 @@ the second definition was not a real weave at this point, but it flowed over the
 
 ![adjust density](.gitbook/assets/screen-shot-2018-11-13-at-10.33.04.png)
 
+{% embed url="https://vimeo.com/300655327" %}
+
+
+
 bake. export selection to .stl. 
 
 ![preparing the file to 3d print](.gitbook/assets/img_9346.jpg)

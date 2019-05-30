@@ -120,7 +120,9 @@ add 1 part fermentation liquid to 4 parts water, simmer with fibre at 74 to 82 d
 
 
 
-## modeling lichen
+## modeling development
+
+### modeling lichen
 
 for this project i will model lichen growth with a view to creating two and three dimensional surface design embellishments on textile. the modeling for my project draws on sumner's research into lichen modeling, the iterative modeling of pernecky and zwierzycki and the generative art of yufan xie \(cubicRAB\). 
 
@@ -198,9 +200,9 @@ Inspired by the work of Andy Lomas, Karsten Schmidt's  [simutilis](http://toxicl
 
 {% embed url="https://imagej.nih.gov/ij/plugins/DLA.html" %}
 
+![](.gitbook/assets/annotation-2019-05-12-210844.png)
+
 {% embed url="https://vimeo.com/336019674" caption="DLA model on a surface" %}
-
-
 
 #### shortest walk branching
 
@@ -222,13 +224,29 @@ modelling crustose and foliose lichen with shortest walk branching for 2d surfac
 
 #### game of life and cellular automata
 
+![](.gitbook/assets/annotation-2019-05-11-180647.png)
 
+![](.gitbook/assets/annotation-2019-05-11-180905.png)
+
+![](.gitbook/assets/annotation-2019-05-11-184758.png)
 
 #### l-systems
 
 ![l-systems model](.gitbook/assets/lk-190419-07.JPG)
 
 ![l-systems model with perlin noise](.gitbook/assets/lk-190419-11.JPG)
+
+### simulating textile
+
+![](.gitbook/assets/annotation-2019-05-23-090237.png)
+
+![](.gitbook/assets/annotation-2019-05-23-082611.png)
+
+![](.gitbook/assets/annotation-2019-05-19-195857.png)
+
+![](.gitbook/assets/annotation-2019-05-20-155438.png)
+
+![](.gitbook/assets/annotation-2019-05-25-045540.png)
 
 ### differential draping
 
@@ -245,14 +263,6 @@ for this project i am drawing upon a practice of zero waste draping around the b
 ![flat pattern brought into 3d design software](.gitbook/assets/screen-shot-2019-04-15-at-21.19.34.png)
 
 ![draped garment and avatar \(x-ray, side view\)](.gitbook/assets/screen-shot-2019-04-19-at-09.44.00.png)
-
-![garment as 3d object \(front view\)](.gitbook/assets/lk-220419-02.JPG)
-
-![garment as 3d object \(back view\)](.gitbook/assets/lk-220419-03.JPG)
-
-![](.gitbook/assets/lk-220419-01.JPG)
-
-![applying a simple l-systems model to an extracted mesh](.gitbook/assets/lk-220419-14.JPG)
 
 ### zwd in clo
 
@@ -296,17 +306,17 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 ![](.gitbook/assets/screen-shot-2019-05-30-at-09.57.30.png)
 
+{% embed url="https://vimeo.com/339373243" %}
 
+### 
 
-{% embed url="https://vimeo.com/339260493" %}
+### synthesis 
 
+![](.gitbook/assets/annotation-2019-05-17-091247.png)
 
+![](.gitbook/assets/annotation-2019-05-17-085826.png)
 
-
-
-
-
-
+![](.gitbook/assets/annotation-2019-05-09-233334.png)
 
 
 
