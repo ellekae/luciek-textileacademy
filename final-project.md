@@ -290,6 +290,20 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 {% embed url="https://vimeo.com/339057370" %}
 
+![](.gitbook/assets/screen-shot-2019-05-29-at-17.49.44.png)
+
+![](.gitbook/assets/screen-shot-2019-05-30-at-09.35.59.png)
+
+![](.gitbook/assets/screen-shot-2019-05-30-at-09.57.30.png)
+
+
+
+{% embed url="https://vimeo.com/339260493" %}
+
+
+
+
+
 
 
 
