@@ -198,7 +198,11 @@ Inspired by the work of Andy Lomas, Karsten Schmidt's  [simutilis](http://toxicl
 
 ![](.gitbook/assets/annotation-2019-05-26-214732.png)
 
-{% embed url="https://imagej.nih.gov/ij/plugins/DLA.html" %}
+[Gwyllim Jahn](https://www.rmit.edu.au/contact/staff-contacts/academic-staff/j/jahn-mr-gwyllim)'s [nursery ](https://www.food4rhino.com/app/nursery)draws upon slowrobotics and toxiclibs libraries in a C\# scripted DLA component and uses a KD Tree component to solve the 'nearest neighbour problem'. Shaknarovich explains how KD Trees work: 
+
+> Given a set of n points in a d-dimensional space, the kd-tree is constructed recursively as follows. First, one finds a median of the values of the ith coordinates of the points \(initially, i = 1\). That is, a value M is computed, so that at least 50% of the points have their ith coordinate greater-or-equal to M, while at least 50% of the points have their ith coordinate smaller than or equal to M. The value of x is stored, and the set P is partitioned into PL and PR , where PL contains only the points with their ith coordinate smaller than or equal to M, and \|PR \| = \|PL \|±1. The process is then repeated recursively on both PL and PR , with i replaced by i + 1 \(or 1, if i = d\). When the set of points at a node has size 1, the recursion stops.
+
+source: [http://people.csail.mit.edu/gregory/annbook/introduction.pdf](http://people.csail.mit.edu/gregory/annbook/introduction.pdf)
 
 ![](.gitbook/assets/annotation-2019-05-12-210844.png)
 
@@ -224,6 +228,8 @@ modelling crustose and foliose lichen with shortest walk branching for 2d surfac
 
 #### game of life and cellular automata
 
+following [agata migalska](http://parametric.support/about-us/)'s code to grasp how python scripting can be used in grasshopper to simulate growth patterns. 
+
 ![](.gitbook/assets/annotation-2019-05-11-180647.png)
 
 ![](.gitbook/assets/annotation-2019-05-11-180905.png)
@@ -238,13 +244,19 @@ modelling crustose and foliose lichen with shortest walk branching for 2d surfac
 
 ### simulating textile
 
+following [giancarlo di marco](http://giancarlodimarco.com.mx/)'s work in kangaroo to simulate forces enacted on a textile surface
+
 ![](.gitbook/assets/annotation-2019-05-23-090237.png)
 
 ![](.gitbook/assets/annotation-2019-05-23-082611.png)
 
+applying [junichiro horikawa'](https://www.youtube.com/channel/UC5NStd0QmACnWs9DzqJ3vHg)s work on origami in grasshopper to simulate garment folds
+
 ![](.gitbook/assets/annotation-2019-05-19-195857.png)
 
 ![](.gitbook/assets/annotation-2019-05-20-155438.png)
+
+simulating folds on a surface extracted from a digital mannequin, then unrolling these folds. this method is not appropriate to the digital fabrication methods i will be using to prototype embellished garment panels. an alternative solution is required. 
 
 ![](.gitbook/assets/annotation-2019-05-25-045540.png)
 
@@ -310,17 +322,21 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 ### 
 
-### synthesis 
+### synthesis: simulating growth on a mesh
+
+flocking and random point generation in relation to a body 
 
 ![](.gitbook/assets/annotation-2019-05-17-091247.png)
 
 ![](.gitbook/assets/annotation-2019-05-17-085826.png)
 
-![](.gitbook/assets/annotation-2019-05-09-233334.png)
+![spark python component](.gitbook/assets/annotation-2019-05-09-233334.png)
 
 
 
+![finding naked edges](.gitbook/assets/annotation-2019-05-30-190216%20%281%29.png)
 
+![problem solving around bringing a mesh into a C\# random point component ](.gitbook/assets/annotation-2019-05-30-202340.png)
 
 > if our religion is based on salvation, our chief emotions will be fear and trembling. if our religion is based on wonder, our chief emotion will be gratitude
 >
