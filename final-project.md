@@ -334,7 +334,7 @@ flocking and random point generation in relation to a body
 
 ![finding naked edges](.gitbook/assets/annotation-2019-05-30-190216%20%281%29.png)
 
-![problem solving around bringing a mesh into a C\# random point component ](.gitbook/assets/annotation-2019-05-30-202340.png)
+![](.gitbook/assets/annotation-2019-05-30-202340.png)
 
 
 
