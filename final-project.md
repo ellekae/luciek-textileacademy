@@ -61,8 +61,6 @@ rocella montagnei \(RM\) can be found in vietnam, however in my limited experien
 
 ![could it be?](.gitbook/assets/img_2259-2%20%281%29.jpeg)
 
-![local knowledge and scientific journals helped me to find RM](.gitbook/assets/img_2296-2.jpeg)
-
 ![the site where RM was found](.gitbook/assets/img_2298-3.jpeg)
 
 ### tyrian purple: history of lichen as a dyestuff
@@ -338,9 +336,7 @@ flocking and random point generation in relation to a body
 
 ![problem solving around bringing a mesh into a C\# random point component ](.gitbook/assets/annotation-2019-05-30-202340.png)
 
-> if our religion is based on salvation, our chief emotions will be fear and trembling. if our religion is based on wonder, our chief emotion will be gratitude
->
-> jung
+
 
 
 
