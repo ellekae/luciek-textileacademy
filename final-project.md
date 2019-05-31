@@ -22,7 +22,7 @@ this project looks to lichen as a model for alternative design practices. the pr
 >
 > Zizek, 2009
 
-## lichen 
+## lichen: research supporting concept elaboration
 
 lichen is a self-supporting mycobiont \(fungal partner\) and photobiont \(photosynthetic partner\).
 
@@ -65,7 +65,7 @@ rocella montagnei \(RM\) can be found in vietnam, however in my limited experien
 
 ![the site where RM was found](.gitbook/assets/img_2298-3.jpeg)
 
-### tyrian purple 
+### tyrian purple: history of lichen as a dyestuff
 
 dyeing with lichen is an ancient art. 
 
@@ -89,7 +89,7 @@ a tradition similar to murex dyeing though less exploitative is continued to thi
 >
 > \(Smith, 2009, p. 46\)
 
-### dyeing with lichen
+### tradition: dyeing with lichen
 
 * lichens dye protein fibres
 * lichen dyes are substantive, they do not require a mordant. however alum, soda ash and others can be used to adjust the pH of the dyebath, affecting the final colour of the dyed fibre. 
