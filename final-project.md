@@ -204,7 +204,7 @@ Inspired by the work of Andy Lomas, Karsten Schmidt's  [simutilis](http://toxicl
 
 source: [http://people.csail.mit.edu/gregory/annbook/introduction.pdf](http://people.csail.mit.edu/gregory/annbook/introduction.pdf)
 
-![](.gitbook/assets/annotation-2019-05-12-210844.png)
+![nursery 2d DLA definition](.gitbook/assets/annotation-2019-05-12-210844.png)
 
 {% embed url="https://vimeo.com/336019674" caption="DLA model on a surface" %}
 
