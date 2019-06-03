@@ -79,17 +79,19 @@ lichens have been used to dye textiles as far back as 2000BC. lichen dyes are me
 
 source: [lichen media](https://en.wikipedia.org/wiki/Lichen#/media/File:Der_Heilige_Dominikus_am_Nordturm_des_Regensburger_Doms.jpg)
 
-casselman \(2001\) explains that the murex dyehouses were notoriously noisome, though the olfactory assault was rivalled by early industrial lichen dye houses in which lichen fermented in contaminated urine. since the colour obtained from these processes was so beautiful, the stench was tolerated until william henry perkins stumbled upon mauveine in 1856. mauveine precipitated the industrial manufacture of synthetic dyes, replacing tyrian purple and bringing royal colour to the masses. 
+casselman \(2001\) explains that the murex dyehouses were notoriously noisome, though the olfactory assault was rivalled by early industrial lichen dye houses in which lichen fermented in contaminated urine. since the colour obtained from these processes was so sought after, the stench was tolerated until william henry perkins stumbled upon mauveine in 1856. mauveine precipitated the industrial manufacture of synthetic dyes, replacing tyrian purple and bringing royal colour to the masses. we have instead been tolerating cancer and water pollution sans the detectible odor of decomposition since. 
 
 ![cuneiform tablet \(600BC-500BC\) with instructions for dyeing wool](.gitbook/assets/cuneiform-tablet-dyeing.jpg)
 
 \(source [https://www.britishmuseum.org/research/collection\_online/collection\_object\_details.aspx?objectId=327282&partId=1](https://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=327282&partId=1)\)
 
-a tradition similar to murex dyeing though less exploitative is continued to this day in Oaxaca \([The Color Purple–Purpura Shell Dyeing in Oaxaca](https://www.clothroads.com/the-color-purple-purpura-shell-dyeing-in-oaxaca/)\) with the purpura snail, the harvesting-dyeing process can be viewed [here](https://www.youtube.com/watch?v=PkSIiC5xkgs).  as scarcity of murex drove prices impossibly high a lichen dye - orchil - was discovered and used to duplicate and extend the colour 'murex'. the orchil dye formulation was a closely guarded secret. there are 3 main lichen dyes which have been used historically to produce red and purple textile dyes: english orchil, scottish cudbear and norwegian korkje. 
+as scarcity of murex drove prices impossibly high a lichen dye - orchil - was discovered and used to duplicate and extend the colour 'murex'. the orchil dye formulation was a closely guarded secret. there are 3 main lichen dyes which have been used historically to produce red and purple textile dyes: english orchil, scottish cudbear and norwegian korkje. 
 
 > The Phycos Thalassion of the Greeks is undoubtedly the lichen Roccella which grows on rocks by the sea. Its use as a dye substance came from the East to Greece and to Italy; afterwards the art seems to have been lost, then rediscovered in the fourteenth century by a Florentine merchant, Roderigo, who made a large fortune and founded the family of the Orcellarii or Rucellai, hence possibly the name Roccella, and the derivation of orchil.
 >
 > \(Smith, 2009, p. 46\)
+
+a tradition similar to murex dyeing though less exploitative is continued to this day in Oaxaca \([The Color Purple–Purpura Shell Dyeing in Oaxaca](https://www.clothroads.com/the-color-purple-purpura-shell-dyeing-in-oaxaca/)\) with the purpura snail, the harvesting-dyeing process can be viewed [here](https://www.youtube.com/watch?v=PkSIiC5xkgs).  
 
 ### tradition: dyeing with lichen
 
@@ -200,7 +202,7 @@ Inspired by the work of Andy Lomas, Karsten Schmidt's  [simutilis](http://toxicl
 
 ![](.gitbook/assets/annotation-2019-05-26-214732.png)
 
-[Gwyllim Jahn](https://www.rmit.edu.au/contact/staff-contacts/academic-staff/j/jahn-mr-gwyllim)'s [nursery ](https://www.food4rhino.com/app/nursery)draws upon slowrobotics and toxiclibs libraries in a C\# scripted DLA component and uses a KD Tree component to solve the 'nearest neighbour problem'. Shaknarovich explains how KD Trees work: 
+[Gwyllim Jahn](https://www.rmit.edu.au/contact/staff-contacts/academic-staff/j/jahn-mr-gwyllim)'s [nursery ](https://www.food4rhino.com/app/nursery)draws upon slowrobotics and toxiclibs libraries in a C\# scripted DLA component, using a KD Tree to solve the 'nearest neighbour problem'. Shaknarovich explains how KD Trees work: 
 
 > Given a set of n points in a d-dimensional space, the kd-tree is constructed recursively as follows. First, one finds a median of the values of the ith coordinates of the points \(initially, i = 1\). That is, a value M is computed, so that at least 50% of the points have their ith coordinate greater-or-equal to M, while at least 50% of the points have their ith coordinate smaller than or equal to M. The value of x is stored, and the set P is partitioned into PL and PR , where PL contains only the points with their ith coordinate smaller than or equal to M, and \|PR \| = \|PL \|±1. The process is then repeated recursively on both PL and PR , with i replaced by i + 1 \(or 1, if i = d\). When the set of points at a node has size 1, the recursion stops.
 
