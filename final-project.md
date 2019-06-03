@@ -65,9 +65,13 @@ rocella montagnei \(RM\) can be found in vietnam, however in my limited experien
 
 ### tyrian purple: history of lichen as a dyestuff
 
+> The phoenicians said “gold is where you find it.” They were among the first great princes of Serendip, that is to say, commercial technologists who trespassed successfully into the principality of Serendipity and guarded their secrets well.
+>
+> Jensen, 1963, p118
+
 dyeing with lichen is an ancient art. 
 
-the phoenician purples, or what is now widely referred to as tyrian purple, was a highly sought after colour [\(\#66023c\)](https://www.colorhexa.com/66023c) initially obtained from the mucus of the predatory sea snail murex. According to Jacoby \(2004\) twelve thousand snails \(would\) ... yield no more than 1.4 g of pure dye, enough to colour only the trim of a single garment. since 'purple proclaimed rank' \(Casselman, 2001\) the price was inflated and the resource exploited until it was almost wiped out. the extreme value and over-exploitation of this resource led to the development of lichen as a dyestuff. 
+the phoenician purples, or what is now widely referred to as tyrian purple, was a highly sought after colour [\(\#66023c\)](https://www.colorhexa.com/66023c) initially obtained from the mucus of the predatory sea snail murex. According to Jacoby \(2004\) twelve thousand snails \(would\) ... yield no more than 1.4 g of pure dye, enough to colour only the trim of a single garment. since 'purple proclaimed rank' \(Casselman, 2001\) the price was inflated and the resource exploited until it was almost wiped out. the extremely high price and over-exploitation of this resource led to the development of lichen as a dyestuff. 
 
 lichens have been used to dye textiles as far back as 2000BC. lichen dyes are mentioned in the bible \(ezekiel 27:7\).
 
@@ -75,7 +79,7 @@ lichens have been used to dye textiles as far back as 2000BC. lichen dyes are me
 
 source: [lichen media](https://en.wikipedia.org/wiki/Lichen#/media/File:Der_Heilige_Dominikus_am_Nordturm_des_Regensburger_Doms.jpg)
 
-casselman \(2001\) explains that the murex dyehouses were notoriously noisome, though the olfactory assult was rivalled by early industrial lichen dye houses in which lichen fermented in contaminated urine. since the colour obtained from these processes was so beautiful, the stench was tolerated until william henry perkin stumbled upon mauveine in 1856. mauveine precipitated the industrial manufacture of synthetic dyes, replacing tyrian purple and bringing royal colour to the masses. 
+casselman \(2001\) explains that the murex dyehouses were notoriously noisome, though the olfactory assault was rivalled by early industrial lichen dye houses in which lichen fermented in contaminated urine. since the colour obtained from these processes was so beautiful, the stench was tolerated until william henry perkins stumbled upon mauveine in 1856. mauveine precipitated the industrial manufacture of synthetic dyes, replacing tyrian purple and bringing royal colour to the masses. 
 
 ![cuneiform tablet \(600BC-500BC\) with instructions for dyeing wool](.gitbook/assets/cuneiform-tablet-dyeing.jpg)
 
@@ -368,10 +372,6 @@ flocking and random point generation in relation to a body
 
 #### CITATIONS
 
-
-
-
-
 Åkermark, Björn & Falkehag, Ingemar & Smith, Bengt & A. Sim, G & Theander, Olof. 1962. Studies on the Chemistry of Lichens. 16. The Absolute Configuration of Roccellic Acid. Acta Chemica Scandinavica - ACTA CHEM SCAND. 16. 599-606. 10.3891/acta.chem.scand.16-0599
 
 Allen, A. 2014. Getting Started with Lichen Dyes in Fungi, Volume 7:2-3, p. 66-69
@@ -383,6 +383,8 @@ Casselman, K. 2001. Lichen Dyes: The New Source Book. Dover Publications.
 Desbenoit B, Galin E and Akkouche S. 2004. Simulating and Modelling lichen growth. LIRIS Research Report in LIRIS FRE 2672, Université Claude Bernard Lyon 1, Lyon, France
 
 Jacoby, D. 2004. "Silk economics and cross-cultural artistic interaction: Byzantium, the Muslim world, and the Christian west". Dumbarton Oaks Papers. **58**: 210, 197–240
+
+Jensen. 1963. Royal Purple of Tyre in the Journal of Near Eastern Studies. 
 
 Mishraa, T, Shuklaa, S et al \[eds\]. 2017. 'Isolation and identification of cytotoxic compounds from a fruticose lichen Roccella montagnei' in Revista Brasileira de Farmacognosia 27 p.724–728 [http://www.scielo.br/pdf/rbfar/v27n6/0102-695X-rbfar-27-06-0724.pdf](http://www.scielo.br/pdf/rbfar/v27n6/0102-695X-rbfar-27-06-0724.pdf)
 
