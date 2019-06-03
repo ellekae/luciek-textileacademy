@@ -189,7 +189,9 @@ the method for coating hair with silver
 
 ![preparing to metallise hair](.gitbook/assets/img_0764.jpg)
 
-the ammonia fumes burnt my eyes. i don't dare continue. 
+the ammonia fumes burnt my eyes, the fake hair research pushed me over the edge. a project for a later stage. 
+
+this process sans hair, faux or otherwise, would be useful in creating a DIY conductive thread. this is something i need to explore further given the limited conductive thread options available in hcmc currently.  
 
 ### THANK YOU
 
