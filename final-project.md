@@ -331,7 +331,7 @@ key outcomes
 
 main issues
 
-* meshes must be closed. this process cannot be automated, it must be done manually in rhino. \(\* one of many instances in which we clearly find the hand in digital\)
+* meshes must be closed. this process cannot be automated, it has to be done manually in rhino
 
 ![naked edges on spiral dress mesh](.gitbook/assets/annotation-2019-05-30-190216%20%282%29.png)
 
@@ -339,13 +339,29 @@ main issues
 
 i followed [long nguyen](https://www.youtube.com/channel/UCUJgViAduAoRsf89ZtyF8dQ)'s C\# scripting workshop \(available [here](https://www.youtube.com/watch?v=pFCrIzENDn8)\) so that i could look inside nursery components without getting the [howling fantods](https://blog.oxforddictionaries.com/2014/07/14/language-of-david-foster-wallace/). C\# is much more difficult than python. 
 
-side note: long nguyen's siêu cute ghostly component, and also how i feel about C\# and trying to apply agent based modeling to a fashion context most of the time. 
+side note: long nguyen's siêu cute ghostly component, and also how i feel about C\# and trying to apply agent based modeling to a fashion design environment most of the time. 
 
 {% embed url="https://gph.is/g/Zl688Qg" %}
 
 the 2d DLA example in the nursery documentation is the most elegant DLA model i have come across anywhere. i have spent weeks trying to understand slowrobotics and toxiclibs. agents and behaviours. KD trees. C\#. pointAt function. springs. 
 
-![](.gitbook/assets/annotation-2019-05-30-202340.png)
+![how to replace a box with a mesh?](.gitbook/assets/annotation-2019-05-30-202340.png)
+
+nursery's C\# agent based model uses data types such as agents, behaviours, field 
+
+{% hint style="info" %}
+IGH\_Goo and IGH\_GeometricGoo for C\# type conversion
+{% endhint %}
+
+IGH\_Goo is a wrapper class that allows boolean values to be converted to other data types such as integers or strings. IGH\_GeometricGoo allows for the conversion to geometric types of data and transformations. there are 3 methods in GH:
+
+```text
+CastFrom
+CastTo
+ScriptVariable
+```
+
+
 
 * translate an agent list \(as per output from DLA growth models\) to points/polylines
 * flatten 3d models to 2d surfaces \(where 2d surfaces are unbroken panels, corresponding to the reality of a flat textile to a very high degree of accuracy\*\) 
