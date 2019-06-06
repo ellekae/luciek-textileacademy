@@ -13,7 +13,8 @@
 * [implications and applications](breathing-blanket-final-project.md)
 * [soft robotics](soft-robotics.md)
 * [skin electronics](skin-electronics.md)
-* [final project](final-project.md)
+* [final project development](final-project.md)
+* [epiphyte - final project](epiphyte-final-project.md)
 * [PM TA final](pm-ta-final.md)
 * [reu jacket](reu-jacket.md)
 

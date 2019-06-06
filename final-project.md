@@ -1,26 +1,4 @@
----
-description: EPIPHYTE
----
-
-# final project
-
->
-
-## epiphyte as design model
-
-this project looks to lichen as a model for alternative design practices. the project takes shape through the creation of a set of embellished modular textile panels. prototyping of the panels allows for the emergence of the following material and technical characteristics:
-
-* **grow on a surface**. the panels take form in relation to both an environment and a set of internal conditions or rules a. draped on a mannequin b. placed as a mesh on an avatar c. instigated as a model on a mesh or nurbs surface. assume form dependent on the form of a substrate. boundaries and surfaces are invested with significance. 
-* **grow without depleting**. consisting of salvaged and harvested materials. a response to what isn't immediately apparent with what is already existing.
-* **grow idiosycratically**. each design iteration is a single instantiation according to unique conditions
-* **grow in intricacy**. intricacy a function of time lapse, both synthesized and actual
-* **grow through hybridisation**. synthesises hybridised time spans and modes of spatial organisation  
-
-
-
-> _This is how, even in an empty region of space, a particle emerges out of Nothing, “borrowing” its energy from the future and paying for it \(with its annihilation\) before the system notices this borrowing. The whole network can function like this, in a rhythm of borrowing and annihilation, one borrowing from the other, displacing the debt onto the other, postponing the payment of the debt. What this presupposes is a minimal gap between things in their immediate brute reality and the registration of this reality in some medium._
->
-> Zizek, 2009
+# final project development
 
 ## lichen: research supporting concept elaboration
 
@@ -124,7 +102,7 @@ add 1 part fermentation liquid to 4 parts water, simmer with fibre at 74 to 82 d
 
 
 
-## modeling development
+## 3d modeling development
 
 ### modeling lichen
 
@@ -264,9 +242,9 @@ simulating folds on a surface extracted from a digital mannequin, then unrolling
 
 ![](.gitbook/assets/annotation-2019-05-25-045540.png)
 
-### differential draping
+### form finding - differential draping development
 
-for this project i am drawing upon a practice of zero waste draping around the basic square or rectangle, following the work of [elena ryleeva](https://www.ewstfashionlab.com/). this practice takes an uncut piece of woven textile, often using the strategy of adopting found dimensions 'as is' where the size of an offcut or the selvedge are incorporated as a creative provocation and design parameter. various cuts and folds are then enacted on this two dimensional plane to give it three dimensional shape. a garment takes shape through differential subdivisions of any given substrate. 
+for this project i am drawing upon a practice of zero waste draping around the basic square or rectangle, following the work of [elena ryleeva](https://www.ewstfashionlab.com/). this practice takes an uncut piece of woven textile, often using the strategy of adopting found dimensions 'as is' where the size of an offcut or the selvedge are incorporated as a creative provocation and design parameter. various cuts and folds are then enacted on this two dimensional plane to give it three dimensional shape. a garment takes shape through differential subdivisions. 
 
 ![](.gitbook/assets/img_2101-1.jpeg)
 
@@ -276,11 +254,21 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 ![flat pattern from draped, rectangular panels. zero waste.](.gitbook/assets/tafinal_zwd_reu.jpg)
 
-![flat pattern brought into 3d design software](.gitbook/assets/screen-shot-2019-04-15-at-21.19.34.png)
+![](.gitbook/assets/screen-shot-2019-06-05-at-22.25.25.png)
 
 ![draped garment and avatar \(x-ray, side view\)](.gitbook/assets/screen-shot-2019-04-19-at-09.44.00.png)
 
-### zwd in clo
+## simulated zero waste draping
+
+simulated draping in a digital design environment is its own discrete field. i would say that it is an incipient digital craft that must be cultivated separately to real-world draping skills. getting simulated textile onto an avatar, contending with arms and fingers, placing and manipulating "pins", rhythmically freezing and re-simulatating garment drape are some of the idiosyncracies that aid in finding creative flow in the surreal environment of digital draping. 
+
+### pleats
+
+pleats need an internal plane, an origin plane and a target plane. these are assigned radian values - 360 degrees for internal, 0 for origin and 180 for target. pleats are traced from internal polylines then values are manually assigned accordingly. the pleats are then closed with free sewing beginning form the internal seam to the origin, from the internal seam to the target, then from origin to target. i formed pleats in this way prior to draping a panel to the avatar. 
+
+an alternative approach i used was to create creases using the above method, drape on the avatar, position a tape in 3d, then use this tape/panel to sew the pleats closed to give stability. 
+
+as i found with knotting digital fabric, it is far easier to conduct surface manipulations before drape simulation has been activated than during or after.  
 
 ![](.gitbook/assets/screen-shot-2019-05-27-at-18.47.23.png)
 
@@ -300,7 +288,7 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 ![](.gitbook/assets/screen-shot-2019-05-28-at-14.41.08.png)
 
-![](.gitbook/assets/screen-shot-2019-05-28-at-15.06.47.png)
+knotting digital fabric is about a million times easier than it looks. increasing collision density helps - a normal value is 2.5 - this can be doubled. another strategy is choose a stiffer fabric and or to stiffen the fabric. this can be done while knotting the fabric, then values can be restored to previous state once the knot has been completed. i found, however, that this can result in the knot slipping open again. 
 
 {% embed url="https://vimeo.com/338877607" %}
 
@@ -324,10 +312,47 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 {% embed url="https://vimeo.com/339373243" %}
 
-### 
+### outcomes of this modeling phase
 
-### synthesis: simulating growth on a mesh
+* a suite of digital, draped garments as .obj files 
+* potential surface design leads to follow \(flocking, DLA, shortest walk branching\)
 
+## synthesis: simulating growth on a mesh
+
+the final phase in 3d development before prototyping and fabrication can begin. 
+
+modeling in this phase will need to consider the successful resolution of a number of persistent issues, moving towards key outcomes
+
+key outcomes
+
+
+
+
+
+main issues
+
+* meshes must be closed. this process cannot be automated, it must be done manually in rhino. \(\* one of many instances in which we clearly find the hand in digital\)
+
+![naked edges on spiral dress mesh](.gitbook/assets/annotation-2019-05-30-190216%20%282%29.png)
+
+* bringing complex meshes into growth model definitions as surfaces on which to propogate DLA simulations using nursery in grasshopper. this will involve working around the existing c\# script. 
+
+i followed [long nguyen](https://www.youtube.com/channel/UCUJgViAduAoRsf89ZtyF8dQ)'s C\# scripting workshop \(available [here](https://www.youtube.com/watch?v=pFCrIzENDn8)\) so that i could look inside nursery components without getting the [howling fantods](https://blog.oxforddictionaries.com/2014/07/14/language-of-david-foster-wallace/). C\# is much more difficult than python. 
+
+side note: long nguyen's siêu cute ghostly component, and also how i feel about C\# and trying to apply agent based modeling to a fashion context most of the time. 
+
+{% embed url="https://gph.is/g/Zl688Qg" %}
+
+the 2d DLA example in the nursery documentation is the most elegant DLA model i have come across anywhere. i have spent weeks trying to understand slowrobotics and toxiclibs. agents and behaviours. KD trees. C\#. pointAt function. springs. 
+
+![](.gitbook/assets/annotation-2019-05-30-202340.png)
+
+* translate an agent list \(as per output from DLA growth models\) to points/polylines
+* flatten 3d models to 2d surfaces \(where 2d surfaces are unbroken panels, corresponding to the reality of a flat textile to a very high degree of accuracy\*\) 
+
+  \(\*currently to convert 3d form to 2d flat surface the only options are to smash, break apart or split the surface into smaller components. this is not an efficient or realistic way to work with 3d textile models, moreover has a 7% error margin whereby points will shift significantly from 3d shape to 2d panel\)
+
+* 
 flocking and random point generation in relation to a body 
 
 ![](.gitbook/assets/annotation-2019-05-17-091247.png)
@@ -340,9 +365,23 @@ flocking and random point generation in relation to a body
 
 ![finding naked edges](.gitbook/assets/annotation-2019-05-30-190216%20%281%29.png)
 
-![](.gitbook/assets/annotation-2019-05-30-202340.png)
 
 
+## prototype development
+
+### concept and key elements
+
+the final project will consist of a capsule collection of **upcycled**, **zero waste** garments. the **surface design** of each piece will be **synthesised** **with garment construction**, meaning that seams and cuts into each garment panel will be delineated \(thus fray-checked\) using **digital embroidery** and will be stitched out at the same time as the 'decorative' elements of each piece. the remaining garment construction and embellishment assembly will be completed by hand using a packing needle, silk tapes and embroidery with dyed silk thread. 
+
+digital embroidery will be created using **silk thread**. lichen dyes, like the erythrin in rocella montagnei, is best taken up by protein fibres. furthermore, being a substantive dye means that the quality of the silk can be maintained during the dyeing process since mordants are not required. placing silk thread into industrial embroidery machines goes against standard local practice -- nylon and polyester are used exclusively. 
+
+### thread
+
+thread is measured by weight. the standard thread weight for digital embroidery is 40wt. 40wt means that 1kg of thread will be 40kms in length. therefore a 30wt thread is heavier since a  
+
+
+
+most digitised designs are for 40wt thread. if a 30wt thread must be used the stitch density must be increased by around 1/3, alternatively the scale of the design can be increased by up to 125%, or the stitch length can be increased. thread weight dictates needle size -- the needle should be 40% larger than the diameter of the thread. so, for a 40wt thread we would use a \#90/14 needle, for a 30wt thread we would use 100/10. 
 
 
 
