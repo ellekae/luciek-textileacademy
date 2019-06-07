@@ -156,7 +156,15 @@ Desbenoit, Galin and Akkouche outline an approach to simulating lichen growth ba
 
 ![DLA modelling. source: Desbenoit, Galin and Akkouche, 2004, p. 7](.gitbook/assets/screen-shot-2019-05-09-at-21.02.24.png)
 
-Inspired by the work of Andy Lomas, Karsten Schmidt's  [simutilis](http://toxiclibs.org/2010/02/new-package-simutils/), found on his toxiclibs open source library, can be used to model DLA using java. 
+Here is Daniel Schiffman's explanation of DLA, using java 
+
+{% embed url="https://www.youtube.com/watch?v=Cl\_Gjj80gPE" %}
+
+Inspired by the work of Andy Lomas, Karsten Schmidt's  [simutilis](http://toxiclibs.org/2010/02/new-package-simutils/), found on his [toxiclibs](http://toxiclibs.org/) open source library, can be used to model DLA, also using java. [toxiclibs](https://github.com/postspectacular/toxiclibs) can be found on github.
+
+{% embed url="https://vimeo.com/22772055" %}
+
+
 
 [woojae sung](https://woojsung.com/)'s DLA system workshop notes explain DLA clearly in 8 finite steps. this basic system forms the basis of many varied approaches to modeling organic and emergent phenomena.  
 
@@ -180,7 +188,7 @@ Inspired by the work of Andy Lomas, Karsten Schmidt's  [simutilis](http://toxicl
 
 ![](.gitbook/assets/annotation-2019-05-26-214732.png)
 
-[Gwyllim Jahn](https://www.rmit.edu.au/contact/staff-contacts/academic-staff/j/jahn-mr-gwyllim)'s [nursery ](https://www.food4rhino.com/app/nursery)draws upon slowrobotics and toxiclibs libraries in a C\# scripted DLA component, using a KD Tree to solve the 'nearest neighbour problem'. Shaknarovich explains how KD Trees work: 
+[Gwyllim Jahn](https://www.rmit.edu.au/contact/staff-contacts/academic-staff/j/jahn-mr-gwyllim)'s [nursery ](https://www.food4rhino.com/app/nursery)draws upon slowrobotics and toxiclibs libraries in a C\# scripted DLA component. Similar to simultils in its use of pointOctree in java to solve the issues of linear processing of a large data set, nursery makes it possible to use a KD Tree to solve the 'nearest neighbour problem'. Shaknarovich explains how KD Trees work: 
 
 > Given a set of n points in a d-dimensional space, the kd-tree is constructed recursively as follows. First, one finds a median of the values of the ith coordinates of the points \(initially, i = 1\). That is, a value M is computed, so that at least 50% of the points have their ith coordinate greater-or-equal to M, while at least 50% of the points have their ith coordinate smaller than or equal to M. The value of x is stored, and the set P is partitioned into PL and PR , where PL contains only the points with their ith coordinate smaller than or equal to M, and \|PR \| = \|PL \|±1. The process is then repeated recursively on both PL and PR , with i replaced by i + 1 \(or 1, if i = d\). When the set of points at a node has size 1, the recursion stops.
 
@@ -314,40 +322,59 @@ knotting digital fabric is about a million times easier than it looks. increasin
 
 ### outcomes of this modeling phase
 
-* a suite of digital, draped garments as .obj files 
+* a range of digital, draped garments as .obj files 
 * potential surface design leads to follow \(flocking, DLA, shortest walk branching\)
+* rectangular textile panels with fixed dimensions and drape information on which to propagate growth
+
+### reflections
+
+* modeling zero waste draping in grasshopper is a long term project requiring research into physics modeling based on actual textile weights and drape properties, setting up a parametric mannequin, exploring means of approximating pleats, tucks, folds, surface disruptions such as buttonholes, embroidery etc. outside the scope of this project but worth pursuing in future. it is currently not possible to "do everything" in one single application. 
+* zero waste draping is its own creative field, worth exploring for its own sake. it could be explored as a system within the above-mentioned set-up. 
+* DLA models are most suited to modeling lichen growth on a surface
 
 ## synthesis: simulating growth on a mesh
 
 the final phase in 3d development before prototyping and fabrication can begin. 
 
-modeling in this phase will need to consider the successful resolution of a number of persistent issues, moving towards key outcomes
+the focus is on Agent Based Modeling \(ABM\) as a tool to simulate the propogation of lichen across a complex surface in 3d. modeling in this phase will need to consider the successful resolution of a number of persistent issues, moving towards key outcomes
 
-key outcomes
+#### **proposed key outcomes**
 
+* model runs over and from a surface
+* model is exported as points and polylines
+* model is baked and exported
+* select elements of the model can be digitised for digital embroidery and can be 3d printed
+* model is set up so that anyone can create a custom, parametric surface design on a garment based on the unique inputs of a user. 
 
+#### **main obstacles to the realisation of these outcomes**
 
-
-
-main issues
-
-* meshes must be closed. this process cannot be automated, it has to be done manually in rhino
+* **meshes must be closed**. this process cannot be automated, it has to be done manually in rhino
 
 ![naked edges on spiral dress mesh](.gitbook/assets/annotation-2019-05-30-190216%20%282%29.png)
 
-* bringing complex meshes into growth model definitions as surfaces on which to propogate DLA simulations using nursery in grasshopper. this will involve working around the existing c\# script. 
+* bringing **custom 3d surfaces** into **ABM environments**
 
-i followed [long nguyen](https://www.youtube.com/channel/UCUJgViAduAoRsf89ZtyF8dQ)'s C\# scripting workshop \(available [here](https://www.youtube.com/watch?v=pFCrIzENDn8)\) so that i could look inside nursery components without getting the [howling fantods](https://blog.oxforddictionaries.com/2014/07/14/language-of-david-foster-wallace/). C\# is much more difficult than python. 
+i have continued investigating ways of bringing complex meshes into growth model definitions as surfaces on which to propogate DLA simulations.
+
+i began using nursery in grasshopper. creating a model that runs over a custom mesh will most likely involve working around the existing c\# script, potentially requiring writing new components. 
+
+i followed [long nguyen](https://www.youtube.com/channel/UCUJgViAduAoRsf89ZtyF8dQ)'s C\# scripting workshop \(available [here](https://www.youtube.com/watch?v=pFCrIzENDn8)\) so that i could look inside nursery components without getting the [howling fantods](https://blog.oxforddictionaries.com/2014/07/14/language-of-david-foster-wallace/). 
 
 side note: long nguyen's siêu cute ghostly component, and also how i feel about C\# and trying to apply agent based modeling to a fashion design environment most of the time. 
 
 {% embed url="https://gph.is/g/Zl688Qg" %}
 
-the 2d DLA example in the nursery documentation is the most elegant DLA model i have come across anywhere. i have spent weeks trying to understand slowrobotics and toxiclibs. agents and behaviours. KD trees. C\#. pointAt function. springs. 
+the 2d DLA example in the nursery documentation is the most elegant DLA model i have come across anywhere thus i have persisted with attempts to work with it. i have spent weeks trying to understand slowrobotics and toxiclibs. agents and behaviours. KD trees. C\#. pointAt function. springs. 
 
 ![how to replace a box with a mesh?](.gitbook/assets/annotation-2019-05-30-202340.png)
 
-nursery's C\# agent based model uses data types such as agents, behaviours, field 
+nursery's C\# agent based model uses non-geometry based data types such as agents and behaviours, all of which are contextualised in fields or on planes. 
+
+* translate an agent list \(as per output from DLA growth models\) to points/polylines
+
+a finished ABM simulation in nursery will create a list of agents. agents are a data type specific to the libraries nursery draws from. it is possible to deconstruct the agent list, then deconstruct the agent to arrive at plane3d coordinates. having deconstructed the agent list, deconstructed the agent, the Plane3d co-ordinates are still "wrapped in Goo". can't bake goo. so, what is Goo?
+
+a key aspect in the resolution of import and export issues when working towards digital fabrication of ABM models is that of type conversion. 
 
 {% hint style="info" %}
 IGH\_Goo and IGH\_GeometricGoo for C\# type conversion
@@ -363,10 +390,36 @@ ScriptVariable
 
 
 
-* translate an agent list \(as per output from DLA growth models\) to points/polylines
-* flatten 3d models to 2d surfaces \(where 2d surfaces are unbroken panels, corresponding to the reality of a flat textile to a very high degree of accuracy\*\) 
+I have started looking into how other programming languages have approached the issue of converting types with a view to creating geometric structures from ABM. 
 
-  \(\*currently to convert 3d form to 2d flat surface the only options are to smash, break apart or split the surface into smaller components. this is not an efficient or realistic way to work with 3d textile models, moreover has a 7% error margin whereby points will shift significantly from 3d shape to 2d panel\)
+Karsten Schmidt uses a "DLAEventListener"
+
+```text
+
+public interface DLAEventListener 
+{
+void dlaAllSegmentsProcessed(DLA dla);
+void dlaNewParticleAdded(DLA dla, Vec3D p);
+void dlaSegmentSwitched(DLA dla, DLASegment s);
+}
+
+```
+
+According to Schmidt, the DLAEventListener creates conditions for _"exploring the actual growth process, to customize it and use it as a driver for creating new structures in which the actual particles are only present indirectly/secondary_". 
+
+Alex Fischer's [Quelea ](http://quelea.alexjfischer.com/)is another AMB plug in for grasshopper. Quelea tutorials can be found on Fischer's Quelea [playlist](https://www.youtube.com/playlist?list=PLHzlR9sko50a-xbEPC1af32MNSw9T8dsT). Fischer explains ABM clearly and makes using his already user-friendly modeling tool even more approachable. 
+
+
+
+* flatten 3d models to 2d surfaces \(where 2d surfaces are unbroken panels, corresponding to the reality of a flat textile to a high degree of accuracy\*\) 
+
+  \(\*currently to convert 3d form to 2d flat surface the only options are to unroll, smash or split the surface into smaller components. this is not an efficient or realistic way to work with 3d textile models, moreover has a 7% error margin whereby points will shift significantly from 3d shape to 2d panel\)
+
+export from rhino to illustrator
+
+{% embed url="https://wikis.utexas.edu/display/SOAdigitech/Exporting+from+Rhino+to+.dwg%2C+.ai" %}
+
+
 
 * 
 flocking and random point generation in relation to a body 
@@ -393,9 +446,7 @@ digital embroidery will be created using **silk thread**. lichen dyes, like the 
 
 ### thread
 
-thread is measured by weight. the standard thread weight for digital embroidery is 40wt. 40wt means that 1kg of thread will be 40kms in length. therefore a 30wt thread is heavier since a  
-
-
+thread is measured by weight. the standard thread weight for digital embroidery is 40wt. 40wt means that 1kg of thread will be 40kms in length. therefore a 30wt thread is heavier, though its name may deceptively suggest otherwise.
 
 most digitised designs are for 40wt thread. if a 30wt thread must be used the stitch density must be increased by around 1/3, alternatively the scale of the design can be increased by up to 125%, or the stitch length can be increased. thread weight dictates needle size -- the needle should be 40% larger than the diameter of the thread. so, for a 40wt thread we would use a \#90/14 needle, for a 30wt thread we would use 100/10. 
 
