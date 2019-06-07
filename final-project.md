@@ -388,6 +388,22 @@ CastTo
 ScriptVariable
 ```
 
+IGH\_Goo [interface](https://developer.rhino3d.com/wip/api/grasshopper/html/T_Grasshopper_Kernel_Types_IGH_Goo.htm)
+
+IGH\_GeometricGoo [interface](https://developer.rhino3d.com/wip/api/grasshopper/html/T_Grasshopper_Kernel_Types_IGH_GeometricGoo.htm)
+
+converting IGH\_Goo to Geometry is covered on the forum [here](https://discourse.mcneel.com/t/convert-igh-goo-to-geometry/67631/5)
+
+> If it’s a C\# script, then you’d best stay away from goo. The script components were designed to hide those wrapper classes from the developer.
+>
+> Outputting a list of meshes from a script component should be as easy as assigning any `IEnumerable<Rhino.Geometry.Mesh>` to the output variable.
+
+again [here](https://www.grasshopper3d.com/forum/topics/igh-geometricgoo-cast) where David Rutten mentions that - 
+
+> if you ask for IGH\_Goo derived types then you get the actual data which is in the input. This data may be shared with any number of other parameters so you have to make a copy of it yourself before -say- transforming it.
+>
+> It is almost always better to ask directly for the type you're interested in and leave the IGH\_Goo types to Grasshopper. There are however rare occasions when you do need the real data, in which case you have to be very careful about it.
+
 
 
 I have started looking into how other programming languages have approached the issue of converting types with a view to creating geometric structures from ABM. 
