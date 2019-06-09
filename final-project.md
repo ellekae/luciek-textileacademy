@@ -330,20 +330,20 @@ knotting digital fabric is about a million times easier than it looks. increasin
 
 * modeling zero waste draping in grasshopper is a long term project requiring research into physics modeling based on actual textile weights and drape properties, setting up a parametric mannequin, exploring means of approximating pleats, tucks, folds, surface disruptions such as buttonholes, embroidery etc. outside the scope of this project but worth pursuing in future. it is currently not possible to "do everything" in one single application. 
 * zero waste draping is its own creative field, worth exploring for its own sake. it could be explored as a system within the above-mentioned set-up. 
-* DLA models are most suited to modeling lichen growth on a surface
+* DLA models are highly suited to modeling lichen growth on a surface
 
-## synthesis: simulating growth on a mesh
+## synthesis: simulating growth on surfaces
 
 the final phase in 3d development before prototyping and fabrication can begin. 
 
-the focus is on Agent Based Modeling \(ABM\) as a tool to simulate the propogation of lichen across a complex surface in 3d. modeling in this phase will need to consider the successful resolution of a number of persistent issues, moving towards key outcomes
+the focus is on Agent Based Modeling \(ABM\) as a tool to simulate the propogation of lichen across a surface in 3d. modeling in this phase will need to consider the successful resolution of a number of persistent issues, moving towards key outcomes
 
 #### **proposed key outcomes**
 
-* model runs over and from a surface
-* model is exported as points and polylines
+* model runs over and/or emanates from a surface
+* model is available as points or lines with actual 3d co-ordinates
 * model is baked and exported
-* select elements of the model can be digitised for digital embroidery and can be 3d printed
+* select elements of the model can be digitised for digital embroidery and can likewise be prepared for 3d printing
 * model is set up so that anyone can create a custom, parametric surface design on a garment based on the unique inputs of a user. 
 
 #### **main obstacles to the realisation of these outcomes**
@@ -431,6 +431,10 @@ more goo but with [ironpython](https://discourse.mcneel.com/t/custom-type-can-it
 
 
 Alex Fischer's [Quelea ](http://quelea.alexjfischer.com/)is another AMB plug in for grasshopper. Quelea tutorials can be found on Fischer's Quelea [playlist](https://www.youtube.com/playlist?list=PLHzlR9sko50a-xbEPC1af32MNSw9T8dsT). Fischer explains ABM clearly and makes using his already user-friendly modeling tool even more approachable. 
+
+an agent is an extension of a particle \(which is basically a point that moves\). anything you can do to a particle, you can also do to an agent, yet an agent has no perception of its environment. we can add rules to an agent, forces to a particle - for example separation rules work for agents, not particles. 
+
+
 
 Quelea converts agents \(quelea\) to point3d using the following [method](https://github.com/lxfschr/Quelea/blob/master/Quelea/Quelea/Quelea/Components/DebugDeconstructAgent.cs)
 
