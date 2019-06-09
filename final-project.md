@@ -356,17 +356,15 @@ the focus is on Agent Based Modeling \(ABM\) as a tool to simulate the propogati
 
 i have continued investigating ways of bringing complex meshes into growth model definitions as surfaces on which to propogate DLA simulations.
 
-i began using nursery in grasshopper. creating a model that runs over a custom mesh will most likely involve working around the existing c\# script, potentially requiring writing new components. 
-
-i followed [long nguyen](https://www.youtube.com/channel/UCUJgViAduAoRsf89ZtyF8dQ)'s C\# scripting workshop \(available [here](https://www.youtube.com/watch?v=pFCrIzENDn8)\) so that i could look inside nursery components without getting the [howling fantods](https://blog.oxforddictionaries.com/2014/07/14/language-of-david-foster-wallace/). 
+i followed [long nguyen](https://www.youtube.com/channel/UCUJgViAduAoRsf89ZtyF8dQ)'s C\# scripting workshop \(available [here](https://www.youtube.com/watch?v=pFCrIzENDn8)\) so that i could look inside GH components without getting the [howling fantods](https://blog.oxforddictionaries.com/2014/07/14/language-of-david-foster-wallace/), though looking into components led to the discovery of Goo - more on that later. 
 
 side note: long nguyen's siêu cute ghostly component, and also how i feel about C\# and trying to apply agent based modeling to a fashion design environment most of the time. 
 
 {% embed url="https://gph.is/g/Zl688Qg" %}
 
-the 2d DLA example in the nursery documentation is the most elegant DLA model i have come across anywhere thus i have persisted with attempts to work with it. i have spent weeks trying to understand slowrobotics and toxiclibs. agents and behaviours. KD trees. C\#. pointAt function. springs. 
+ABM is a complex field with a steep learning curve. trying to grasp what i need as fast as possible i have spent weeks reading slowrobotics and toxiclibs documentation. learning about the difference between agents and particles. what is a KD tree? how to adapt C\# components? what is the pointAt function? what are springs? etc etc. i have been able to gain a very modest functional grasp of ABM using nursery and quelea in grasshopper. 
 
-![how to replace a box with a mesh?](.gitbook/assets/annotation-2019-05-30-202340.png)
+i will begin with nursery, and the issues arising from an intention to generate geometries with ABM in nursery.
 
 nursery's C\# agent based model uses non-geometry based data types such as agents and behaviours, all of which are contextualised in fields or on planes. 
 
@@ -380,7 +378,7 @@ a key aspect in the resolution of import and export issues when working towards 
 IGH\_Goo and IGH\_GeometricGoo for C\# type conversion
 {% endhint %}
 
-IGH\_Goo is a wrapper class that allows boolean values to be converted to other data types such as integers or strings. IGH\_GeometricGoo allows for the conversion to geometric types of data and transformations. there are 3 methods in GH:
+IGH\_Goo is a wrapper class that allows boolean values to be converted to other data types such as integers or strings. Goo is introduced the rhino developer site [here](https://developer.rhino3d.com/guides/grasshopper/grasshopper-data-types/#related-topics). IGH\_GeometricGoo allows for the conversion to geometric types of data and transformations. there are 3 methods in GH:
 
 ```text
 CastFrom
@@ -395,8 +393,6 @@ IGH\_GeometricGoo [interface](https://developer.rhino3d.com/wip/api/grasshopper/
 converting IGH\_Goo to Geometry is covered on the forum [here](https://discourse.mcneel.com/t/convert-igh-goo-to-geometry/67631/5)
 
 > If it’s a C\# script, then you’d best stay away from goo. The script components were designed to hide those wrapper classes from the developer.
->
-> Outputting a list of meshes from a script component should be as easy as assigning any `IEnumerable<Rhino.Geometry.Mesh>` to the output variable.
 
 again [here](https://www.grasshopper3d.com/forum/topics/igh-geometricgoo-cast) where David Rutten mentions that - 
 
@@ -404,28 +400,45 @@ again [here](https://www.grasshopper3d.com/forum/topics/igh-geometricgoo-cast) w
 >
 > It is almost always better to ask directly for the type you're interested in and leave the IGH\_Goo types to Grasshopper. There are however rare occasions when you do need the real data, in which case you have to be very careful about it.
 
+again [here](https://www.grasshopper3d.com/forum/topics/persistent-data-igh-goo-initialization?commentId=2985220%3AComment%3A1332869) 
+
+> IGH\_Goo is an interface and interfaces are not objects that can be constructed. You'll have to get the actual type ID of the instances that implement IGH\_Goo, and then try to construct those specific types.
+
+and another point to be aware of, as mentioned [here](https://www.grasshopper3d.com/forum/topics/baking-1?commentId=2985220%3AComment%3A85971)
+
+> One important thing to realize is that GH\_Goo \(or IGH\_Goo, or IGH\_GeometricGoo\) do not provide the methods for baking. BakeGeometry\(\) is defined in the IGH\_BakeAwareData interface \(indeed, this interface defines nothing else\), but a lot of classes that implement IGH\_Goo also implement IGH\_BakeAwareData.
+>
+> Thus if you have an instance of IGH\_Goo or IGH\_GeometricGoo you still won't be able to bake it until you cast it to IGH\_BakeAwareData
+
+further points, [here](https://www.grasshopper3d.com/forum/topics/preview-geometry-from-custom-class?commentId=2985220%3AComment%3A567676) 
+
+> _IGH\_PreviewObject_ is for things like Components and Parameters, _IGH\_PreviewData_ is for _IGH\_Goo_ derived types. If you put a class that implements _IGH\_Goo_ and _IGH\_PreviewData_ inside a Generic parameter, it will display. If you make your own parameter that specifically handles your own goo, then that parameter will need to implement _IGH\_PreviewObject_.
+
+the type of data output by the deconstruct agent/agent list components is of type [Plane3D](https://bitbucket.org/gwyllo/slowrobotics/src/master/SlowRobotics/Core/Plane3D.cs)
+
+script variable method [here](https://developer.rhino3d.com/wip/api/grasshopper/html/M_Grasshopper_Kernel_Types_IGH_Goo_ScriptVariable.htm)
+
+point3d\(vec3d\) [here](https://developer.rhino3d.com/api/RhinoCommon/html/M_Rhino_Geometry_Point3d__ctor_3.htm)
 
 
-I have started looking into how other programming languages have approached the issue of converting types with a view to creating geometric structures from ABM. 
 
-Karsten Schmidt uses a "DLAEventListener"
+more goo but with [ironpython](https://discourse.mcneel.com/t/custom-type-can-it-be-done-from-gh-python/64653) 
 
-```text
+![death by Goo](.gitbook/assets/tumblr_nfcv7zpbyt1syrodeo1_500.gif)
 
-public interface DLAEventListener 
-{
-void dlaAllSegmentsProcessed(DLA dla);
-void dlaNewParticleAdded(DLA dla, Vec3D p);
-void dlaSegmentSwitched(DLA dla, DLASegment s);
-}
 
-```
 
-According to Schmidt, the DLAEventListener creates conditions for _"exploring the actual growth process, to customize it and use it as a driver for creating new structures in which the actual particles are only present indirectly/secondary_". 
+
 
 Alex Fischer's [Quelea ](http://quelea.alexjfischer.com/)is another AMB plug in for grasshopper. Quelea tutorials can be found on Fischer's Quelea [playlist](https://www.youtube.com/playlist?list=PLHzlR9sko50a-xbEPC1af32MNSw9T8dsT). Fischer explains ABM clearly and makes using his already user-friendly modeling tool even more approachable. 
 
+Quelea converts agents \(quelea\) to point3d using the following [method](https://github.com/lxfschr/Quelea/blob/master/Quelea/Quelea/Quelea/Components/DebugDeconstructAgent.cs)
 
+```text
+
+```
+
+giuilio piacentino's C\# GH tools [here](http://www.giuliopiacentino.com/grasshopper-tools/)
 
 * flatten 3d models to 2d surfaces \(where 2d surfaces are unbroken panels, corresponding to the reality of a flat textile to a high degree of accuracy\*\) 
 
