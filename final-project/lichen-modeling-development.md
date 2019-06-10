@@ -176,7 +176,15 @@ more goo but with [ironpython](https://discourse.mcneel.com/t/custom-type-can-it
 
 ![death by Goo](../.gitbook/assets/tumblr_nfcv7zpbyt1syrodeo1_500.gif)
 
+in the nursery API we can find that the simulate component calls Plane3D \(from softrobotics\) and Vec3D \(toxiclibs\) in order to construct the simulation
 
+it is possible to access Plane3D data and output as Point3d using a custom C\# component. this method is inadequate as creates an unsorted matrix of Point3D, from which the DLA model cannot be reconstructed as geometry. it does, however, show how simple it can be to bypass the Goo issue. you just call the types you need. slowrobotics and toxiclibs DLLs were added first. 
+
+```text
+Plane3D b_p = x as Plane3D
+A = b_p.ToPoint3d();
+
+```
 
 
 
