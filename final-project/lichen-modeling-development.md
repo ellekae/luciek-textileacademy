@@ -186,6 +186,8 @@ A = b_p.ToPoint3d();
 
 ```
 
+{% embed url="https://vimeo.com/341340163" %}
+
 
 
 Alex Fischer's [Quelea ](http://quelea.alexjfischer.com/)is another AMB plug in for grasshopper. Quelea tutorials can be found on Fischer's Quelea [playlist](https://www.youtube.com/playlist?list=PLHzlR9sko50a-xbEPC1af32MNSw9T8dsT). Fischer explains ABM clearly and makes using his already user-friendly modeling tool even more approachable. 
