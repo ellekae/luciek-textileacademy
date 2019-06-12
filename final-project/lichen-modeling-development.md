@@ -12,6 +12,41 @@ iterative coding to approach the apparently random aspect of natural growth. the
 
 ![using the above to draw via chasing](../.gitbook/assets/iterative-180419-05.JPG)
 
+random component in grasshopper \(sets &gt; sequence &gt; random\) is inadequate in generating authentically random values. pernecky suggests drawing on actual data or finding other means of inputting values to avoid sterility and/or repetition. boid library is one way of adding randomness doubly inbuilt \(more on this in flocking\), however randomness can also be created using a custom c\# component
+
+> Random number in most \(of\) \[sic\] programming language including C\# and C++ is not properly shuffled \(before using them\) \[sic\]. This means that you will get the same number over and over, which isn't really random. To avoid \(to draw\) \[sic\] the same number over and over, you need a seed. Typically, ticks in time is ok for this task. Remember that you will get the same number over and over if you are using the same seed every time. So try to use varying seed always. Time is a good source for seed because \(they\) \[sic\] change always.
+
+```text
+int GetRandomNumber(int min, int max)
+{
+    Random rand = new Random((int)DateTime.Now.Ticks);
+    return rand.Next(min, max);
+}
+
+```
+
+source: [https://stackoverflow.com/questions/2706500/how-do-i-generate-a-random-int-number](https://stackoverflow.com/questions/2706500/how-do-i-generate-a-random-int-number)
+
+a similar approach, scripted in grasshopper -  
+
+```text
+  private void RunScript(ref object A)
+  {
+
+    var rand = new Random();
+    var rtnlist = new List<double>();
+
+    for (int i = 0; i < 100000; i++)
+    {
+      rtnlist.Add(rand.Next(1000));
+    }
+    A = rtnlist;
+
+  }
+```
+
+source: [http://james-ramsden.com/create-a-list-of-random-numbers-in-c/](http://james-ramsden.com/create-a-list-of-random-numbers-in-c/)
+
 ### flocking
 
 based on the modelling work of hector sanchez [flocking with predation](http://modelingcommons.org/browse/one_model/3956#model_tabs_browse_files) and jan pernecky's work with anemone and boid library. these experiments begin to explore how flocking can be used as a textile design tool by causing interactions with digital objects and surfaces. anemone enables the programming of functions such as particles adhering to one another or sliding off a surface where randomness is, as pernecky puts it - "doubly inbuilt". these models can be used to allude to what would generally be considered 'natural' systems or processes and practically establish an emergent approach to design.
@@ -211,6 +246,10 @@ giuilio piacentino's C\# GH tools [here](http://www.giuliopiacentino.com/grassho
 export from rhino to illustrator
 
 {% embed url="https://wikis.utexas.edu/display/SOAdigitech/Exporting+from+Rhino+to+.dwg%2C+.ai" %}
+
+flatten mesh
+
+{% embed url="https://www.grasshopper3d.com/group/kangaroo/forum/topics/relaxation-to-flat-geometry" %}
 
 
 
