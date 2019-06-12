@@ -59,7 +59,17 @@ based on the modelling work of hector sanchez [flocking with predation](http://m
 
 {% embed url="https://vimeo.com/336021938" %}
 
-### 
+### iterative growth
+
+following pernecky
+
+![](../.gitbook/assets/annotation-2019-06-12-072104.png)
+
+![](../.gitbook/assets/iterativegrowth.gif)
+
+### dla growth
+
+![dla growth w/ anemone](../.gitbook/assets/annotation-2019-06-12-094104.png)
 
 ![nursery 2d DLA definition](../.gitbook/assets/annotation-2019-05-12-210844.png)
 
