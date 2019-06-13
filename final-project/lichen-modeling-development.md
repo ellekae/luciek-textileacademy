@@ -71,6 +71,8 @@ following pernecky
 
 ![dla growth w/ anemone](../.gitbook/assets/annotation-2019-06-12-094104.png)
 
+![simulating beads &apos;growth&apos; on a surface](../.gitbook/assets/iterative-dla-as-beads.gif)
+
 ![nursery 2d DLA definition](../.gitbook/assets/annotation-2019-05-12-210844.png)
 
 {% embed url="https://vimeo.com/336019674" caption="DLA model on a surface" %}
