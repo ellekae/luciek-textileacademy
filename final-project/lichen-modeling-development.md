@@ -149,9 +149,17 @@ the focus is on Agent Based Modeling \(ABM\) as a tool to simulate the propogati
 
 ![naked edges on spiral dress mesh](../.gitbook/assets/annotation-2019-05-30-190216%20%282%29.png)
 
+there is not much to say here other than that you wouldn't bother doing it unless you're in love with an idea ie. its a craft thing. 
+
 * bringing **custom 3d surfaces** into **ABM environments**
 
 i have continued investigating ways of bringing complex meshes into growth model definitions as surfaces on which to propogate DLA simulations.
+
+![mesh brought in as geo via random pop geo component](../.gitbook/assets/annotation-2019-06-19-215255.png)
+
+![projecting curves](../.gitbook/assets/annotation-2019-06-19-215453.png)
+
+![mesh with projected curves and initial point](../.gitbook/assets/annotation-2019-06-19-215839.png)
 
 i followed [long nguyen](https://www.youtube.com/channel/UCUJgViAduAoRsf89ZtyF8dQ)'s C\# scripting workshop \(available [here](https://www.youtube.com/watch?v=pFCrIzENDn8)\) so that i could look inside GH components without getting the [howling fantods](https://blog.oxforddictionaries.com/2014/07/14/language-of-david-foster-wallace/), though looking into components led to the discovery of Goo - more on that later. 
 
@@ -159,7 +167,7 @@ side note: long nguyen's siêu cute ghostly component, and also how i feel about
 
 {% embed url="https://gph.is/g/Zl688Qg" %}
 
-ABM is a complex field with a steep learning curve. trying to grasp what i need as fast as possible i have spent weeks reading slowrobotics and toxiclibs documentation. learning about the difference between agents and particles. what is a KD tree? how to adapt C\# components? what is the pointAt function? what are springs? etc etc. i have been able to gain a very modest functional grasp of ABM using nursery and quelea in grasshopper. 
+ABM is a complex field with a steep learning curve. trying to grasp what i need as fast as possible i have spent weeks reading slowrobotics and toxiclibs documentation. learning about the difference between agents and particles. what is a KD tree? how to adapt C\# components? what is the pointAt function? what are springs? etc etc. i have been able to gain a very modest functional grasp of ABM using nursery, anemone, boid library and quelea in grasshopper. 
 
 i will begin with nursery, and the issues arising from an intention to generate geometries with ABM in nursery.
 

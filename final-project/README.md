@@ -22,8 +22,6 @@ project development has been segmented into 7 phases representing distinct resea
 
 
 
-
-
 #### LINKS
 
 {% embed url="https://vimeo.com/82989945" %}
