@@ -28,6 +28,10 @@ pleats need an internal plane, an origin plane and a target plane. these are ass
 
 an alternative approach i used was to create creases using the above method, drape on the avatar, position a tape in 3d, then use this tape/panel to sew the pleats closed to give stability. 
 
+some background on what is happening when modeling pleats, c/o eric demaine
+
+[https://www.youtube.com/watch?v=\_OcgtpQvrVs](https://www.youtube.com/watch?v=_OcgtpQvrVs)
+
 as i found with knotting digital fabric, it is far easier to conduct surface manipulations before drape simulation has been activated than during or after.  
 
 ![](../.gitbook/assets/screen-shot-2019-05-27-at-18.47.23.png)

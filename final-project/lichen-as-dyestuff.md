@@ -30,7 +30,7 @@ as scarcity of murex drove prices impossibly high a lichen dye - orchil - was di
 
 a tradition similar to murex dyeing though less exploitative is continued to this day in Oaxaca \([The Color Purple–Purpura Shell Dyeing in Oaxaca](https://www.clothroads.com/the-color-purple-purpura-shell-dyeing-in-oaxaca/)\) with the purpura snail, the harvesting-dyeing process can be viewed [here](https://www.youtube.com/watch?v=PkSIiC5xkgs).  
 
-### tradition: dyeing with lichen
+## dyeing with lichen
 
 * lichens dye protein fibres
 * lichen dyes are substantive, they do not require a mordant. however alum, soda ash and others can be used to adjust the pH of the dyebath, affecting the final colour of the dyed fibre. 
@@ -49,15 +49,47 @@ lichen acids can be extracted for dyeing using ammonia fermentation, which is a 
 
 ![weighing dry RM](../.gitbook/assets/img_2414.jpeg)
 
+### lichen fermentation
+
+the fermentation of lichen to obtain dye is referred to as the ammonia fermentation method \(AFM\). 
+
+for AFM use a 1:10 ratio of ammonia to pure water, enough liquid to cover the lichen. adjust quantities according to lichen yield and fermentation jar size. do not cram the fermentation jar, this will adversely affect fermentation. 
+
 ![the beginning of ammonia fermentation](../.gitbook/assets/img_2420.jpeg)
 
 according to correct ammonia fermentation protocol, RM should be fermented for at least 3 weeks or until  its foam starts to break down quickly upon shaking. the fermentation process must be accompanied by daily aeration and vigorous shaking 3 times daily for the first 7 days and twice daily for the remainder of the fermentation period \(casselman, 2001\). the fermentation jars should be kept out of direct heat and sunlight. lichen fermentation jars can allegedly be maintained for years. 
 
 ![ammonia fermentation of rocella montagnei over the course of a month](../.gitbook/assets/afm-rm-tafinal%20%281%29.jpg)
 
-#### dyeing method
+### dyeing method
 
-add 1 part fermentation liquid to 4 parts water, simmer with fibre at 74 to 82 degrees celcius for one hour. 30g of dry fibre will require up to one cup of fermentation liquid to dye a vibrant hue \(allen, 2014\). the pH of the dye bath can be shifted to achieve the desired hue. a more acidic bath will increase the warmth of the final dye colour, neutralising the dye bath will make the colours cooler. 
+dyeing fabric based on AFM dye liquor involves repeated heating and dye bath adjustment. 
+
+i followed cassellman's \(2001\) protocol, as follows
+
+> 1 cup dye liquor
+>
+> 4 cups water
+>
+> 1/2 cup salt
+>
+> 28g dry \(scoured\) fabric \(protein fibres\)
+
+> heat to 80 degrees celcius, maintain for 10 minutes\*. reduce heat to 10 degrees, maintain for 1 hour. cool overnight. reheat to 70 degrees the following day, maintain for one hour. again, cool overnight. rinse thoroughly. lichen dyes are photosensitive, dry out of direct sunlight. 
+>
+> //\* do not boil as this will damage the dye and the silk.
+
+it appears most sources online are using variations on cassellman's method, as below:
+
+add 1 part fermentation liquid to 4 parts water, simmer with fibre at 74 to 82 degrees celcius for one hour. 30g of dry fibre will require up to one cup of fermentation liquid to dye a vibrant hue \(allen, 2014\).
+
+for a dye bath to yield intense colour it should have a pH of around 10. however a high pH and high temperature can damage yarn, so care should be taken. salt improves fastness. 
+
+the pH of the dye bath can be shifted to achieve the desired hue. a more acidic bath will increase the warmth of the final dye colour, neutralising the dye bath will make the colours cooler. chalk or limestone will increase the alkalinity of the bath, vinegar will increase the acidity. 
+
+lower pH \(3-7\) enhances reds, higher pH \(8-12\) shifts hues to blue/purple. a dye bath of a pH below 3 will result in 'brown out'. 
+
+it is the WOF that dilutes the bath intensity, cramming a dye bath will typically result in pastel shades. shifting the pH can be done post dyeing so as not to alter the pH of the dye bath liquid itself. 
 
 
 
