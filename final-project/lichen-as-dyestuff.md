@@ -61,7 +61,19 @@ according to correct ammonia fermentation protocol, RM should be fermented for a
 
 ![ammonia fermentation of rocella montagnei over the course of a month](../.gitbook/assets/afm-rm-tafinal%20%281%29.jpg)
 
+![fermented lichen after 2 months](../.gitbook/assets/img_3158.jpeg)
+
 ### dyeing method
+
+#### pre dyeing
+
+before dyeing it is important to scour the fibre. silks like tussah or raw silk can often contain sericin which impedes the absorption of dye, and while cotton is often scoured and mercerised prior to leaving the mill, oils and other impurities can remain on the fibre or textile surface. by scouring we can start with a clean slate and increase the likelihood that we will achieve nice dye results. 
+
+for 100g dry fibre use 1/2 tsp sodium carbonate. dissolve sodium carbonate in water, ensure fibres are completely covered. do not cram the pot. heat to 70 degrees, maintain heat for 1 hour. cotton can withstand higher temperatures but silk will be damaged if boiled, particularly for any extended time period.  rinse, neutralising with 1/2 tsp white vinegar. 
+
+![scoured fibres, ready to dye](../.gitbook/assets/img_3094.jpeg)
+
+#### dyeing
 
 dyeing fabric based on AFM dye liquor involves repeated heating and dye bath adjustment. 
 
@@ -85,9 +97,27 @@ add 1 part fermentation liquid to 4 parts water, simmer with fibre at 74 to 82 d
 
 for a dye bath to yield intense colour it should have a pH of around 10. however a high pH and high temperature can damage yarn, so care should be taken. salt improves fastness. 
 
+![dye bath ingredients: water, dye liquor and salt](../.gitbook/assets/img_3097.jpeg)
+
+![checking dye bath pH](../.gitbook/assets/img_3105.jpeg)
+
+![simmering fibres in dyebath at 70 degrees celcius](../.gitbook/assets/img_3107.jpeg)
+
 the pH of the dye bath can be shifted to achieve the desired hue. a more acidic bath will increase the warmth of the final dye colour, neutralising the dye bath will make the colours cooler. chalk or limestone will increase the alkalinity of the bath, vinegar will increase the acidity. 
 
 lower pH \(3-7\) enhances reds, higher pH \(8-12\) shifts hues to blue/purple. a dye bath of a pH below 3 will result in 'brown out'. 
+
+![simple pH shifting ingredients](../.gitbook/assets/img_3114.jpeg)
+
+![pH values of dyebath, and alkaline and acid adjustments](../.gitbook/assets/img_3116.jpeg)
+
+![pH shifting for 5 sample textile types](../.gitbook/assets/img_3133.jpeg)
+
+![shifting to pH 12 \(alkaline\) - tussah silk ](../.gitbook/assets/img_3137.jpeg)
+
+![ph 10 \(no pH shifting from dye bath\) - tussah silk ](../.gitbook/assets/img_3136.jpeg)
+
+![ph 5 \(acidic\) - tussah silk ](../.gitbook/assets/img_3135.jpeg)
 
 it is the WOF that dilutes the bath intensity, cramming a dye bath will typically result in pastel shades. shifting the pH can be done post dyeing so as not to alter the pH of the dye bath liquid itself. 
 
