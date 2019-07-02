@@ -6,9 +6,11 @@ the final project will consist of a capsule collection of **upcycled**, **zero w
 
 digital embroidery will be created using **silk thread**. lichen dyes, like the erythrin in rocella montagnei, is best taken up by protein fibres. furthermore, being a substantive dye means that the quality of the silk can be maintained during the dyeing process since mordants are not required. placing silk thread into industrial embroidery machines goes against standard local practice -- nylon and polyester are used exclusively. 
 
+![](../.gitbook/assets/annotation-2019-06-30-025308.png)
 
+![](../.gitbook/assets/considering.png)
 
-
+![](../.gitbook/assets/annotation-2019-06-29-012550.png)
 
 #### MATERIALS
 
