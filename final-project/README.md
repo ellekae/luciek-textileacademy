@@ -36,9 +36,9 @@ project development has been segmented into 7 phases representing distinct resea
 
 {% embed url="https://vimeo.com/282106863" %}
 
+{% embed url="http://www.karlsims.com/rd-exhibit.html" %}
 
-
-
+{% embed url="http://www.karlsims.com/rd.html" %}
 
 #### CITATIONS
 
