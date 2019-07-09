@@ -1,6 +1,17 @@
+---
+description: >-
+  drawing inspiration from the growth patterns of fruticose and crustose lichen
+  as support and form finding strategies towards the development of surface
+  design and embellishments for textiles
+---
+
 # lichen modeling development
 
-#### modeling randomness
+![](../.gitbook/assets/annotation-2019-07-08-080554.png)
+
+
+
+### modeling randomness
 
 iterative coding to approach the apparently random aspect of natural growth. these definitions were created following the work of jan pernecky and mateusz zwierzycki. the ideas expressed through pernecky and zwierzycki's design methods are used as a foundation for future research and experimentation into modeling lichen growth, in the hope of dodging what sumner refers to as the 'conspicuously clean'.  
 
@@ -105,7 +116,7 @@ following [agata migalska](http://parametric.support/about-us/)'s code to grasp 
 
 ![](../.gitbook/assets/annotation-2019-05-11-184758.png)
 
-#### l-systems
+### l-systems
 
 ![l-systems model](../.gitbook/assets/lk-190419-07.JPG)
 
