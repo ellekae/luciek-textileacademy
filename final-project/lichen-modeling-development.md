@@ -70,6 +70,14 @@ based on the modelling work of hector sanchez [flocking with predation](http://m
 
 {% embed url="https://vimeo.com/336021938" %}
 
+flocking and random point generation in relation to a mannequin 
+
+![](../.gitbook/assets/annotation-2019-05-17-091247.png)
+
+![](../.gitbook/assets/annotation-2019-05-17-085826.png)
+
+
+
 ### iterative growth
 
 following pernecky
@@ -115,6 +123,10 @@ following [agata migalska](http://parametric.support/about-us/)'s code to grasp 
 ![](../.gitbook/assets/annotation-2019-05-11-180905.png)
 
 ![](../.gitbook/assets/annotation-2019-05-11-184758.png)
+
+
+
+![spark python component](../.gitbook/assets/annotation-2019-05-09-233334.png)
 
 ### l-systems
 
@@ -172,7 +184,7 @@ i have continued investigating ways of bringing complex meshes into growth model
 
 ![mesh with projected curves and initial point](../.gitbook/assets/annotation-2019-06-19-215839.png)
 
-i followed [long nguyen](https://www.youtube.com/channel/UCUJgViAduAoRsf89ZtyF8dQ)'s C\# scripting workshop \(available [here](https://www.youtube.com/watch?v=pFCrIzENDn8)\) so that i could look inside GH components without getting the [howling fantods](https://blog.oxforddictionaries.com/2014/07/14/language-of-david-foster-wallace/), though looking into components led to the discovery of Goo - more on that later. 
+i followed [long nguyen](https://www.youtube.com/channel/UCUJgViAduAoRsf89ZtyF8dQ)'s C\# scripting workshop \(available [here](https://www.youtube.com/watch?v=pFCrIzENDn8)\) so that i could look inside GH components without getting the [howling fantods](https://www.brainpickings.org/2012/09/04/words-david-foster-wallace-mom-invented/), though looking into components led to the discovery of Goo - more on that later. 
 
 side note: long nguyen's siêu cute ghostly component, and also how i feel about C\# and trying to apply agent based modeling to a fashion design environment most of the time. 
 
@@ -186,7 +198,7 @@ nursery's C\# agent based model uses non-geometry based data types such as agent
 
 * translate an agent list \(as per output from DLA growth models\) to points/polylines
 
-a finished ABM simulation in nursery will create a list of agents. agents are a data type specific to the libraries nursery draws from. it is possible to deconstruct the agent list, then deconstruct the agent to arrive at plane3d coordinates. having deconstructed the agent list, deconstructed the agent, the Plane3d co-ordinates are still "wrapped in Goo". can't bake goo. so, what is Goo?
+a finished ABM simulation in nursery will create a list of agents. agents are a data type specific to the libraries nursery draws from. it is possible to deconstruct the agent list, then deconstruct the agent to arrive at a list of Plane3d coordinates. having deconstructed the agent list, deconstructed the agent, the Plane3d and Vec3d data is "wrapped in Goo". can't bake goo. so, what is Goo?
 
 a key aspect in the resolution of import and export issues when working towards digital fabrication of ABM models is that of type conversion. 
 
@@ -236,8 +248,6 @@ script variable method [here](https://developer.rhino3d.com/wip/api/grasshopper/
 
 point3d\(vec3d\) [here](https://developer.rhino3d.com/api/RhinoCommon/html/M_Rhino_Geometry_Point3d__ctor_3.htm)
 
-
-
 more goo but with [ironpython](https://discourse.mcneel.com/t/custom-type-can-it-be-done-from-gh-python/64653) 
 
 ![death by Goo](../.gitbook/assets/tumblr_nfcv7zpbyt1syrodeo1_500.gif)
@@ -254,15 +264,19 @@ A = b_p.ToPoint3d();
 
 {% embed url="https://vimeo.com/341340163" %}
 
+but this is just a hack, not a resolution...
 
+moving on.
 
 Alex Fischer's [Quelea ](http://quelea.alexjfischer.com/)is another AMB plug in for grasshopper. Quelea tutorials can be found on Fischer's Quelea [playlist](https://www.youtube.com/playlist?list=PLHzlR9sko50a-xbEPC1af32MNSw9T8dsT). Fischer explains ABM clearly and makes using his already user-friendly modeling tool even more approachable. 
 
 an agent is an extension of a particle \(which is basically a point that moves\). anything you can do to a particle, you can also do to an agent, yet an agent has no perception of its environment. we can add rules to an agent, forces to a particle - for example separation rules work for agents, not particles. 
 
-
-
 Quelea converts agents \(quelea\) to point3d using the following [method](https://github.com/lxfschr/Quelea/blob/master/Quelea/Quelea/Quelea/Components/DebugDeconstructAgent.cs)
+
+
+
+
 
 
 
@@ -282,25 +296,19 @@ giuilio piacentino's C\# GH tools [here](http://www.giuliopiacentino.com/grassho
 
   \(\*currently to convert 3d form to 2d flat surface the only options are to unroll, smash or split the surface into smaller components. this is not an efficient or realistic way to work with 3d textile models, moreover has a 7% error margin whereby points will shift significantly from 3d shape to 2d panel\)
 
-export from rhino to illustrator
+
+
+#### export from rhino to illustrator
 
 {% embed url="https://wikis.utexas.edu/display/SOAdigitech/Exporting+from+Rhino+to+.dwg%2C+.ai" %}
 
-flatten mesh
+#### flatten mesh
 
 {% embed url="https://www.grasshopper3d.com/group/kangaroo/forum/topics/relaxation-to-flat-geometry" %}
 
 
 
 * 
-flocking and random point generation in relation to a body 
-
-![](../.gitbook/assets/annotation-2019-05-17-091247.png)
-
-![](../.gitbook/assets/annotation-2019-05-17-085826.png)
-
-![spark python component](../.gitbook/assets/annotation-2019-05-09-233334.png)
-
 
 
 ![finding naked edges](../.gitbook/assets/annotation-2019-05-30-190216%20%281%29.png)
