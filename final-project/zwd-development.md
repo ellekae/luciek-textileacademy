@@ -14,7 +14,7 @@ for this project i am drawing upon a practice of zero waste draping around the b
 
 ![flat pattern from draped, rectangular panels. zero waste.](../.gitbook/assets/tafinal_zwd_reu.jpg)
 
-![](../.gitbook/assets/screen-shot-2019-06-05-at-22.25.25.png)
+![](../.gitbook/assets/screen-shot-2019-06-05-at-22.25.25%20%281%29.png)
 
 ![draped garment and avatar \(x-ray, side view\)](../.gitbook/assets/screen-shot-2019-04-19-at-09.44.00.png)
 
@@ -75,6 +75,40 @@ knotting digital fabric is about a million times easier than it looks. increasin
 ![](../.gitbook/assets/screen-shot-2019-05-30-at-09.57.30.png)
 
 {% embed url="https://vimeo.com/339373243" %}
+
+### applications within rhino/grasshopper
+
+![](../.gitbook/assets/considering.png)
+
+![](../.gitbook/assets/pleat-mesh-panel.png)
+
+![](../.gitbook/assets/img_3394.jpg)
+
+![](../.gitbook/assets/img_3398%20%281%29.jpg)
+
+![](../.gitbook/assets/img_0555.jpeg)
+
+![](../.gitbook/assets/img_0560%20%281%29.jpeg)
+
+{% embed url="https://vimeo.com/358963330" %}
+
+
+
+![](../.gitbook/assets/annotation-2019-06-30-002313.png)
+
+![](../.gitbook/assets/annotation-2019-06-30-014308.png)
+
+![](../.gitbook/assets/annotation-2019-06-30-015524.png)
+
+![](../.gitbook/assets/annotation-2019-06-30-015834.png)
+
+![](../.gitbook/assets/annotation-2019-07-06-032914.png)
+
+![](../.gitbook/assets/annotation-2019-07-08-075940.png)
+
+![](../.gitbook/assets/fold-vertices.png)
+
+![](../.gitbook/assets/fold-in-kangaroo.png)
 
 ### outcomes of this modeling phase
 

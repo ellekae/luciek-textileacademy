@@ -172,11 +172,9 @@ the focus is on Agent Based Modeling \(ABM\) as a tool to simulate the propogati
 
 ![naked edges on spiral dress mesh](../.gitbook/assets/annotation-2019-05-30-190216%20%282%29.png)
 
-there is not much to say here other than that you wouldn't bother doing it unless you're in love with an idea ie. its a craft thing. 
-
 * bringing **custom 3d surfaces** into **ABM environments**
 
-i have continued investigating ways of bringing complex meshes into growth model definitions as surfaces on which to propogate DLA simulations.
+i continued looking into ways of bringing complex meshes into growth model definitions as surfaces on which to propogate DLA simulations.
 
 ![mesh brought in as geo via random pop geo component](../.gitbook/assets/annotation-2019-06-19-215255.png)
 
@@ -278,13 +276,15 @@ Quelea converts agents \(quelea\) to point3d using the following [method](https:
 
 
 
+### voronoi
 
+{% embed url="https://imgur.com/4cdXCGG" %}
 
-{% embed url="https://i.imgur.com/4cdXCGG.gifv" %}
+![](../.gitbook/assets/annotation-2019-06-30-024503.png)
 
+![](../.gitbook/assets/annotation-2019-06-30-025308.png)
 
-
-
+![](../.gitbook/assets/annotation-2019-06-29-012550.png)
 
 ```text
 

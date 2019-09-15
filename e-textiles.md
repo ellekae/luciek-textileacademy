@@ -4,7 +4,7 @@ description: introduction to soft applications of digital and analog sensors
 
 # e-textiles
 
-
+![](.gitbook/assets/rj_04.jpg)
 
 ![](.gitbook/assets/img_9105.jpg)
 

@@ -36,7 +36,7 @@ Desbenoit, Galin and Akkouche outline an approach to simulating lichen growth ba
 
 ![DLA modelling. source: Desbenoit, Galin and Akkouche, 2004, p. 7](../.gitbook/assets/screen-shot-2019-05-09-at-21.02.24.png)
 
-Here is Daniel Schiffman's explanation of DLA, using java 
+Here is Daniel Schiffman's explanation of DLA
 
 {% embed url="https://www.youtube.com/watch?v=Cl\_Gjj80gPE" %}
 

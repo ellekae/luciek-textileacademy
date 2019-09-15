@@ -6,5 +6,8 @@ thread is measured by weight. the standard thread weight for digital embroidery 
 
 most digitised designs are for 40wt thread. if a 30wt thread must be used the stitch density must be increased by around 1/3, alternatively the scale of the design can be increased by up to 125%, or the stitch length can be increased. thread weight dictates needle size -- the needle should be 40% larger than the diameter of the thread. so, for a 40wt thread we would use a \#90/14 needle, for a 30wt thread we would use 100/10. 
 
+### rGO thread
 
+  
+Creating graphene oxide from graphite via hummers/tour method involves the use of extremely dangerous chemicals and an exothermic reaction which can result in serious injury in the unfortunate event that correct procedure is not followed. DIY GO is NOT OK.
 

@@ -37,7 +37,7 @@ a tradition similar to murex dyeing though less exploitative is continued to thi
 * lichen acids are invisible, thus the colour of the fermentation liquor or dyebath may not necessarily be indicative of the final fibre colour
 * lichen dyes can be sensitive to UV light
 
-rocella montagnei contains the organic compound erythrin \(C20H22O10\), which takes its name from the ancient greek eruthrós or “red”. 
+rocella montagnei contains the organic compound erythrin \(C20H22O10\), which takes its name from the ancient greek eruthrós or “red”. lichen dyes, like the erythrin in rocella montagnei, is best taken up by protein fibres. furthermore, being a substantive dye means that the quality of the silk can be maintained during the dyeing process since mordants are not required. 
 
 ![rocella montagnei sample in ammonia solution, day 7](../.gitbook/assets/img_2460-2.jpeg)
 

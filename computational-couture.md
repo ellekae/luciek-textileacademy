@@ -6,6 +6,8 @@ description: >-
 
 # computational couture
 
+![](.gitbook/assets/img_0655.jpg)
+
 ## post-cartesian world
 
 rapid and sweeping changes to how we see ourselves in our world are destabilising the traditional role of the designer. in the face of extreme pollution, designers are responding to the complete commingling of agency in complex networks of human and non-human actors, consequently the organic and synthetic have merged in the making practices of many designers. similarly, big data and AI have disrupted and rearranged our ideas around systems design, community and what it means to construct and claim an identity. contending with new technological advances has positioned designers to redefine what is meant when we speak about design. rather than seeking  stable ground in empiricism, designers are continually redefining an unstable epistêmê through a new technê that finds itself only in relationship to the systems within which we are enmeshed. how we can design from this place of uncertainty?
@@ -124,8 +126,7 @@ the file is ready in 31 hours...
 
 ![salvaged tussah silk threads to weave through 3d printed PLA](.gitbook/assets/img_9364.jpg)
 
-  
-
+![](.gitbook/assets/img_0657%20%281%29.jpg)
 
 {% hint style="info" %}
 there are other ways to create weave definitions in grasshopper, i have briefly explored 2 means. i am discovering more and hope to apply these in future projects.  

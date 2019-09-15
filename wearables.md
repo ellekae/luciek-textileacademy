@@ -4,13 +4,15 @@ description: prototyping a wearable artefact incorporating the attiny
 
 # wearables
 
-
+![](.gitbook/assets/img_9567.jpeg)
 
 ### AUDIO
 
 initially i wanted to connect stereo bluetooth speakers to the turning jacket i made for e-textiles. 
 
 ![bluetooth pcb](.gitbook/assets/img_9765-copy.jpg)
+
+![a sketch for a soft potentiometer volume controller](.gitbook/assets/img_9788.jpeg)
 
   
 to add bluetooth to the circuit i would need to create a new, custom pcb. there are several options available locally. this is something i would like to consider in future. 
@@ -622,6 +624,8 @@ each of my speakers has 22ohms resistance. to give some indication of what i hav
 
 ![measuring the resistance of 0.2mm copper wire](.gitbook/assets/img_9885.jpg)
 
+![speaker embroidered with 0.2mm copper wire](.gitbook/assets/img_9952.jpeg)
+
 VOLUME CONTROL
 
 soft, embedded volume slider based on leah buechley's [time sensing bracelet](https://www.instructables.com/id/Time-Sensing-Bracelet/) and kobakant's [embroidered potentiometers](http://www.kobakant.at/DIY/?p=2331). 
@@ -630,7 +634,9 @@ soft, embedded volume slider based on leah buechley's [time sensing bracelet](ht
 
 ![making local materials work](.gitbook/assets/img_9777.jpg)
 
-{% embed url="https://vimeo.com/303066026" %}
+{% embed url="https://vimeo.com/359462564" %}
+
+
 
 #### LINKS
 
