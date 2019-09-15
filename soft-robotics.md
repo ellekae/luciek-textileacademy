@@ -135,7 +135,7 @@ inspired by [clara davis](https://clara-davis.com/) virtuosic command of bio pla
 
 ![after 1 day](.gitbook/assets/img_0199.jpg)
 
-![after 3 days](.gitbook/assets/img_0293.jpg)
+![after 3 days, bearing an uncanny resemblance to my youngest son&apos;s preserved umbilical cord](.gitbook/assets/img_0293.jpg)
 
   
 bio siilcone
