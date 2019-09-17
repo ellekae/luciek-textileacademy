@@ -92,7 +92,7 @@ another application which can be used to open and work with dicom and nrrd files
 
 i considered and looked into several means of obtaining segments and exporting as a set of files which i could open to generate embroidery from.
 
-* running matlab scripts in 3d slicer \(thus enabling the software to run script to output coronal slices to a local directory\)
+* scripting in 3d slicer \(thus enabling the software to output coronal slices to a local directory\)
 * using the emsegmenter function
 * using the volume resampling [function](https://www.slicer.org/wiki/Registration:Resampling#What_we_mean_by_Resampling) according to a spatial transform
 * exporting screenshots generated within the app using segment editor
