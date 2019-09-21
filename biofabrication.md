@@ -155,11 +155,82 @@ the process of adding protein to cellulose fibre is called oiling. one way of ad
 all recipes c/o the natural dyeing team at [threads of life](http://threadsoflife.com/) 
 {% endhint %}
 
+### a brief exploration of bioplastics
 
+![locally available ingredients](.gitbook/assets/img_0134.jpeg)
 
+![](.gitbook/assets/img_0137.jpg)
 
+![](.gitbook/assets/img_0142.jpeg)
 
+![](.gitbook/assets/img_0143.jpeg)
 
+stretch bio foil 
+
+* 3g agar
+* 20g gelatine
+* 15ml glycerine
+* 400ml water
+
+![](.gitbook/assets/img_0144.jpg)
+
+agar bio foil
+
+* 50g agar
+* 15g glycerine
+* 250ml water
+
+![](.gitbook/assets/img_0232%20%281%29.jpg)
+
+biosilicone
+
+* 48g gelatine
+* 24g glycerine
+* 240ml water
+
+![](.gitbook/assets/img_0150.jpeg)
+
+agar bioplastic
+
+* 4g agar
+* 3g glycerine
+* 400ml water
+
+![](.gitbook/assets/img_0160.jpeg)
+
+![a helper! ](.gitbook/assets/img_0162.jpeg)
+
+![](.gitbook/assets/img_0213.jpg)
+
+![](.gitbook/assets/img_0167.jpeg)
+
+![](.gitbook/assets/img_0169.jpeg)
+
+![agar bioplastic](.gitbook/assets/img_0171.jpeg)
+
+![agar bioplastic sheet](.gitbook/assets/img_0179.jpeg)
+
+![biosilicone sheet](.gitbook/assets/img_0180.jpg)
+
+![biosilicone sheet drying](.gitbook/assets/img_0301.jpeg)
+
+![cast agar bioplastic, a minute after taking it out of the mould](.gitbook/assets/img_0194.jpeg)
+
+![cast biosilicone](.gitbook/assets/img_0200.jpeg)
+
+![removing biosilicone from the mould](.gitbook/assets/img_0204.jpeg)
+
+![biosilicone out of the mould, drying](.gitbook/assets/img_0209.jpeg)
+
+![coating tussah silk in biosilicone](.gitbook/assets/img_0226.jpeg)
+
+![dry biosilicone tussah silk](.gitbook/assets/img_0298.jpeg)
+
+![dry biosilicone crepe de chine](.gitbook/assets/img_0302.jpeg)
+
+![dry cast agar bioplastic](.gitbook/assets/img_0293.jpeg)
+
+![dry cast biosilicone](.gitbook/assets/img_0337.jpeg)
 
 #### LINKS
 

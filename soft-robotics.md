@@ -49,7 +49,7 @@ f = Move forward a step of length d without drawing a line
 
 i created a simple binary tree using a few components in rabbit 
 
-![a simple grasshopper definition used to create a basic recursive pattern](.gitbook/assets/capture02.PNG)
+![a simple grasshopper definition used to create a basic recursive pattern](.gitbook/assets/capture02%20%281%29.PNG)
 
 the l-system component contains
 
@@ -79,6 +79,8 @@ using the l-system component, i specified an axiom \(x\), a rule \( X=F\[-X\]\[+
 summary source: [https://parametricmonkey.com/2016/03/09/fractals-2/](https://parametricmonkey.com/2016/03/09/fractals-2/)
 
 {% embed url="https://vimeo.com/305749313" %}
+
+![](.gitbook/assets/capture02.PNG)
 
 this form was then used to create a 3d mould to cast a bio silicone inflatable model
 
@@ -115,7 +117,7 @@ inspired by [clara davis](https://clara-davis.com/) virtuosic command of bio pla
 * 15ml glycerine
 * 400ml water
 
-![agar bio foil ](.gitbook/assets/img_0144.jpg)
+![agar bio foil ](.gitbook/assets/img_0144%20%281%29.jpg)
 
 * 50g agar
 * 15g glycerine
@@ -163,7 +165,7 @@ bio silicone with a higher glycerin content
 
 ![aligning top and base](.gitbook/assets/img_0255.jpg)
 
-![bio silicone inflatable](.gitbook/assets/img_0356.jpg)
+![bio silicone inflatable](.gitbook/assets/img_0356%20%281%29.jpg)
 
 
 
@@ -173,11 +175,17 @@ i dismantled a secondhand windbreaker. i would like to create an oversized jacke
 
 {% embed url="https://vimeo.com/305750549" caption="creating an inflatable from upcycled textile" %}
 
+![](.gitbook/assets/img_0289.jpeg)
+
+![](.gitbook/assets/img_0290.jpeg)
+
 ![a digitised embroidery](.gitbook/assets/screenshot-2018-12-09-at-00.11.39.png)
 
 ####  attempting laser bonding 
 
 ![hairline ](.gitbook/assets/img_0314.jpg)
+
+![](.gitbook/assets/screenshot-2018-12-10-at-15.21.07.png)
 
 ![hairline](.gitbook/assets/img_0319%20%281%29.jpg)
 
