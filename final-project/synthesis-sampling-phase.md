@@ -2,7 +2,7 @@
 
 ### Nitrogen Dioxide
 
-Nitrogen Dioxide \(NO2\) comes from a greater group of nitrogen oxides. It is an intermediate in the prouction of nitric acid, used to make fertilisers. It is found in the emissions of internal combustion engines burning fossil fuels, in vehicular emissions, gas stoves and cigarette smoke. 
+Nitrogen Dioxide \(NO2\) comes from a greater group of nitrogen oxides. It is an intermediate in the production of nitric acid, used to make fertilisers. Anthropogenic emissions of NO2 is found in internal combustion engines burning fossil fuels, in vehicular emissions, gas stoves and cigarette smoke. 
 
 Most atmospheric NO2 is emitted as NO, which is rapidly oxidized by ozone to NO2. NO2, in the presence of hydrocarbons and ultraviolet light, is the main source of tropospheric ozone and of nitrate aerosols, which form an important fraction of the ambient air PM2.5 mass. In addition, NO2 is responsible for what we call 'acid rain'.
 
@@ -10,9 +10,7 @@ NO2 is a product of combustion processes and is generally found in the atmospher
 
 ### Nitrogen Dioxide: Effects on human health
 
-NO2 causes inflammation of the airways and it exacerbates asthmatic conditions significantly. 
-
-Scientific evidence links short-term NO2 exposures, ranging from 30 minutes to 24 hours, with adverse respiratory effects including airway inflammation in healthy people and increased respiratory symptoms in people with asthma. Studies also show a connection between short-term exposure and increased emergency room visits and hospital admissions for respiratory illnesses.
+Scientific evidence links short-term NO2 exposures, ranging from 30 minutes to 24 hours, with adverse respiratory effects including airway inflammation in healthy people and increased respiratory symptoms in people with asthma. Studies also show a connection between short-term exposure and increased emergency room visits and hospital admissions for respiratory illnesses. Experimental studies have shown that NO2 or its chemical products can remain in the lung for prolonged periods... nitric and nitrous acids or their salts have been observed in the blood and urine after exposure to NO2. NO2 increases bronchial reactivity, as would be expected asthmatics are more susceptible. NO2 levels can also increase susceptibility to bacterial and viral infection of the lungs. 
 
 Advised NO2 levels are designed to protect against exposure to the entire group of nitrogen oxides \(NOx\). NO2 is the component of greatest concern and is used as the indicator for the larger group of NOx. The sum of nitric oxide \(NO\) and NO2 is commonly called NOx. Other nitrogen oxides include nitrous acid and nitric acid. NOx reacts with volatile organic compounds to form ozone.
 
@@ -26,7 +24,11 @@ This is significant given that information commonly available on NO2 is obtained
 
 Numerous epidemiological studies have used NO2 as a marker for the cocktail of combustion related pollutants, in particular, those emitted by road traffic or indoor combustion sources. In these studies, any observed health effects could also have been associated with other combustion products, such as ultrafine particles, nitrous oxide \(NO\), particulate matter or benzene.
 
-Nitrogen dioxide \(NO2 \), for example, is a product of combustion processes and is generally found in the atmosphere in close association with other primary pollutants, including ultrafine \(UF\) particles. It is itself toxic and is also a precursor of ozone, with which it coexists along with a number of other photochemically generated oxidants. Concentrations of NO2 are often strongly correlated with those of other toxic pollutants, and being the easier to measure, is often used as a surrogate for the pollutant mixture as a whole. Achieving guideline concentrations for individual pollutants such as NO2 may therefore bring public health benefits that exceed those anticipated on the basis of estimates of a single pollutant’s toxicity.
+Nitrogen dioxide \(NO2 \), for example, is a product of combustion processes and is generally found in the atmosphere in close association with other primary pollutants, including ultrafine \(UF\) particles. It is itself toxic and is also a precursor of ozone, with which it coexists along with a number of other photochemically generated oxidants. **Concentrations of NO2 are often strongly correlated with those of other toxic pollutants, and being the easier to measure, is often used as a surrogate for the pollutant mixture as a whole**. _Achieving guideline concentrations for individual pollutants such as NO2 may therefore bring public health benefits that exceed those anticipated on the basis of estimates of a single pollutant’s toxicity_.
+
+{% hint style="warning" %}
+We can ascertain a general picture of the level of ambient harm in our immediate surroundings by measuring NO2 levels. 
+{% endhint %}
 
 sources: [https://www3.epa.gov/airnow/no2.pdf](https://www3.epa.gov/airnow/no2.pdf), [http://www.euro.who.int/\_\_data/assets/pdf\_file/0017/123083/AQG2ndEd\_7\_1nitrogendioxide.pdf](http://www.euro.who.int/__data/assets/pdf_file/0017/123083/AQG2ndEd_7_1nitrogendioxide.pdf), [https://apps.who.int/iris/bitstream/handle/10665/69477/WHO\_SDE\_PHE\_OEH\_06.02\_eng.pdf;sequence=1](https://apps.who.int/iris/bitstream/handle/10665/69477/WHO_SDE_PHE_OEH_06.02_eng.pdf;sequence=1)
 
