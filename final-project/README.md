@@ -14,7 +14,7 @@ project development has been segmented into 7 phases representing distinct resea
 
 [zwd development](zwd-development.md)
 
-[synthesis \(sampling\)](synthesis-sampling-phase.md)
+[sensor design + fabrication](synthesis-sampling-phase.md)
 
 [prototype development](prototype-development.md)
 
@@ -39,6 +39,10 @@ project development has been segmented into 7 phases representing distinct resea
 {% embed url="http://www.karlsims.com/rd-exhibit.html" %}
 
 {% embed url="http://www.karlsims.com/rd.html" %}
+
+{% embed url="http://en.greenidvietnam.org.vn/app/webroot/upload/admin/files/1stquarter2018\_ENG.pdf" %}
+
+
 
 #### CITATIONS
 

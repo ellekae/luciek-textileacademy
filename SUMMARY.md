@@ -19,7 +19,7 @@
   * [modeling lichen](final-project/modeling-lichen.md)
   * [lichen modeling development](final-project/lichen-modeling-development.md)
   * [zwd development](final-project/zwd-development.md)
-  * [synthesis \(sampling phase\)](final-project/synthesis-sampling-phase.md)
+  * [sensor design + fabrication](final-project/synthesis-sampling-phase.md)
   * [prototype development](final-project/prototype-development.md)
 * [epiphyte - final project](epiphyte-final-project.md)
 * [PM TA final](pm-ta-final.md)
