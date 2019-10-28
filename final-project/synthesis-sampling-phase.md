@@ -123,11 +123,21 @@ source: Shateri-Khalilabad and Yazdanshenas. 2013. 'Fabricating electroconductiv
 
 Due to limitations in terms of equipment and resources, I believe that my success in achieving stable results was impacted to some degree. I was able to obtain sensors on cotton and poly-cotton for both methods 2 and 3, however only poly-cotton sensors prepared by method 3 were stable enough to be included in a circuit. 
 
-The successfully prepared sensors are electrically conductive with high resistance -- 19,500 Ohms at standard air temperature and pressure \(SATP\). 
+The successfully prepared sensors are electrically conductive with high resistance at standard air temperature and pressure \(SATP\). 
 
+{% embed url="https://vimeo.com/369222004" %}
 
+![](../.gitbook/assets/img_0964.jpg)
 
 I tested the sensor by connecting it via an Arduino UNO to an LCD and compared it to known resistance value of 16,600 Ohms. For comparison, I used a handheld NO2 sensor. I held the sensor directly in front of motorbike exhaust and found that at 7ppm the resistance dropped to around 13,000 Ohms. I also found that it took the sensor up to an hour to recover sensitivity, despite exposure to strong natural UV light \(UV index 12\) and having removed the NO2 exposure. 
+
+![](../.gitbook/assets/img_0971.jpg)
+
+![](../.gitbook/assets/img_0979.jpg)
+
+{% embed url="https://vimeo.com/369222631" %}
+
+
 
 #### Future Work
 
