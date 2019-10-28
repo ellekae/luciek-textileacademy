@@ -21,7 +21,7 @@
   * [zwd development](final-project/zwd-development.md)
   * [sensor design + fabrication](final-project/synthesis-sampling-phase.md)
   * [prototype development](final-project/prototype-development.md)
-* [epiphyte - final project](epiphyte-final-project.md)
+* [reu jacket - textile academy final project](epiphyte-final-project.md)
 * [PM TA final](pm-ta-final.md)
 * [reu jacket](reu-jacket.md)
 
