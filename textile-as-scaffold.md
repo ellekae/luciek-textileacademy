@@ -68,7 +68,35 @@ for this project i will be combining thread waste with bio-resin.
 
 ###  
 
+![](.gitbook/assets/unadjustednonraw_thumb_7698.jpg)
 
+![](.gitbook/assets/unadjustednonraw_thumb_7215.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_7226.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_726b.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_726e.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_7271.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_7273.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_727b.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_728c.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_7290.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_728f.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_72a1.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_72fb.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_72a8.jpg)
+
+![](.gitbook/assets/unadjustednonraw_thumb_7614.jpg)
 
 ## piezoelectric crystals
 
